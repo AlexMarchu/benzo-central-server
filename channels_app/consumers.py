@@ -64,6 +64,9 @@ class ServerConsumer(AsyncWebsocketConsumer):
             case MessageType.STATION_TAKEN_OFFLINE_REQUEST:
                 await self.channel_layer.group_send(room_name, {'type': 'on_station_taken_offline_request'})
 
+            case MessageType.FUEL_PRICE_DATA_ASK:
+                await self.channel_layer.group_send(room_name, {'type': 'on_fuel_price_data_ask'})
+
             case MessageType.LOYALTY_CARD_ASK:
                 await self.channel_layer.group_send(room_name, {'type': 'on_loyalty_card_ask', 'json_str': json_str})
 
@@ -87,6 +90,19 @@ class ServerConsumer(AsyncWebsocketConsumer):
 
         message = StationTakenOfflineMessage()
         await self.send(text_data=message.to_json())
+
+    async def on_fuel_price_data_ask(self, event):
+        # TODO: get fuel price data
+
+        new_message = FuelPriceDataSentMessage(
+            fuel_price_data=FuelPriceData(price={
+                FuelType.FT_92: 5962,
+                FuelType.FT_95: 6153,
+                FuelType.FT_98: 7680,
+                FuelType.FT_DT: 1111,
+            })
+        )
+        await self.send(text_data=new_message.to_json())
 
     async def on_loyalty_card_ask(self, event):
         message = LoyaltyCardAskMessage.from_json(event['json_str'])

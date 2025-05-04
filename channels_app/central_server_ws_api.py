@@ -5,6 +5,7 @@ from typing import Self, ClassVar
 
 from channels_app.car_number import CarNumber
 from channels_app.fuel_type import FuelType
+from channels_app.fuel_price_data import FuelPriceData
 
 
 class MessageType(Enum):
@@ -15,6 +16,8 @@ class MessageType(Enum):
     STATION_NOT_TAKEN = 'station_not_taken'
     STATION_TAKEN_OFFLINE_REQUEST = 'station_taken_offline_request'
     STATION_TAKEN_OFFLINE = 'station_taken_offline'
+    FUEL_PRICE_DATA_ASK = 'fuel_price_data_ask'
+    FUEL_PRICE_DATA_SENT = 'fuel_price_data_sent'
     LOYALTY_CARD_ASK = 'loyalty_card_ask'
     LOYALTY_CARD_SENT = 'loyalty_card_sent'
     PAYMENT_SENT = 'payment_sent'
@@ -154,6 +157,74 @@ class StationTakenOfflineMessage:
         return {
             'message_type': self.message_type.value,
         }
+
+    def to_json(self) -> str:
+        return json.dumps(self.to_dict())
+
+
+@dataclass
+class FuelPriceDataAskMessage:
+    message_type: ClassVar[MessageType] = MessageType.FUEL_PRICE_DATA_ASK
+
+    @classmethod
+    def from_dict(cls, data_dict: dict) -> Self:
+        if data_dict['message_type'] == cls.message_type.value:
+            return cls()
+        raise ValueError('message_type is invalid')
+
+    @classmethod
+    def from_json(cls, json_str: str) -> Self:
+        return cls.from_dict(json.loads(json_str))
+
+    def to_dict(self) -> dict:
+        return {
+            'message_type': self.message_type.value,
+        }
+
+    def to_json(self) -> str:
+        return json.dumps(self.to_dict())
+
+
+@dataclass
+class FuelPriceDataSentMessage:
+    message_type: ClassVar[MessageType] = MessageType.FUEL_PRICE_DATA_SENT
+    fuel_price_data: FuelPriceData
+
+    @classmethod
+    def from_dict(cls, data_dict: dict) -> Self:
+        if data_dict['message_type'] == cls.message_type.value:
+            price = dict()
+            if (data_dict['price'].get(FuelType.FT_92.value) is not None):
+                price[FuelType.FT_92] = data_dict['price'][FuelType.FT_92.value]
+            if (data_dict['price'].get(FuelType.FT_95.value) is not None):
+                price[FuelType.FT_95] = data_dict['price'][FuelType.FT_95.value]
+            if (data_dict['price'].get(FuelType.FT_98.value) is not None):
+                price[FuelType.FT_98] = data_dict['price'][FuelType.FT_98.value]
+            if (data_dict['price'].get(FuelType.FT_DT.value) is not None):
+                price[FuelType.FT_DT] = data_dict['price'][FuelType.FT_DT.value]
+
+            return cls(
+                fuel_price_data=FuelPriceData(price=price)
+            )
+        raise ValueError('message_type is invalid')
+
+    @classmethod
+    def from_json(cls, json_str: str) -> Self:
+        return cls.from_dict(json.loads(json_str))
+
+    def to_dict(self) -> dict:
+        data_dict = dict()
+        data_dict['message_type'] = self.message_type.value
+        data_dict['price'] = dict()
+        if (self.fuel_price_data.price.get(FuelType.FT_92) is not None):
+            data_dict['price'][FuelType.FT_92.value] = self.fuel_price_data.price[FuelType.FT_92]
+        if (self.fuel_price_data.price.get(FuelType.FT_95) is not None):
+            data_dict['price'][FuelType.FT_95.value] = self.fuel_price_data.price[FuelType.FT_95]
+        if (self.fuel_price_data.price.get(FuelType.FT_98) is not None):
+            data_dict['price'][FuelType.FT_98.value] = self.fuel_price_data.price[FuelType.FT_98]
+        if (self.fuel_price_data.price.get(FuelType.FT_DT) is not None):
+            data_dict['price'][FuelType.FT_DT.value] = self.fuel_price_data.price[FuelType.FT_DT]
+        return data_dict
 
     def to_json(self) -> str:
         return json.dumps(self.to_dict())
