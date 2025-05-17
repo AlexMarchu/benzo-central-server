@@ -4,8 +4,9 @@ from dataclasses import dataclass
 from typing import Self, ClassVar
 
 from channels_app.car_number import CarNumber
-from channels_app.fuel_type import FuelType
 from channels_app.fuel_price_data import FuelPriceData
+
+from stations.models import FuelType
 
 
 class MessageType(Enum):
@@ -194,14 +195,14 @@ class FuelPriceDataSentMessage:
     def from_dict(cls, data_dict: dict) -> Self:
         if data_dict['message_type'] == cls.message_type.value:
             price = dict()
-            if (data_dict['price'].get(FuelType.FT_92.value) is not None):
-                price[FuelType.FT_92] = data_dict['price'][FuelType.FT_92.value]
-            if (data_dict['price'].get(FuelType.FT_95.value) is not None):
-                price[FuelType.FT_95] = data_dict['price'][FuelType.FT_95.value]
-            if (data_dict['price'].get(FuelType.FT_98.value) is not None):
-                price[FuelType.FT_98] = data_dict['price'][FuelType.FT_98.value]
-            if (data_dict['price'].get(FuelType.FT_DT.value) is not None):
-                price[FuelType.FT_DT] = data_dict['price'][FuelType.FT_DT.value]
+            if data_dict['price'].get(FuelType.PETROL_92) is not None:
+                price[FuelType.PETROL_92] = data_dict['price'][FuelType.PETROL_92]
+            if data_dict['price'].get(FuelType.PETROL_95) is not None:
+                price[FuelType.PETROL_95] = data_dict['price'][FuelType.PETROL_95]
+            if data_dict['price'].get(FuelType.PETROL_98) is not None:
+                price[FuelType.PETROL_98] = data_dict['price'][FuelType.PETROL_98]
+            if data_dict['price'].get(FuelType.DIESEL) is not None:
+                price[FuelType.DIESEL] = data_dict['price'][FuelType.DIESEL]
 
             return cls(
                 fuel_price_data=FuelPriceData(price=price)
@@ -216,14 +217,14 @@ class FuelPriceDataSentMessage:
         data_dict = dict()
         data_dict['message_type'] = self.message_type.value
         data_dict['price'] = dict()
-        if (self.fuel_price_data.price.get(FuelType.FT_92) is not None):
-            data_dict['price'][FuelType.FT_92.value] = self.fuel_price_data.price[FuelType.FT_92]
-        if (self.fuel_price_data.price.get(FuelType.FT_95) is not None):
-            data_dict['price'][FuelType.FT_95.value] = self.fuel_price_data.price[FuelType.FT_95]
-        if (self.fuel_price_data.price.get(FuelType.FT_98) is not None):
-            data_dict['price'][FuelType.FT_98.value] = self.fuel_price_data.price[FuelType.FT_98]
-        if (self.fuel_price_data.price.get(FuelType.FT_DT) is not None):
-            data_dict['price'][FuelType.FT_DT.value] = self.fuel_price_data.price[FuelType.FT_DT]
+        if self.fuel_price_data.price.get(FuelType.PETROL_92) is not None:
+            data_dict['price'][FuelType.PETROL_92] = self.fuel_price_data.price[FuelType.PETROL_92]
+        if self.fuel_price_data.price.get(FuelType.PETROL_95) is not None:
+            data_dict['price'][FuelType.PETROL_95] = self.fuel_price_data.price[FuelType.PETROL_95]
+        if self.fuel_price_data.price.get(FuelType.PETROL_98) is not None:
+            data_dict['price'][FuelType.PETROL_98] = self.fuel_price_data.price[FuelType.PETROL_98]
+        if self.fuel_price_data.price.get(FuelType.DIESEL) is not None:
+            data_dict['price'][FuelType.DIESEL] = self.fuel_price_data.price[FuelType.DIESEL]
         return data_dict
 
     def to_json(self) -> str:
