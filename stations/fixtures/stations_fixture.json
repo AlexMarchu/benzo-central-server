@@ -1,2211 +1,2587 @@
 [
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 1,
     "fields": {
       "address": "г. Санкт-Петербург, Богатырский проспект, 23"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 1,
+    "fields": {
+      "status": true,
+      "gas_station": 1
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 1,
     "fields": {
       "station": 1,
       "fuel_type": "92",
-      "price": 44.09,
-      "amount": 43360
+      "price": 4409,
+      "amount": 4336000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 2,
     "fields": {
       "station": 1,
       "fuel_type": "95",
-      "price": 47.67,
-      "amount": 50149
+      "price": 4767,
+      "amount": 5014900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 3,
     "fields": {
       "station": 1,
       "fuel_type": "98",
-      "price": 56.2,
-      "amount": 17943
+      "price": 5620,
+      "amount": 1794300
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 4,
     "fields": {
       "station": 1,
       "fuel_type": "DT",
-      "price": 48.5,
-      "amount": 30075
+      "price": 4850,
+      "amount": 3007500
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 2,
     "fields": {
       "address": "г. Санкт-Петербург, Витебский проспект, 9к2 литера А"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 2,
+    "fields": {
+      "status": true,
+      "gas_station": 2
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 5,
     "fields": {
       "station": 2,
       "fuel_type": "92",
-      "price": 44.49,
-      "amount": 56531
+      "price": 4449,
+      "amount": 5653100
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 6,
     "fields": {
       "station": 2,
       "fuel_type": "95",
-      "price": 47.85,
-      "amount": 81209
+      "price": 4785,
+      "amount": 8120900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 7,
     "fields": {
       "station": 2,
       "fuel_type": "98",
-      "price": 56.09,
-      "amount": 49249
+      "price": 5609,
+      "amount": 4924900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 8,
     "fields": {
       "station": 2,
       "fuel_type": "DT",
-      "price": 49.69,
-      "amount": 82789
+      "price": 4969,
+      "amount": 8278900
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 3,
     "fields": {
       "address": "г. Санкт-Петербург, Витебский проспект, 153"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 3,
+    "fields": {
+      "status": true,
+      "gas_station": 3
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 9,
     "fields": {
       "station": 3,
       "fuel_type": "92",
-      "price": 42.4,
-      "amount": 79325
+      "price": 4240,
+      "amount": 7932500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 10,
     "fields": {
       "station": 3,
       "fuel_type": "95",
-      "price": 44.85,
-      "amount": 83131
+      "price": 4485,
+      "amount": 8313100
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 11,
     "fields": {
       "station": 3,
       "fuel_type": "98",
-      "price": 51.6,
-      "amount": 30789
+      "price": 5160,
+      "amount": 3078900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 12,
     "fields": {
       "station": 3,
       "fuel_type": "DT",
-      "price": 51.8,
-      "amount": 88761
+      "price": 5180,
+      "amount": 8876100
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 4,
     "fields": {
       "address": "г. Санкт-Петербург, Витебский проспект, 157"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 4,
+    "fields": {
+      "status": true,
+      "gas_station": 4
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 13,
     "fields": {
       "station": 4,
       "fuel_type": "92",
-      "price": 43.2,
-      "amount": 56700
+      "price": 4320,
+      "amount": 5670000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 14,
     "fields": {
       "station": 4,
       "fuel_type": "95",
-      "price": 46.7,
-      "amount": 32636
+      "price": 4670,
+      "amount": 3263600
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 15,
     "fields": {
       "station": 4,
       "fuel_type": "98",
-      "price": 54.61,
-      "amount": 10652
+      "price": 5461,
+      "amount": 1065200
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 16,
     "fields": {
       "station": 4,
       "fuel_type": "DT",
-      "price": 49.9,
-      "amount": 60992
+      "price": 4990,
+      "amount": 6099200
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 5,
     "fields": {
       "address": "г. Санкт-Петербург, Выборгская набережная, 57"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 5,
+    "fields": {
+      "status": true,
+      "gas_station": 5
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 17,
     "fields": {
       "station": 5,
       "fuel_type": "92",
-      "price": 43.83,
-      "amount": 29172
+      "price": 4383,
+      "amount": 2917200
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 18,
     "fields": {
       "station": 5,
       "fuel_type": "95",
-      "price": 47.7,
-      "amount": 47850
+      "price": 4770,
+      "amount": 4785000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 19,
     "fields": {
       "station": 5,
       "fuel_type": "98",
-      "price": 53.15,
-      "amount": 8886
+      "price": 5315,
+      "amount": 888600
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 20,
     "fields": {
       "station": 5,
       "fuel_type": "DT",
-      "price": 47.4,
-      "amount": 28755
+      "price": 4740,
+      "amount": 2875500
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 6,
     "fields": {
       "address": "г. Санкт-Петербург, Выборгское шоссе, 6 Б,лит А"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 6,
+    "fields": {
+      "status": true,
+      "gas_station": 6
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 21,
     "fields": {
       "station": 6,
       "fuel_type": "92",
-      "price": 43.5,
-      "amount": 17449
+      "price": 4350,
+      "amount": 1744900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 22,
     "fields": {
       "station": 6,
       "fuel_type": "95",
-      "price": 47.94,
-      "amount": 48202
+      "price": 4794,
+      "amount": 4820200
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 23,
     "fields": {
       "station": 6,
       "fuel_type": "98",
-      "price": 54.09,
-      "amount": 21610
+      "price": 5409,
+      "amount": 2161000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 24,
     "fields": {
       "station": 6,
       "fuel_type": "DT",
-      "price": 47.6,
-      "amount": 17762
+      "price": 4760,
+      "amount": 1776200
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 7,
     "fields": {
       "address": "г. Санкт-Петербург, Дальневосточный проспект, 20"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 7,
+    "fields": {
+      "status": true,
+      "gas_station": 7
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 25,
     "fields": {
       "station": 7,
       "fuel_type": "92",
-      "price": 41.5,
-      "amount": 9900
+      "price": 4150,
+      "amount": 990000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 26,
     "fields": {
       "station": 7,
       "fuel_type": "95",
-      "price": 44.3,
-      "amount": 91094
+      "price": 4430,
+      "amount": 9109400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 27,
     "fields": {
       "station": 7,
       "fuel_type": "98",
-      "price": 54.86,
-      "amount": 98166
+      "price": 5486,
+      "amount": 9816600
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 28,
     "fields": {
       "station": 7,
       "fuel_type": "DT",
-      "price": 49.0,
-      "amount": 11188
+      "price": 4900,
+      "amount": 1118800
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 8,
     "fields": {
       "address": "г. Санкт-Петербург, ул. Десантников, 13"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 8,
+    "fields": {
+      "status": true,
+      "gas_station": 8
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 29,
     "fields": {
       "station": 8,
       "fuel_type": "92",
-      "price": 43.2,
-      "amount": 76823
+      "price": 4320,
+      "amount": 7682300
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 30,
     "fields": {
       "station": 8,
       "fuel_type": "95",
-      "price": 46.7,
-      "amount": 96618
+      "price": 4670,
+      "amount": 9661800
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 31,
     "fields": {
       "station": 8,
       "fuel_type": "98",
-      "price": 54.61,
-      "amount": 61735
+      "price": 5461,
+      "amount": 6173500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 32,
     "fields": {
       "station": 8,
       "fuel_type": "DT",
-      "price": 49.9,
-      "amount": 14212
+      "price": 4990,
+      "amount": 1421200
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 9,
     "fields": {
       "address": "г. Санкт-Петербург, Ириновский проспект, 16"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 9,
+    "fields": {
+      "status": true,
+      "gas_station": 9
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 33,
     "fields": {
       "station": 9,
       "fuel_type": "92",
-      "price": 42.55,
-      "amount": 65759
+      "price": 4255,
+      "amount": 6575900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 34,
     "fields": {
       "station": 9,
       "fuel_type": "95",
-      "price": 45.1,
-      "amount": 14877
+      "price": 4510,
+      "amount": 1487700
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 35,
     "fields": {
       "station": 9,
       "fuel_type": "98",
-      "price": 53.17,
-      "amount": 90600
+      "price": 5317,
+      "amount": 9060000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 36,
     "fields": {
       "station": 9,
       "fuel_type": "DT",
-      "price": 50.05,
-      "amount": 27447
+      "price": 5005,
+      "amount": 2744700
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 10,
     "fields": {
       "address": "г. Санкт-Петербург, ул. Коллонтай, 8"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 10,
+    "fields": {
+      "status": true,
+      "gas_station": 10
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 37,
     "fields": {
       "station": 10,
       "fuel_type": "92",
-      "price": 43.05,
-      "amount": 83814
+      "price": 4305,
+      "amount": 8381400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 38,
     "fields": {
       "station": 10,
       "fuel_type": "95",
-      "price": 46.87,
-      "amount": 54379
+      "price": 4687,
+      "amount": 5437900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 39,
     "fields": {
       "station": 10,
       "fuel_type": "98",
-      "price": 54.28,
-      "amount": 85304
+      "price": 5428,
+      "amount": 8530400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 40,
     "fields": {
       "station": 10,
       "fuel_type": "DT",
-      "price": 48.39,
-      "amount": 90719
+      "price": 4839,
+      "amount": 9071900
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 11,
     "fields": {
       "address": "г. Санкт-Петербург, Коломяжский проспект, 19"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 11,
+    "fields": {
+      "status": true,
+      "gas_station": 11
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 41,
     "fields": {
       "station": 11,
       "fuel_type": "92",
-      "price": 45.34,
-      "amount": 71635
+      "price": 4534,
+      "amount": 7163500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 42,
     "fields": {
       "station": 11,
       "fuel_type": "95",
-      "price": 48.94,
-      "amount": 3964
+      "price": 4894,
+      "amount": 396400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 43,
     "fields": {
       "station": 11,
       "fuel_type": "98",
-      "price": 56.16,
-      "amount": 14830
+      "price": 5616,
+      "amount": 1483000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 44,
     "fields": {
       "station": 11,
       "fuel_type": "DT",
-      "price": 47.75,
-      "amount": 12456
+      "price": 4775,
+      "amount": 1245600
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 12,
     "fields": {
       "address": "г. Санкт-Петербург, ул. Коммуны, 14 литер А"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 12,
+    "fields": {
+      "status": true,
+      "gas_station": 12
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 45,
     "fields": {
       "station": 12,
       "fuel_type": "92",
-      "price": 43.35,
-      "amount": 36193
+      "price": 4335,
+      "amount": 3619300
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 46,
     "fields": {
       "station": 12,
       "fuel_type": "95",
-      "price": 44.85,
-      "amount": 39307
+      "price": 4485,
+      "amount": 3930700
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 47,
     "fields": {
       "station": 12,
       "fuel_type": "98",
-      "price": 54.98,
-      "amount": 95846
+      "price": 5498,
+      "amount": 9584600
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 48,
     "fields": {
       "station": 12,
       "fuel_type": "DT",
-      "price": 48.6,
-      "amount": 69859
+      "price": 4860,
+      "amount": 6985900
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 13,
     "fields": {
       "address": "г. Санкт-Петербург, Лапинский проспект, 10"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 13,
+    "fields": {
+      "status": true,
+      "gas_station": 13
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 49,
     "fields": {
       "station": 13,
       "fuel_type": "92",
-      "price": 45.07,
-      "amount": 3898
+      "price": 4507,
+      "amount": 389800
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 50,
     "fields": {
       "station": 13,
       "fuel_type": "95",
-      "price": 47.92,
-      "amount": 3637
+      "price": 4792,
+      "amount": 363700
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 51,
     "fields": {
       "station": 13,
       "fuel_type": "98",
-      "price": 54.61,
-      "amount": 77828
+      "price": 5461,
+      "amount": 7782800
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 52,
     "fields": {
       "station": 13,
       "fuel_type": "DT",
-      "price": 51.41,
-      "amount": 70496
+      "price": 5141,
+      "amount": 7049600
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 14,
     "fields": {
       "address": "г. Санкт-Петербург, Лахтинский проспект, 2к4"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 14,
+    "fields": {
+      "status": true,
+      "gas_station": 14
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 53,
     "fields": {
       "station": 14,
       "fuel_type": "92",
-      "price": 44.8,
-      "amount": 3782
+      "price": 4480,
+      "amount": 378200
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 54,
     "fields": {
       "station": 14,
       "fuel_type": "95",
-      "price": 48.45,
-      "amount": 54395
+      "price": 4845,
+      "amount": 5439500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 55,
     "fields": {
       "station": 14,
       "fuel_type": "98",
-      "price": 54.21,
-      "amount": 21082
+      "price": 5421,
+      "amount": 2108200
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 56,
     "fields": {
       "station": 14,
       "fuel_type": "DT",
-      "price": 48.0,
-      "amount": 96594
+      "price": 4800,
+      "amount": 9659400
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 15,
     "fields": {
       "address": "г. Санкт-Петербург, Лахтинский проспект, 114"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 15,
+    "fields": {
+      "status": true,
+      "gas_station": 15
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 57,
     "fields": {
       "station": 15,
       "fuel_type": "92",
-      "price": 45.09,
-      "amount": 27700
+      "price": 4509,
+      "amount": 2770000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 58,
     "fields": {
       "station": 15,
       "fuel_type": "95",
-      "price": 48.55,
-      "amount": 93404
+      "price": 4855,
+      "amount": 9340400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 59,
     "fields": {
       "station": 15,
       "fuel_type": "98",
-      "price": 54.22,
-      "amount": 36796
+      "price": 5422,
+      "amount": 3679600
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 60,
     "fields": {
       "station": 15,
       "fuel_type": "DT",
-      "price": 48.76,
-      "amount": 79144
+      "price": 4876,
+      "amount": 7914400
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 16,
     "fields": {
       "address": "г. Санкт-Петербург, Ленинский проспект, 61"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 16,
+    "fields": {
+      "status": true,
+      "gas_station": 16
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 61,
     "fields": {
       "station": 16,
       "fuel_type": "92",
-      "price": 43.98,
-      "amount": 33954
+      "price": 4398,
+      "amount": 3395400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 62,
     "fields": {
       "station": 16,
       "fuel_type": "95",
-      "price": 48.3,
-      "amount": 30117
+      "price": 4830,
+      "amount": 3011700
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 63,
     "fields": {
       "station": 16,
       "fuel_type": "98",
-      "price": 53.51,
-      "amount": 84952
+      "price": 5351,
+      "amount": 8495200
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 64,
     "fields": {
       "station": 16,
       "fuel_type": "DT",
-      "price": 48.39,
-      "amount": 32538
+      "price": 4839,
+      "amount": 3253800
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 17,
     "fields": {
       "address": "г. Санкт-Петербург, Малый проспект, 79"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 17,
+    "fields": {
+      "status": true,
+      "gas_station": 17
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 65,
     "fields": {
       "station": 17,
       "fuel_type": "92",
-      "price": 44.09,
-      "amount": 60327
+      "price": 4409,
+      "amount": 6032700
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 66,
     "fields": {
       "station": 17,
       "fuel_type": "95",
-      "price": 47.67,
-      "amount": 17685
+      "price": 4767,
+      "amount": 1768500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 67,
     "fields": {
       "station": 17,
       "fuel_type": "98",
-      "price": 56.2,
-      "amount": 39562
+      "price": 5620,
+      "amount": 3956200
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 68,
     "fields": {
       "station": 17,
       "fuel_type": "DT",
-      "price": 48.5,
-      "amount": 8925
+      "price": 4850,
+      "amount": 892500
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 18,
     "fields": {
       "address": "г. Санкт-Петербург, Московское шоссе, М10, слева"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 18,
+    "fields": {
+      "status": true,
+      "gas_station": 18
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 69,
     "fields": {
       "station": 18,
       "fuel_type": "92",
-      "price": 44.49,
-      "amount": 72769
+      "price": 4449,
+      "amount": 7276900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 70,
     "fields": {
       "station": 18,
       "fuel_type": "95",
-      "price": 47.85,
-      "amount": 63241
+      "price": 4785,
+      "amount": 6324100
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 71,
     "fields": {
       "station": 18,
       "fuel_type": "98",
-      "price": 56.09,
-      "amount": 59468
+      "price": 5609,
+      "amount": 5946800
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 72,
     "fields": {
       "station": 18,
       "fuel_type": "DT",
-      "price": 49.69,
-      "amount": 82861
+      "price": 4969,
+      "amount": 8286100
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 19,
     "fields": {
       "address": "г. Санкт-Петербург, Московское шоссе, 11, лит.А, М10, справа"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 19,
+    "fields": {
+      "status": true,
+      "gas_station": 19
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 73,
     "fields": {
       "station": 19,
       "fuel_type": "92",
-      "price": 42.4,
-      "amount": 53178
+      "price": 4240,
+      "amount": 5317800
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 74,
     "fields": {
       "station": 19,
       "fuel_type": "95",
-      "price": 44.85,
-      "amount": 87751
+      "price": 4485,
+      "amount": 8775100
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 75,
     "fields": {
       "station": 19,
       "fuel_type": "98",
-      "price": 51.6,
-      "amount": 86745
+      "price": 5160,
+      "amount": 8674500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 76,
     "fields": {
       "station": 19,
       "fuel_type": "DT",
-      "price": 51.8,
-      "amount": 26554
+      "price": 5180,
+      "amount": 2655400
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 20,
     "fields": {
       "address": "г. Санкт-Петербург, Московское шоссе, 50, М10, 687-й км, слева"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 20,
+    "fields": {
+      "status": true,
+      "gas_station": 20
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 77,
     "fields": {
       "station": 20,
       "fuel_type": "92",
-      "price": 43.2,
-      "amount": 88314
+      "price": 4320,
+      "amount": 8831400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 78,
     "fields": {
       "station": 20,
       "fuel_type": "95",
-      "price": 46.7,
-      "amount": 45723
+      "price": 4670,
+      "amount": 4572300
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 79,
     "fields": {
       "station": 20,
       "fuel_type": "98",
-      "price": 54.61,
-      "amount": 81765
+      "price": 5461,
+      "amount": 8176500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 80,
     "fields": {
       "station": 20,
       "fuel_type": "DT",
-      "price": 49.9,
-      "amount": 92130
+      "price": 4990,
+      "amount": 9213000
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 21,
     "fields": {
       "address": "г. Санкт-Петербург, Московское шоссе, М10, слева"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 21,
+    "fields": {
+      "status": true,
+      "gas_station": 21
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 81,
     "fields": {
       "station": 21,
       "fuel_type": "92",
-      "price": 43.83,
-      "amount": 61919
+      "price": 4383,
+      "amount": 6191900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 82,
     "fields": {
       "station": 21,
       "fuel_type": "95",
-      "price": 47.7,
-      "amount": 50845
+      "price": 4770,
+      "amount": 5084500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 83,
     "fields": {
       "station": 21,
       "fuel_type": "98",
-      "price": 53.15,
-      "amount": 32344
+      "price": 5315,
+      "amount": 3234400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 84,
     "fields": {
       "station": 21,
       "fuel_type": "DT",
-      "price": 47.4,
-      "amount": 3480
+      "price": 4740,
+      "amount": 348000
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 22,
     "fields": {
       "address": "г. Санкт-Петербург, Московское шоссе, 156 А, М10, слева"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 22,
+    "fields": {
+      "status": true,
+      "gas_station": 22
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 85,
     "fields": {
       "station": 22,
       "fuel_type": "92",
-      "price": 43.5,
-      "amount": 16383
+      "price": 4350,
+      "amount": 1638300
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 86,
     "fields": {
       "station": 22,
       "fuel_type": "95",
-      "price": 47.94,
-      "amount": 41286
+      "price": 4794,
+      "amount": 4128600
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 87,
     "fields": {
       "station": 22,
       "fuel_type": "98",
-      "price": 54.09,
-      "amount": 75068
+      "price": 5409,
+      "amount": 7506800
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 88,
     "fields": {
       "station": 22,
       "fuel_type": "DT",
-      "price": 47.6,
-      "amount": 41868
+      "price": 4760,
+      "amount": 4186800
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 23,
     "fields": {
       "address": "г. Санкт-Петербург, Октябрьская набережная, 38, корп.3"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 23,
+    "fields": {
+      "status": true,
+      "gas_station": 23
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 89,
     "fields": {
       "station": 23,
       "fuel_type": "92",
-      "price": 41.5,
-      "amount": 97689
+      "price": 4150,
+      "amount": 9768900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 90,
     "fields": {
       "station": 23,
       "fuel_type": "95",
-      "price": 44.3,
-      "amount": 60473
+      "price": 4430,
+      "amount": 6047300
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 91,
     "fields": {
       "station": 23,
       "fuel_type": "98",
-      "price": 54.86,
-      "amount": 11558
+      "price": 5486,
+      "amount": 1155800
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 92,
     "fields": {
       "station": 23,
       "fuel_type": "DT",
-      "price": 49.0,
-      "amount": 4643
+      "price": 4900,
+      "amount": 464300
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 24,
     "fields": {
       "address": "г. Санкт-Петербург, Песочная набережная, 30"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 24,
+    "fields": {
+      "status": true,
+      "gas_station": 24
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 93,
     "fields": {
       "station": 24,
       "fuel_type": "92",
-      "price": 43.2,
-      "amount": 17468
+      "price": 4320,
+      "amount": 1746800
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 94,
     "fields": {
       "station": 24,
       "fuel_type": "95",
-      "price": 46.7,
-      "amount": 71227
+      "price": 4670,
+      "amount": 7122700
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 95,
     "fields": {
       "station": 24,
       "fuel_type": "98",
-      "price": 54.61,
-      "amount": 50941
+      "price": 5461,
+      "amount": 5094100
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 96,
     "fields": {
       "station": 24,
       "fuel_type": "DT",
-      "price": 49.9,
-      "amount": 28775
+      "price": 4990,
+      "amount": 2877500
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 25,
     "fields": {
       "address": "г. Санкт-Петербург, Пискарёвский проспект, 135"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 25,
+    "fields": {
+      "status": true,
+      "gas_station": 25
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 97,
     "fields": {
       "station": 25,
       "fuel_type": "92",
-      "price": 42.55,
-      "amount": 79721
+      "price": 4255,
+      "amount": 7972100
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 98,
     "fields": {
       "station": 25,
       "fuel_type": "95",
-      "price": 45.1,
-      "amount": 3666
+      "price": 4510,
+      "amount": 366600
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 99,
     "fields": {
       "station": 25,
       "fuel_type": "98",
-      "price": 53.17,
-      "amount": 52222
+      "price": 5317,
+      "amount": 5222200
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 100,
     "fields": {
       "station": 25,
       "fuel_type": "DT",
-      "price": 50.05,
-      "amount": 68280
+      "price": 5005,
+      "amount": 6828000
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 26,
     "fields": {
       "address": "г. Санкт-Петербург, Приморское шоссе, 142"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 26,
+    "fields": {
+      "status": true,
+      "gas_station": 26
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 101,
     "fields": {
       "station": 26,
       "fuel_type": "92",
-      "price": 43.05,
-      "amount": 90955
+      "price": 4305,
+      "amount": 9095500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 102,
     "fields": {
       "station": 26,
       "fuel_type": "95",
-      "price": 46.87,
-      "amount": 83789
+      "price": 4687,
+      "amount": 8378900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 103,
     "fields": {
       "station": 26,
       "fuel_type": "98",
-      "price": 54.28,
-      "amount": 50723
+      "price": 5428,
+      "amount": 5072300
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 104,
     "fields": {
       "station": 26,
       "fuel_type": "DT",
-      "price": 48.39,
-      "amount": 74784
+      "price": 4839,
+      "amount": 7478400
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 27,
     "fields": {
       "address": "г. Санкт-Петербург, Приморское шоссе, 251"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 27,
+    "fields": {
+      "status": true,
+      "gas_station": 27
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 105,
     "fields": {
       "station": 27,
       "fuel_type": "92",
-      "price": 45.34,
-      "amount": 26404
+      "price": 4534,
+      "amount": 2640400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 106,
     "fields": {
       "station": 27,
       "fuel_type": "95",
-      "price": 48.94,
-      "amount": 50604
+      "price": 4894,
+      "amount": 5060400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 107,
     "fields": {
       "station": 27,
       "fuel_type": "98",
-      "price": 56.16,
-      "amount": 15978
+      "price": 5616,
+      "amount": 1597800
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 108,
     "fields": {
       "station": 27,
       "fuel_type": "DT",
-      "price": 47.75,
-      "amount": 6626
+      "price": 4775,
+      "amount": 662600
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 28,
     "fields": {
       "address": "г. Санкт-Петербург, промзона «Парнас», 1-й верхний переулок, 3А"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 28,
+    "fields": {
+      "status": true,
+      "gas_station": 28
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 109,
     "fields": {
       "station": 28,
       "fuel_type": "92",
-      "price": 43.35,
-      "amount": 55875
+      "price": 4335,
+      "amount": 5587500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 110,
     "fields": {
       "station": 28,
       "fuel_type": "95",
-      "price": 44.85,
-      "amount": 13526
+      "price": 4485,
+      "amount": 1352600
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 111,
     "fields": {
       "station": 28,
       "fuel_type": "98",
-      "price": 54.98,
-      "amount": 39670
+      "price": 5498,
+      "amount": 3967000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 112,
     "fields": {
       "station": 28,
       "fuel_type": "DT",
-      "price": 48.6,
-      "amount": 24615
+      "price": 4860,
+      "amount": 2461500
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 29,
     "fields": {
       "address": "г. Санкт-Петербург, проспект Маршала Жукова, 23 литер А"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 29,
+    "fields": {
+      "status": true,
+      "gas_station": 29
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 113,
     "fields": {
       "station": 29,
       "fuel_type": "92",
-      "price": 45.07,
-      "amount": 73637
+      "price": 4507,
+      "amount": 7363700
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 114,
     "fields": {
       "station": 29,
       "fuel_type": "95",
-      "price": 47.92,
-      "amount": 52445
+      "price": 4792,
+      "amount": 5244500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 115,
     "fields": {
       "station": 29,
       "fuel_type": "98",
-      "price": 54.61,
-      "amount": 17268
+      "price": 5461,
+      "amount": 1726800
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 116,
     "fields": {
       "station": 29,
       "fuel_type": "DT",
-      "price": 51.41,
-      "amount": 57977
+      "price": 5141,
+      "amount": 5797700
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 30,
     "fields": {
       "address": "г. Санкт-Петербург, проспект Обуховской обороны, 138"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 30,
+    "fields": {
+      "status": true,
+      "gas_station": 30
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 117,
     "fields": {
       "station": 30,
       "fuel_type": "92",
-      "price": 44.8,
-      "amount": 7799
+      "price": 4480,
+      "amount": 779900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 118,
     "fields": {
       "station": 30,
       "fuel_type": "95",
-      "price": 48.45,
-      "amount": 20706
+      "price": 4845,
+      "amount": 2070600
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 119,
     "fields": {
       "station": 30,
       "fuel_type": "98",
-      "price": 54.21,
-      "amount": 94241
+      "price": 5421,
+      "amount": 9424100
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 120,
     "fields": {
       "station": 30,
       "fuel_type": "DT",
-      "price": 48.0,
-      "amount": 68943
+      "price": 4800,
+      "amount": 6894300
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 31,
     "fields": {
       "address": "г. Санкт-Петербург, проспект Энгельса, 179"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 31,
+    "fields": {
+      "status": true,
+      "gas_station": 31
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 121,
     "fields": {
       "station": 31,
       "fuel_type": "92",
-      "price": 45.09,
-      "amount": 76260
+      "price": 4509,
+      "amount": 7626000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 122,
     "fields": {
       "station": 31,
       "fuel_type": "95",
-      "price": 48.55,
-      "amount": 5384
+      "price": 4855,
+      "amount": 538400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 123,
     "fields": {
       "station": 31,
       "fuel_type": "98",
-      "price": 54.22,
-      "amount": 49159
+      "price": 5422,
+      "amount": 4915900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 124,
     "fields": {
       "station": 31,
       "fuel_type": "DT",
-      "price": 48.76,
-      "amount": 41856
+      "price": 4876,
+      "amount": 4185600
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 32,
     "fields": {
       "address": "г. Санкт-Петербург, Пулковское шоссе, 71, Р23, справа"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 32,
+    "fields": {
+      "status": true,
+      "gas_station": 32
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 125,
     "fields": {
       "station": 32,
       "fuel_type": "92",
-      "price": 43.98,
-      "amount": 16997
+      "price": 4398,
+      "amount": 1699700
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 126,
     "fields": {
       "station": 32,
       "fuel_type": "95",
-      "price": 48.3,
-      "amount": 99594
+      "price": 4830,
+      "amount": 9959400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 127,
     "fields": {
       "station": 32,
       "fuel_type": "98",
-      "price": 53.51,
-      "amount": 32211
+      "price": 5351,
+      "amount": 3221100
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 128,
     "fields": {
       "station": 32,
       "fuel_type": "DT",
-      "price": 48.39,
-      "amount": 85052
+      "price": 4839,
+      "amount": 8505200
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 33,
     "fields": {
       "address": "г. Санкт-Петербург, ул. Руставели, 48А"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 33,
+    "fields": {
+      "status": true,
+      "gas_station": 33
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 129,
     "fields": {
       "station": 33,
       "fuel_type": "92",
-      "price": 44.09,
-      "amount": 61330
+      "price": 4409,
+      "amount": 6133000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 130,
     "fields": {
       "station": 33,
       "fuel_type": "95",
-      "price": 47.67,
-      "amount": 98916
+      "price": 4767,
+      "amount": 9891600
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 131,
     "fields": {
       "station": 33,
       "fuel_type": "98",
-      "price": 56.2,
-      "amount": 43490
+      "price": 5620,
+      "amount": 4349000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 132,
     "fields": {
       "station": 33,
       "fuel_type": "DT",
-      "price": 48.5,
-      "amount": 51732
+      "price": 4850,
+      "amount": 5173200
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 34,
     "fields": {
       "address": "г. Санкт-Петербург, ул. Руставели, 54"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 34,
+    "fields": {
+      "status": true,
+      "gas_station": 34
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 133,
     "fields": {
       "station": 34,
       "fuel_type": "92",
-      "price": 44.49,
-      "amount": 55584
+      "price": 4449,
+      "amount": 5558400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 134,
     "fields": {
       "station": 34,
       "fuel_type": "95",
-      "price": 47.85,
-      "amount": 85515
+      "price": 4785,
+      "amount": 8551500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 135,
     "fields": {
       "station": 34,
       "fuel_type": "98",
-      "price": 56.09,
-      "amount": 76949
+      "price": 5609,
+      "amount": 7694900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 136,
     "fields": {
       "station": 34,
       "fuel_type": "DT",
-      "price": 49.69,
-      "amount": 30617
+      "price": 4969,
+      "amount": 3061700
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 35,
     "fields": {
       "address": "г. Санкт-Петербург, Рябовское шоссе, 115 к. 3, лит. А, а/д «Санкт-Петербург - станция Морье» (А128), справа"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 35,
+    "fields": {
+      "status": true,
+      "gas_station": 35
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 137,
     "fields": {
       "station": 35,
       "fuel_type": "92",
-      "price": 42.4,
-      "amount": 70698
+      "price": 4240,
+      "amount": 7069800
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 138,
     "fields": {
       "station": 35,
       "fuel_type": "95",
-      "price": 44.85,
-      "amount": 32230
+      "price": 4485,
+      "amount": 3223000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 139,
     "fields": {
       "station": 35,
       "fuel_type": "98",
-      "price": 51.6,
-      "amount": 39864
+      "price": 5160,
+      "amount": 3986400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 140,
     "fields": {
       "station": 35,
       "fuel_type": "DT",
-      "price": 51.8,
-      "amount": 46044
+      "price": 5180,
+      "amount": 4604400
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 36,
     "fields": {
       "address": "г. Санкт-Петербург, ул. Салова, 82"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 36,
+    "fields": {
+      "status": true,
+      "gas_station": 36
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 141,
     "fields": {
       "station": 36,
       "fuel_type": "92",
-      "price": 43.2,
-      "amount": 87502
+      "price": 4320,
+      "amount": 8750200
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 142,
     "fields": {
       "station": 36,
       "fuel_type": "95",
-      "price": 46.7,
-      "amount": 46765
+      "price": 4670,
+      "amount": 4676500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 143,
     "fields": {
       "station": 36,
       "fuel_type": "98",
-      "price": 54.61,
-      "amount": 49376
+      "price": 5461,
+      "amount": 4937600
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 144,
     "fields": {
       "station": 36,
       "fuel_type": "DT",
-      "price": 49.9,
-      "amount": 77488
+      "price": 4990,
+      "amount": 7748800
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 37,
     "fields": {
       "address": "г. Санкт-Петербург, ул. Седова, 1"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 37,
+    "fields": {
+      "status": true,
+      "gas_station": 37
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 145,
     "fields": {
       "station": 37,
       "fuel_type": "92",
-      "price": 43.83,
-      "amount": 70034
+      "price": 4383,
+      "amount": 7003400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 146,
     "fields": {
       "station": 37,
       "fuel_type": "95",
-      "price": 47.7,
-      "amount": 33717
+      "price": 4770,
+      "amount": 3371700
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 147,
     "fields": {
       "station": 37,
       "fuel_type": "98",
-      "price": 53.15,
-      "amount": 95560
+      "price": 5315,
+      "amount": 9556000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 148,
     "fields": {
       "station": 37,
       "fuel_type": "DT",
-      "price": 47.4,
-      "amount": 45379
+      "price": 4740,
+      "amount": 4537900
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 38,
     "fields": {
       "address": "г. Санкт-Петербург, ул. Софийская"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 38,
+    "fields": {
+      "status": true,
+      "gas_station": 38
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 149,
     "fields": {
       "station": 38,
       "fuel_type": "92",
-      "price": 43.5,
-      "amount": 77598
+      "price": 4350,
+      "amount": 7759800
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 150,
     "fields": {
       "station": 38,
       "fuel_type": "95",
-      "price": 47.94,
-      "amount": 23323
+      "price": 4794,
+      "amount": 2332300
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 151,
     "fields": {
       "station": 38,
       "fuel_type": "98",
-      "price": 54.09,
-      "amount": 38030
+      "price": 5409,
+      "amount": 3803000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 152,
     "fields": {
       "station": 38,
       "fuel_type": "DT",
-      "price": 47.6,
-      "amount": 54232
+      "price": 4760,
+      "amount": 5423200
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 39,
     "fields": {
       "address": "г. Санкт-Петербург, Софийская ул., 17А"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 39,
+    "fields": {
+      "status": true,
+      "gas_station": 39
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 153,
     "fields": {
       "station": 39,
       "fuel_type": "92",
-      "price": 41.5,
-      "amount": 64324
+      "price": 4150,
+      "amount": 6432400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 154,
     "fields": {
       "station": 39,
       "fuel_type": "95",
-      "price": 44.3,
-      "amount": 43383
+      "price": 4430,
+      "amount": 4338300
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 155,
     "fields": {
       "station": 39,
       "fuel_type": "98",
-      "price": 54.86,
-      "amount": 11111
+      "price": 5486,
+      "amount": 1111100
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 156,
     "fields": {
       "station": 39,
       "fuel_type": "DT",
-      "price": 49.0,
-      "amount": 88701
+      "price": 4900,
+      "amount": 8870100
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 40,
     "fields": {
       "address": "г. Санкт-Петербург, Софийская ул., 60"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 40,
+    "fields": {
+      "status": true,
+      "gas_station": 40
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 157,
     "fields": {
       "station": 40,
       "fuel_type": "92",
-      "price": 43.2,
-      "amount": 35792
+      "price": 4320,
+      "amount": 3579200
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 158,
     "fields": {
       "station": 40,
       "fuel_type": "95",
-      "price": 46.7,
-      "amount": 45594
+      "price": 4670,
+      "amount": 4559400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 159,
     "fields": {
       "station": 40,
       "fuel_type": "98",
-      "price": 54.61,
-      "amount": 86159
+      "price": 5461,
+      "amount": 8615900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 160,
     "fields": {
       "station": 40,
       "fuel_type": "DT",
-      "price": 49.9,
-      "amount": 69827
+      "price": 4990,
+      "amount": 6982700
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 41,
     "fields": {
       "address": "г. Санкт-Петербург, Софийская ул., 77"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 41,
+    "fields": {
+      "status": true,
+      "gas_station": 41
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 161,
     "fields": {
       "station": 41,
       "fuel_type": "92",
-      "price": 42.55,
-      "amount": 61411
+      "price": 4255,
+      "amount": 6141100
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 162,
     "fields": {
       "station": 41,
       "fuel_type": "95",
-      "price": 45.1,
-      "amount": 74703
+      "price": 4510,
+      "amount": 7470300
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 163,
     "fields": {
       "station": 41,
       "fuel_type": "98",
-      "price": 53.17,
-      "amount": 23333
+      "price": 5317,
+      "amount": 2333300
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 164,
     "fields": {
       "station": 41,
       "fuel_type": "DT",
-      "price": 50.05,
-      "amount": 44951
+      "price": 5005,
+      "amount": 4495100
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 42,
     "fields": {
       "address": "г. Санкт-Петербург, Торфяная дорога, 10 литер А"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 42,
+    "fields": {
+      "status": true,
+      "gas_station": 42
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 165,
     "fields": {
       "station": 42,
       "fuel_type": "92",
-      "price": 43.05,
-      "amount": 35959
+      "price": 4305,
+      "amount": 3595900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 166,
     "fields": {
       "station": 42,
       "fuel_type": "95",
-      "price": 46.87,
-      "amount": 44347
+      "price": 4687,
+      "amount": 4434700
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 167,
     "fields": {
       "station": 42,
       "fuel_type": "98",
-      "price": 54.28,
-      "amount": 22941
+      "price": 5428,
+      "amount": 2294100
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 168,
     "fields": {
       "station": 42,
       "fuel_type": "DT",
-      "price": 48.39,
-      "amount": 98157
+      "price": 4839,
+      "amount": 9815700
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 43,
     "fields": {
       "address": "г. Санкт-Петербург, ул. Демьяна Бедного, 15"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 43,
+    "fields": {
+      "status": true,
+      "gas_station": 43
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 169,
     "fields": {
       "station": 43,
       "fuel_type": "92",
-      "price": 45.34,
-      "amount": 68985
+      "price": 4534,
+      "amount": 6898500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 170,
     "fields": {
       "station": 43,
       "fuel_type": "95",
-      "price": 48.94,
-      "amount": 81901
+      "price": 4894,
+      "amount": 8190100
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 171,
     "fields": {
       "station": 43,
       "fuel_type": "98",
-      "price": 56.16,
-      "amount": 82004
+      "price": 5616,
+      "amount": 8200400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 172,
     "fields": {
       "station": 43,
       "fuel_type": "DT",
-      "price": 47.75,
-      "amount": 39685
+      "price": 4775,
+      "amount": 3968500
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 44,
     "fields": {
       "address": "г. Санкт-Петербург, ул. Планерная, 22"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 44,
+    "fields": {
+      "status": true,
+      "gas_station": 44
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 173,
     "fields": {
       "station": 44,
       "fuel_type": "92",
-      "price": 43.35,
-      "amount": 62310
+      "price": 4335,
+      "amount": 6231000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 174,
     "fields": {
       "station": 44,
       "fuel_type": "95",
-      "price": 44.85,
-      "amount": 75340
+      "price": 4485,
+      "amount": 7534000
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 175,
     "fields": {
       "station": 44,
       "fuel_type": "98",
-      "price": 54.98,
-      "amount": 98162
+      "price": 5498,
+      "amount": 9816200
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 176,
     "fields": {
       "station": 44,
       "fuel_type": "DT",
-      "price": 48.6,
-      "amount": 15447
+      "price": 4860,
+      "amount": 1544700
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 45,
     "fields": {
       "address": "г. Санкт-Петербург, ул. Студенческая, 15"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 45,
+    "fields": {
+      "status": true,
+      "gas_station": 45
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 177,
     "fields": {
       "station": 45,
       "fuel_type": "92",
-      "price": 45.07,
-      "amount": 36741
+      "price": 4507,
+      "amount": 3674100
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 178,
     "fields": {
       "station": 45,
       "fuel_type": "95",
-      "price": 47.92,
-      "amount": 95742
+      "price": 4792,
+      "amount": 9574200
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 179,
     "fields": {
       "station": 45,
       "fuel_type": "98",
-      "price": 54.61,
-      "amount": 41024
+      "price": 5461,
+      "amount": 4102400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 180,
     "fields": {
       "station": 45,
       "fuel_type": "DT",
-      "price": 51.41,
-      "amount": 94751
+      "price": 5141,
+      "amount": 9475100
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 46,
     "fields": {
       "address": "г. Санкт-Петербург, Шафировский проспект, 24А"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 46,
+    "fields": {
+      "status": true,
+      "gas_station": 46
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 181,
     "fields": {
       "station": 46,
       "fuel_type": "92",
-      "price": 44.8,
-      "amount": 93686
+      "price": 4480,
+      "amount": 9368600
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 182,
     "fields": {
       "station": 46,
       "fuel_type": "95",
-      "price": 48.45,
-      "amount": 75305
+      "price": 4845,
+      "amount": 7530500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 183,
     "fields": {
       "station": 46,
       "fuel_type": "98",
-      "price": 54.21,
-      "amount": 18799
+      "price": 5421,
+      "amount": 1879900
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 184,
     "fields": {
       "station": 46,
       "fuel_type": "DT",
-      "price": 48.0,
-      "amount": 18829
+      "price": 4800,
+      "amount": 1882900
     }
   },
   {
-    "model": "stations.station",
+    "model": "stations.gasstation",
     "pk": 47,
     "fields": {
       "address": "пос. Шушары, Пулковское шоссе, д. 110, лит. А, Р23, слева"
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.station",
+    "pk": 47,
+    "fields": {
+      "status": true,
+      "gas_station": 47
+    }
+  },
+  {
+    "model": "stations.fuel",
     "pk": 185,
     "fields": {
       "station": 47,
       "fuel_type": "92",
-      "price": 45.09,
-      "amount": 93265
+      "price": 4509,
+      "amount": 9326500
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 186,
     "fields": {
       "station": 47,
       "fuel_type": "95",
-      "price": 48.55,
-      "amount": 5457
+      "price": 4855,
+      "amount": 545700
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 187,
     "fields": {
       "station": 47,
       "fuel_type": "98",
-      "price": 54.22,
-      "amount": 83114
+      "price": 5422,
+      "amount": 8311400
     }
   },
   {
-    "model": "stations.fuelinfo",
+    "model": "stations.fuel",
     "pk": 188,
     "fields": {
       "station": 47,
       "fuel_type": "DT",
-      "price": 48.76,
-      "amount": 44985
+      "price": 4876,
+      "amount": 4498500
     }
   }
 ]

@@ -4,8 +4,8 @@ from rest_framework import generics, status
 from rest_framework.exceptions import ValidationError
 from rest_framework.response import Response
 
-from .serializers import StationSerializer
-from .models import Station, FuelType
+from .serializers import StationSerializer, GasStationSerializer
+from .models import GasStation, Station, FuelType
 
 class StationAPIView(generics.ListAPIView):
     serializer_class = StationSerializer
@@ -28,3 +28,7 @@ class StationAPIView(generics.ListAPIView):
             return Response(serializer.data)
         except ValidationError as e:
             return Response(e.detail, status=status.HTTP_400_BAD_REQUEST)
+        
+class GasStationAPIView(generics.ListAPIView):
+    queryset = GasStation.objects.all()
+    serializer_class = GasStationSerializer

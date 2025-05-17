@@ -15,41 +15,63 @@ def convert_to_fixture(input_file, output_file):
     with open(input_file, 'r', encoding='utf-8') as f:
         stations_data = json.load(f)
     
-    fixture_data = list()
-    fuel_info_pk = 1
+    fixture_data = []
+    gas_station_pk = 1
+    station_pk = 1
+    fuel_pk = 1
     
     for station in stations_data:
-        station_entry = {
-            "model": f"{APP_LABEL}.station",
-            "pk": station["Station_ID"],
+        # GasStation
+        gas_station_entry = {
+            "model": f"{APP_LABEL}.gasstation",
+            "pk": gas_station_pk,
             "fields": {
                 "address": station["Address"]
             }
         }
+        fixture_data.append(gas_station_entry)
+        
+        # Station
+        station_entry = {
+            "model": f"{APP_LABEL}.station",
+            "pk": station_pk,
+            "fields": {
+                "status": True,
+                "gas_station": gas_station_pk
+            }
+        }
         fixture_data.append(station_entry)
         
+        # Fuel
         for fuel in station["data"]:
             fuel_type = FUEL_TYPE_MAPPING.get(fuel["Name"])
             if fuel_type:
+                price_kopecks = int(float(fuel["Price"]) * 100)
+                amount_centiliters = int(float(fuel["AmountOfFuel"]) * 100)
+                
                 fuel_entry = {
-                    "model": f"{APP_LABEL}.fuelinfo",
-                    "pk": fuel_info_pk,
+                    "model": f"{APP_LABEL}.fuel",
+                    "pk": fuel_pk,
                     "fields": {
-                        "station": station["Station_ID"],
+                        "station": station_pk,
                         "fuel_type": fuel_type,
-                        "price": fuel["Price"],
-                        "amount": fuel["AmountOfFuel"]
+                        "price": price_kopecks,
+                        "amount": amount_centiliters
                     }
                 }
                 fixture_data.append(fuel_entry)
-                fuel_info_pk += 1
+                fuel_pk += 1
+        
+        gas_station_pk += 1
+        station_pk += 1
     
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(fixture_data, f, indent=2, ensure_ascii=False)
     
     print(f"Файл фикстуры успешно создан: {output_file}")
-    print(f"Всего станций: {len(stations_data)}")
-    print(f"Всего записей о топливе: {fuel_info_pk-1}")
+    print(f"Всего газовых станций: {gas_station_pk-1}")
+    print(f"Всего станций (колонок): {station_pk-1}")
+    print(f"Всего записей о топливе: {fuel_pk-1}")
 
 if __name__ == '__main__':
     convert_to_fixture(INPUT_JSON, OUTPUT_JSON)
