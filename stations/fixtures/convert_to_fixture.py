@@ -36,7 +36,7 @@ def convert_to_fixture(input_file, output_file):
             "model": f"{APP_LABEL}.station",
             "pk": station_pk,
             "fields": {
-                "status": True,
+                "status": "free",
                 "gas_station": gas_station_pk
             }
         }
