@@ -117,47 +117,47 @@ class ServerConsumer(AsyncWebsocketConsumer):
         message = StationTakenOfflineMessage()
         await self.send(text_data=message.to_json())
 
-        async def on_fuel_price_data_ask(self, event):
-            station_id = self.station.get(self.channel_name)
-            price_data = dict()
-            try:
-                station = await Station.objects.aget(pk=station_id)
-                fuels = await station.fuels.all().alist()
+    async def on_fuel_price_data_ask(self, event):
+        station_id = self.station.get(self.channel_name)
+        price_data = dict()
+        try:
+            station = await Station.objects.aget(pk=station_id)
+            fuels = await station.fuels.all().alist()
 
-                for fuel in fuels:
-                    price_data[fuel.fuel_type] = fuel.price
-                new_message = FuelPriceDataSentMessage(
-                    fuel_price_data=FuelPriceData(price=price_data)
-                )
+            for fuel in fuels:
+                price_data[fuel.fuel_type] = fuel.price
+            new_message = FuelPriceDataSentMessage(
+                fuel_price_data=FuelPriceData(price=price_data)
+            )
 
-            except Station.DoesNotExist:
-                print(f'CENTRAL SERVER | Station {station_id} not found')
+        except Station.DoesNotExist:
+            print(f'CENTRAL SERVER | Station {station_id} not found')
 
-                new_message = FuelPriceDataSentMessage(
-                    fuel_price_data=FuelPriceData(price={})
-                )
+            new_message = FuelPriceDataSentMessage(
+                fuel_price_data=FuelPriceData(price={})
+            )
 
-            await self.send(text_data=new_message.to_json())
+        await self.send(text_data=new_message.to_json())
 
     async def on_loyalty_card_ask(self, event):
         message = LoyaltyCardAskMessage.from_json(event['json_str'])
         try:
             user = await User.objects.select_related('loyalty_card').aget(car_number=message.car_number.text)
-            available = bool(user.loyalty_card) 
+            available = bool(user.loyalty_card)
 
             new_message = LoyaltyCardSentMessage(
                 loyalty_card_available=available,
                 loyalty_card_holder=user.get_full_name() or user.username if available else None,
                 loyalty_card_bonuses=user.loyalty_card.balance if available else None
             )
-        
+
         except User.DoesNotExist:
             new_message = LoyaltyCardSentMessage(
-            loyalty_card_available=None,
-            loyalty_card_holder=None,
-            loyalty_card_bonuses=None
-        )
-            
+                loyalty_card_available=None,
+                loyalty_card_holder=None,
+                loyalty_card_bonuses=None
+            )
+
         await self.send(text_data=new_message.to_json())
 
     async def on_payment_sent(self, event):
@@ -175,7 +175,7 @@ class ServerConsumer(AsyncWebsocketConsumer):
                 fuel_amount=message.fuel_amount,
                 car_number=message.car_number.text,
                 payment_amount=message.payment_amount,
-                payment_method=PaymentMethod.CARD, # TODO: determine how the payment method will be transmitted
+                payment_method=PaymentMethod.CARD,  # TODO: determine how the payment method will be transmitted
                 payment_key=message.payment_key,
                 date_time=timezone.now()
             )
@@ -190,7 +190,7 @@ class ServerConsumer(AsyncWebsocketConsumer):
                     pass
 
         except Exception as e:
-            print(f'CENTRAL SERVER | Error processing payment: {e}')    
+            print(f'CENTRAL SERVER | Error processing payment: {e}')
 
         new_message = PaymentReceivedMessage()
         await self.send(text_data=new_message.to_json())

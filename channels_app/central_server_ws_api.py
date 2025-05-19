@@ -240,7 +240,7 @@ class LoyaltyCardAskMessage:
     def from_dict(cls, data_dict: dict) -> Self:
         if data_dict['message_type'] == cls.message_type.value:
             return cls(
-                car_number=data_dict['car_number']
+                car_number=CarNumber(text=data_dict['car_number'])
             )
         raise ValueError('message_type is invalid')
 
