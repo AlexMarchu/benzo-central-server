@@ -122,10 +122,10 @@ class ServerConsumer(AsyncWebsocketConsumer):
         price_data = dict()
         try:
             station = await Station.objects.aget(pk=station_id)
-            fuels = await station.fuels.all().alist()
 
-            for fuel in fuels:
+            async for fuel in station.fuels.all():
                 price_data[fuel.fuel_type] = fuel.price
+            
             new_message = FuelPriceDataSentMessage(
                 fuel_price_data=FuelPriceData(price=price_data)
             )
