@@ -14,6 +14,7 @@ class User(AbstractUser):
     car_number = models.CharField(max_length=20, blank=True, null=True)
     penalty = models.PositiveIntegerField(default=0)
     loyalty_card = models.OneToOneField(LoyaltyCard, on_delete=models.SET_NULL, blank=True, null=True)
+    birth_date = models.DateField(blank=True, null=True)
 
 class Manager(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='manager_profile')

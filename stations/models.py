@@ -28,7 +28,7 @@ class Station(models.Model):
     gas_station = models.ForeignKey(GasStation, on_delete=models.CASCADE, related_name='stations')
 
     def __str__(self):
-        return f'Station {self.id} as {self.gas_station.address}'
+        return f'Station {self.id} at {self.gas_station.address}'
 
 class Fuel(models.Model):
     fuel_type = models.TextField(max_length=2, choices=FuelType.choices)
