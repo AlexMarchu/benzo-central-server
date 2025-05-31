@@ -4,7 +4,7 @@ from bidict import bidict
 from channels.generic.websocket import AsyncWebsocketConsumer
 from django.utils import timezone
 
-from channels_app.central_server_ws_api import *
+from channels_app.central_server_api import *
 from stations.models import Station, StationStatus, FuelType, GasStationLog, PaymentMethod
 from users.models import User, LoyaltyCard
 
@@ -57,20 +57,26 @@ class ServerConsumer(AsyncWebsocketConsumer):
         message_type = MessageType(json.loads(json_str)['message_type'])
 
         match message_type:
-            case MessageType.CONNECT_REQUEST:
+            case MessageType.CONNECT:
                 if (self.station.inv.get(station_id) is None):
                     self.station[self.channel_name] = station_id
                     await self.channel_layer.group_add(room_name, channel_name)
-                    await self.channel_layer.group_send(room_name, {'type': 'on_station_connect_request'})
+                    await self.channel_layer.group_send(room_name, {'type': 'on_station_connect'})
 
                 else:
                     print(f'STATION SERVER | warning: one more {station_id} wants connect')
 
-            case MessageType.STATION_NOT_TAKEN_REQUEST:
-                await self.channel_layer.group_send(room_name, {'type': 'on_station_not_taken_request'})
+            case MessageType.SERVICE_READY:
+                await self.channel_layer.group_send(room_name, {'type': 'on_station_service_ready'})
 
-            case MessageType.STATION_TAKEN_OFFLINE_REQUEST:
-                await self.channel_layer.group_send(room_name, {'type': 'on_station_taken_offline_request'})
+            case MessageType.SERVICE_NOT_READY:
+                await self.channel_layer.group_send(room_name, {'type': 'on_station_service_not_ready'})
+
+            case MessageType.SERVICE_STARTED:
+                await self.channel_layer.group_send(room_name, {'type': 'on_station_service_started'})
+
+            case MessageType.SERVICE_ENDED:
+                await self.channel_layer.group_send(room_name, {'type': 'on_station_service_ended'})
 
             case MessageType.FUEL_PRICE_DATA_ASK:
                 await self.channel_layer.group_send(room_name, {'type': 'on_fuel_price_data_ask'})
@@ -78,22 +84,21 @@ class ServerConsumer(AsyncWebsocketConsumer):
             case MessageType.LOYALTY_CARD_ASK:
                 await self.channel_layer.group_send(room_name, {'type': 'on_loyalty_card_ask', 'json_str': json_str})
 
-            case MessageType.PAYMENT_SENT:
-                await self.channel_layer.group_send(room_name, {'type': 'on_payment_sent', 'json_str': json_str})
+            case MessageType.SAVE_PAYMENT:
+                await self.channel_layer.group_send(room_name, {'type': 'on_save_payment', 'json_str': json_str})
 
-    async def on_station_connect_request(self, event):
-        station_id = self.station.get(self.channel_name)
-        try:
-            station = await Station.objects.aget(pk=station_id)
-            station.status = StationStatus.FREE
-            await station.asave()
-        except Station.DoesNotExist:
-            print(f'CENTRAL SERVER | Station {station_id} not found')
+            case MessageType.GAS_NOZZLE_USED_T2:
+                await self.channel_layer.group_send(room_name, {'type': 'on_station_gas_nozzle_used_t2'})
 
+            case MessageType.MOBILE_APP_USED_T1:
+                await self.channel_layer.group_send(room_name, {'type': 'on_station_mobile_app_used_t1'})
+
+
+    async def on_station_connect(self, event):
         message = ConnectedMessage()
         await self.send(text_data=message.to_json())
 
-    async def on_station_not_taken_request(self, event):
+    async def on_station_service_ready(self, event):
         station_id = self.station.get(self.channel_name)
         try:
             station = await Station.objects.aget(pk=station_id)
@@ -102,20 +107,32 @@ class ServerConsumer(AsyncWebsocketConsumer):
         except Station.DoesNotExist:
             print(f'CENTRAL SERVER | Station {station_id} not found')
 
-        message = StationNotTakenMessage()
-        await self.send(text_data=message.to_json())
+    async def on_station_service_not_ready(self, event):
+        station_id = self.station.get(self.channel_name)
+        try:
+            station = await Station.objects.aget(pk=station_id)
+            station.status = StationStatus.NOT_WORKING
+            await station.asave()
+        except Station.DoesNotExist:
+            print(f'CENTRAL SERVER | Station {station_id} not found')
 
-    async def on_station_taken_offline_request(self, event):
+    async def on_station_service_started(self, event):
         station_id = self.station.get(self.channel_name)
         try:
             station = await Station.objects.aget(pk=station_id)
             station.status = StationStatus.BUSY_OFFLINE
-            station.asave()
+            await station.asave()
         except Station.DoesNotExist:
             print(f'CENTRAL SERVER | Station {station_id} not found')
 
-        message = StationTakenOfflineMessage()
-        await self.send(text_data=message.to_json())
+    async def on_station_service_ended(self, event):
+        station_id = self.station.get(self.channel_name)
+        try:
+            station = await Station.objects.aget(pk=station_id)
+            station.status = StationStatus.FREE
+            await station.asave()
+        except Station.DoesNotExist:
+            print(f'CENTRAL SERVER | Station {station_id} not found')
 
     async def on_fuel_price_data_ask(self, event):
         station_id = self.station.get(self.channel_name)
@@ -153,15 +170,15 @@ class ServerConsumer(AsyncWebsocketConsumer):
 
         except User.DoesNotExist:
             new_message = LoyaltyCardSentMessage(
-                loyalty_card_available=None,
+                loyalty_card_available=False,
                 loyalty_card_holder=None,
                 loyalty_card_bonuses=None
             )
 
         await self.send(text_data=new_message.to_json())
 
-    async def on_payment_sent(self, event):
-        message = PaymentSentMessage.from_json(event['json_str'])
+    async def on_save_payment(self, event):
+        message = SavePaymentMessage.from_json(event['json_str'])
         station_id = self.station.get(self.channel_name)
         try:
             station = await Station.objects.aget(pk=station_id)
@@ -192,8 +209,16 @@ class ServerConsumer(AsyncWebsocketConsumer):
         except Exception as e:
             print(f'CENTRAL SERVER | Error processing payment: {e}')
 
-        new_message = PaymentReceivedMessage()
-        await self.send(text_data=new_message.to_json())
+    async def on_station_gas_nozzle_used_t2(self, event):
+        # nothing here
+        # for the future
+        pass
+
+
+    async def on_station_mobile_app_used_t1(self, event):
+        # nothing here
+        # for the future
+        pass
 
     async def get_room_name(self, station_id):
         return f'station_{station_id}'
