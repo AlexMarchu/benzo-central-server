@@ -186,8 +186,15 @@ class ServerConsumer(AsyncWebsocketConsumer):
             fuel.amount -= message.fuel_amount
             await fuel.asave()
 
+            user = None
+            try:
+                user = await User.objects.aget(car_number=message.car_number.text)
+            except User.DoesNotExist:
+                pass
+
             await GasStationLog.objects.acreate(
                 station=station,
+                user=user,
                 fuel_type=message.fuel_type.value,
                 fuel_amount=message.fuel_amount,
                 car_number=message.car_number.text,

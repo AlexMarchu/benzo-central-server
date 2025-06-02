@@ -58,10 +58,11 @@ class PaymentHistorySerializer(serializers.ModelSerializer):
     gas_station_address = serializers.CharField(source='station.gas_station.address')
     station_id = serializers.IntegerField(source='station.id')
     bonuses_used = serializers.SerializerMethodField()
+    user_id = serializers.IntegerField(source='user.id', allow_null=True)
 
     class Meta:
         model = GasStationLog
-        fields = ('date_time', 'gas_station_id', 'gas_station_address', 'station_id', 'fuel_type',
+        fields = ('date_time', 'gas_station_id', 'user_id', 'gas_station_address', 'station_id', 'fuel_type',
                   'fuel_amount', 'car_number', 'payment_amount', 'bonuses_used', 'payment_key')
         
     def get_bonuses_used(self, obj):

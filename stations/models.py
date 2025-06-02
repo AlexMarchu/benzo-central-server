@@ -45,6 +45,7 @@ class Fuel(models.Model):
 class GasStationLog(models.Model):
     date_time = models.DateTimeField(auto_now_add=True)
     station = models.ForeignKey(Station, on_delete=models.SET_NULL, related_name='logs', null=True)
+    user = models.ForeignKey('users.User', on_delete=models.SET_NULL, null=True, blank=True)
     fuel_type = models.CharField(max_length=2, choices=FuelType.choices)
     fuel_amount = models.PositiveIntegerField()
     car_number = models.CharField(max_length=20, blank=True, null=True)
