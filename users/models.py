@@ -4,7 +4,7 @@ from django.contrib.auth.models import AbstractUser
 from stations.models import GasStation
 
 class LoyaltyCard(models.Model):
-    number = models.CharField(32, unique=True)
+    number = models.CharField(max_length=32, unique=True)
     balance = models.PositiveIntegerField(default=0)
 
     def __str__(self):
