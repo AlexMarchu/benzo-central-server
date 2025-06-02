@@ -1,1290 +1,1474 @@
 [
   {
     "username": "ekaterinabaranova",
-    "password": "qVmR4AGbvH8c",
+    "password": "inXY3xtvw4nB",
     "first_name": "Ekaterina",
     "last_name": "Baranova",
+    "car_number": "НУ304Р22",
     "loyalty_card_number": "8961436"
   },
   {
     "username": "galinabeliaeva",
-    "password": "ErHoQLlR1RxJ",
+    "password": "PhrjGAKLMhFl",
     "first_name": "Galina",
     "last_name": "Beliaeva",
+    "car_number": "ТЕХ963465",
     "loyalty_card_number": "9804031"
   },
   {
     "username": "nikitakiselev",
-    "password": "igd9Ujoko23A",
+    "password": "yDnCTA9NVYXm",
     "first_name": "Nikita",
     "last_name": "Kiselev",
+    "car_number": "ТАМ537787",
     "loyalty_card_number": "6365463"
   },
   {
     "username": "maksimfedorov",
-    "password": "yAlXyllLZpM2",
+    "password": "W8WHjIpWaKze",
     "first_name": "Maksim",
     "last_name": "Fedorov",
+    "car_number": "524О15",
     "loyalty_card_number": "4008653"
   },
   {
     "username": "marinafedorova",
-    "password": "MV2QF6JlrjaZ",
+    "password": "cDHXR7A1k3XA",
     "first_name": "Marina",
     "last_name": "Fedorova",
+    "car_number": "778О19",
     "loyalty_card_number": "9691797"
   },
   {
     "username": "oksanakovaleva",
-    "password": "FFNlVqGAxa2E",
+    "password": "0Pk4gW1qDeL6",
     "first_name": "Oksana",
     "last_name": "Kovaleva",
+    "car_number": "А809ВХ508",
     "loyalty_card_number": "3900541"
   },
   {
     "username": "iuliiastepanova",
-    "password": "gkpwgKLZK75E",
+    "password": "hfSTDjw8LTsC",
     "first_name": "Iuliia",
     "last_name": "Stepanova",
+    "car_number": "К087АК752",
     "loyalty_card_number": "7111976"
   },
   {
     "username": "tatianavasileva",
-    "password": "FCL8UE5nVmdC",
+    "password": "i2KNaklHK1gt",
     "first_name": "Tatiana",
     "last_name": "Vasileva",
+    "car_number": "МТ372212",
     "loyalty_card_number": "5394469"
   },
   {
     "username": "vladimirmikhailov",
-    "password": "tdsjLdtSBHH2",
+    "password": "2qMjRWLUWZxo",
     "first_name": "Vladimir",
     "last_name": "Mikhailov",
+    "car_number": "АУ177811",
     "loyalty_card_number": "5164683"
   },
   {
     "username": "igorstepanov",
-    "password": "ybwvV2MbTEX1",
+    "password": "qIKo9056B38j",
     "first_name": "Igor",
     "last_name": "Stepanov",
+    "car_number": "636В00761",
     "loyalty_card_number": "2019799"
   },
   {
     "username": "olegandreev",
-    "password": "GNglysUjPSrQ",
+    "password": "y389ndgGpEbP",
     "first_name": "Oleg",
     "last_name": "Andreev",
+    "car_number": "ТТ895960",
     "loyalty_card_number": "2033248"
   },
   {
     "username": "vladimirgolubev",
-    "password": "2VeESe2Yd9vI",
+    "password": "3lfTbo5hKjlC",
     "first_name": "Vladimir",
     "last_name": "Golubev",
+    "car_number": "ТКА250502",
     "loyalty_card_number": "9950063"
   },
   {
     "username": "ivankozlov",
-    "password": "1WTfHnUn9X1N",
+    "password": "lXzwZQ3egOdi",
     "first_name": "Ivan",
     "last_name": "Kozlov",
+    "car_number": "123А30",
     "loyalty_card_number": "7980002"
   },
   {
     "username": "romanmakarov",
-    "password": "Xhu7C0A1qfhF",
+    "password": "UFePsmAhD7je",
     "first_name": "Roman",
     "last_name": "Makarov",
+    "car_number": "АО162241",
     "loyalty_card_number": "1899259"
   },
   {
     "username": "olgazakharova",
-    "password": "GWl0niBjWJC3",
+    "password": "5d5tYxNpcVXF",
     "first_name": "Olga",
     "last_name": "Zakharova",
+    "car_number": "СК255319",
     "loyalty_card_number": "8912005"
   },
   {
     "username": "liudmilastepanova",
-    "password": "C7YB5Fi59AFX",
+    "password": "Ft7C1OrRb94x",
     "first_name": "Liudmila",
     "last_name": "Stepanova",
+    "car_number": "О682ОН137",
     "loyalty_card_number": "5363230"
   },
   {
     "username": "konstantintitov",
-    "password": "H8zVbuJx2t71",
+    "password": "CQj93e2vPyGv",
     "first_name": "Konstantin",
     "last_name": "Titov",
+    "car_number": "КР885235",
     "loyalty_card_number": "3973845"
   },
   {
     "username": "mikhailmikhailov",
-    "password": "cXS2yx4h27OC",
+    "password": "S3fyMDx7M2bz",
     "first_name": "Mikhail",
     "last_name": "Mikhailov",
+    "car_number": "710А35",
     "loyalty_card_number": "1225570"
   },
   {
     "username": "svetlanakuznetsova",
-    "password": "LOWU1C27wdpu",
+    "password": "zZjfAcYxTqdM",
     "first_name": "Svetlana",
     "last_name": "Kuznetsova",
+    "car_number": "180В11847",
     "loyalty_card_number": "3746594"
   },
   {
     "username": "nikitanovikov",
-    "password": "mXT4aa7YE5ZM",
+    "password": "SygURsE6LfyN",
     "first_name": "Nikita",
     "last_name": "Novikov",
+    "car_number": "ТМР662638",
     "loyalty_card_number": "3614984"
   },
   {
     "username": "mikhailpetrov",
-    "password": "Tw4zmYnDIHPu",
+    "password": "RAKEBzksKaOT",
     "first_name": "Mikhail",
     "last_name": "Petrov",
+    "car_number": "262Н81236",
     "loyalty_card_number": "7569194"
   },
   {
     "username": "vladimirvinogradov",
-    "password": "L1hk6IufqWTd",
+    "password": "XlDXTpsTd8jx",
     "first_name": "Vladimir",
     "last_name": "Vinogradov",
+    "car_number": "НН582707",
     "loyalty_card_number": "9368333"
   },
   {
     "username": "olegkudriavtsev",
-    "password": "2EomJ3DUzKtQ",
+    "password": "8jcwkZ2oagYU",
     "first_name": "Oleg",
     "last_name": "Kudriavtsev",
+    "car_number": "ТКС355572",
     "loyalty_card_number": "2465731"
   },
   {
     "username": "alenaivanova",
-    "password": "WefWSBwiFNQ8",
+    "password": "RUwdh4Vsp2Er",
     "first_name": "Alena",
     "last_name": "Ivanova",
+    "car_number": "011А29",
     "loyalty_card_number": "5363806"
   },
   {
     "username": "evgeniibogdanov",
-    "password": "41XaRpZdE1DA",
+    "password": "zuLK5i7wPwnU",
     "first_name": "Evgenii",
     "last_name": "Bogdanov",
+    "car_number": "АХ927286",
     "loyalty_card_number": "3531324"
   },
   {
     "username": "valentinavasileva",
-    "password": "pEvT6Axr3zjZ",
+    "password": "uZOyz4CBCWML",
     "first_name": "Valentina",
     "last_name": "Vasileva",
+    "car_number": "АТ024176",
     "loyalty_card_number": "8749929"
   },
   {
     "username": "oksanasokolova",
-    "password": "ImIy7XyHAu25",
+    "password": "kxYRr4PkIHuQ",
     "first_name": "Oksana",
     "last_name": "Sokolova",
+    "car_number": "У904УО514",
     "loyalty_card_number": "1575669"
   },
   {
     "username": "iliaivanov",
-    "password": "sks8tVL2QtkF",
+    "password": "fu7xOdPM0brX",
     "first_name": "Ilia",
     "last_name": "Ivanov",
+    "car_number": "ТАХ635987",
     "loyalty_card_number": "8148851"
   },
   {
     "username": "iliafedorov",
-    "password": "Nt5RZBJBCh2A",
+    "password": "69n1h8wotzEV",
     "first_name": "Ilia",
     "last_name": "Fedorov",
+    "car_number": "В030931",
     "loyalty_card_number": "1361350"
   },
   {
     "username": "iuriibaranov",
-    "password": "UY0bHWHkI7TC",
+    "password": "nURtGKnK4Yqr",
     "first_name": "Iurii",
     "last_name": "Baranov",
+    "car_number": "НХ498М48",
     "loyalty_card_number": "5150897"
   },
   {
     "username": "alenaromanova",
-    "password": "Km34n2Qfn9Do",
+    "password": "od2s18mnsjLv",
     "first_name": "Alena",
     "last_name": "Romanova",
+    "car_number": "ТЕС250394",
     "loyalty_card_number": "6539539"
   },
   {
     "username": "alenailina",
-    "password": "I50DkPawXkRy",
+    "password": "eg3xwjYxThZh",
     "first_name": "Alena",
     "last_name": "Ilina",
+    "car_number": "СТ567614",
     "loyalty_card_number": "9322787"
   },
   {
     "username": "evgeniiapavlova",
-    "password": "PQRg094Cu2Wq",
+    "password": "REuFGnHPkSnz",
     "first_name": "Evgeniia",
     "last_name": "Pavlova",
+    "car_number": "МН614632",
     "loyalty_card_number": "4954928"
   },
   {
     "username": "annabeliaeva",
-    "password": "fJMVFUBOeaD9",
+    "password": "Rb91uJ8ullXL",
     "first_name": "Anna",
     "last_name": "Beliaeva",
+    "car_number": "Е040529",
     "loyalty_card_number": "2905002"
   },
   {
     "username": "mikhailgerasimov",
-    "password": "LITdpqQUVoxF",
+    "password": "jwGs3mWA6KOt",
     "first_name": "Mikhail",
     "last_name": "Gerasimov",
+    "car_number": "ЕН988318",
     "loyalty_card_number": "3331441"
   },
   {
     "username": "nikitagolubev",
-    "password": "gSbnq78FXykC",
+    "password": "I2c3gsU2nbbo",
     "first_name": "Nikita",
     "last_name": "Golubev",
+    "car_number": "2053Е49",
     "loyalty_card_number": "4646726"
   },
   {
     "username": "konstantingusev",
-    "password": "B4AXjJBT9S3N",
+    "password": "SZslxyq0cFR6",
     "first_name": "Konstantin",
     "last_name": "Gusev",
+    "car_number": "РА537669",
     "loyalty_card_number": "5805543"
   },
   {
     "username": "iuliiakovaleva",
-    "password": "krYhru6odd04",
+    "password": "IW4KzIC5WBth",
     "first_name": "Iuliia",
     "last_name": "Kovaleva",
+    "car_number": "733К79",
     "loyalty_card_number": "9443417"
   },
   {
     "username": "mariiaguseva",
-    "password": "ZKEVbceJe1lL",
+    "password": "6ffdLNVXbi70",
     "first_name": "Mariia",
     "last_name": "Guseva",
+    "car_number": "КР832039",
     "loyalty_card_number": "9041195"
   },
   {
     "username": "iliazakharov",
-    "password": "XMH5FPAoZbFt",
+    "password": "ldMPPXay1FvB",
     "first_name": "Ilia",
     "last_name": "Zakharov",
+    "car_number": "ТРМ550784",
     "loyalty_card_number": "9970227"
   },
   {
     "username": "viktoriiasorokina",
-    "password": "9TeSxlYUet1D",
+    "password": "2fby2Z5aGkGC",
     "first_name": "Viktoriia",
     "last_name": "Sorokina",
+    "car_number": "832С45",
     "loyalty_card_number": "1463217"
   },
   {
     "username": "andreismirnov",
-    "password": "dlmz2mCckzoF",
+    "password": "R9AjaKGMIJTM",
     "first_name": "Andrei",
     "last_name": "Smirnov",
+    "car_number": "УМ683669",
     "loyalty_card_number": "1074444"
   },
   {
     "username": "sergeizakharov",
-    "password": "GHLgfzdcUpu6",
+    "password": "zylgPhfJxSrL",
     "first_name": "Sergei",
     "last_name": "Zakharov",
+    "car_number": "521К38032",
     "loyalty_card_number": "9920290"
   },
   {
     "username": "evgeniiakomarova",
-    "password": "v9Dbe6Nmy90Q",
+    "password": "gn5M9RA3Fg1a",
     "first_name": "Evgeniia",
     "last_name": "Komarova",
+    "car_number": "С824ТН696",
     "loyalty_card_number": "8443220"
   },
   {
     "username": "iuliiavinogradova",
-    "password": "ZalkfZQBVYCu",
+    "password": "jUsrsiX8n4n6",
     "first_name": "Iuliia",
     "last_name": "Vinogradova",
+    "car_number": "ТУТ804939",
     "loyalty_card_number": "1973704"
   },
   {
     "username": "elenagrigoreva",
-    "password": "AcYXR1mdD6dS",
+    "password": "27PSVpI5mNbZ",
     "first_name": "Elena",
     "last_name": "Grigoreva",
+    "car_number": "У188НВ78",
     "loyalty_card_number": "8832296"
   },
   {
     "username": "ivansergeev",
-    "password": "W9G9WuaHVOt0",
+    "password": "UvbUYp5qseYn",
     "first_name": "Ivan",
     "last_name": "Sergeev",
+    "car_number": "0250Х70",
     "loyalty_card_number": "3806450"
   },
   {
     "username": "elenasoloveva",
-    "password": "ZNz7ZxRX5Dzj",
+    "password": "NcInOgDvr7cr",
     "first_name": "Elena",
     "last_name": "Soloveva",
+    "car_number": "Х077СМ366",
     "loyalty_card_number": "4947549"
   },
   {
     "username": "sergeigolubev",
-    "password": "2pJDyNisKoWX",
+    "password": "VThOE52PHWLn",
     "first_name": "Sergei",
     "last_name": "Golubev",
+    "car_number": "ТЕЕ416457",
     "loyalty_card_number": "9057867"
   },
   {
     "username": "dariaalekseeva",
-    "password": "axYFRClxKryA",
+    "password": "OgIWkScKU6yT",
     "first_name": "Daria",
     "last_name": "Alekseeva",
+    "car_number": "АВ324487",
     "loyalty_card_number": "6553045"
   },
   {
     "username": "evgeniizakharov",
-    "password": "rJYxCjK4TO23",
+    "password": "eHZKe8sY5TTC",
     "first_name": "Evgenii",
     "last_name": "Zakharov",
+    "car_number": "ТТС282354",
     "loyalty_card_number": "7562533"
   },
   {
     "username": "nataliagolubeva",
-    "password": "DnWtoBqKZMqN",
+    "password": "Ixq1FpbQRSwl",
     "first_name": "Natalia",
     "last_name": "Golubeva",
+    "car_number": "ХР949444",
     "loyalty_card_number": "6627061"
   },
   {
     "username": "olgapetrova",
-    "password": "XUBMZyc8Z4hq",
+    "password": "Tt9guo0A2MtL",
     "first_name": "Olga",
     "last_name": "Petrova",
+    "car_number": "О551ТК120",
     "loyalty_card_number": "5921378"
   },
   {
     "username": "oksanatarasova",
-    "password": "JRNdXX2XHHp3",
+    "password": "7YtkbpawjFAE",
     "first_name": "Oksana",
     "last_name": "Tarasova",
+    "car_number": "2526М55",
     "loyalty_card_number": "9028264"
   },
   {
     "username": "kseniiaorlova",
-    "password": "TcBrqu7CVPUY",
+    "password": "pkEX9fjl7WSb",
     "first_name": "Kseniia",
     "last_name": "Orlova",
+    "car_number": "ОМ122014",
     "loyalty_card_number": "1990868"
   },
   {
     "username": "nataliakiseleva",
-    "password": "fRUJjyyAoQUc",
+    "password": "Xhf0TZT1bHWY",
     "first_name": "Natalia",
     "last_name": "Kiseleva",
+    "car_number": "ТЕС440691",
     "loyalty_card_number": "8452703"
   },
   {
     "username": "igorpavlov",
-    "password": "fB3eibZny2Tn",
+    "password": "u3WT66HXOMTX",
     "first_name": "Igor",
     "last_name": "Pavlov",
+    "car_number": "755Р85",
     "loyalty_card_number": "7778194"
   },
   {
     "username": "darialebedeva",
-    "password": "ZDgh9h8G1SgX",
+    "password": "hfIvoZjOMWRF",
     "first_name": "Daria",
     "last_name": "Lebedeva",
+    "car_number": "ТРМ206912",
     "loyalty_card_number": "2566538"
   },
   {
     "username": "sergeigusev",
-    "password": "aMefnxYREUb9",
+    "password": "Zo2FEhwdvskp",
     "first_name": "Sergei",
     "last_name": "Gusev",
+    "car_number": "ОА28215",
     "loyalty_card_number": "6601554"
   },
   {
     "username": "oksanasemenova",
-    "password": "VuzfjztrzVGq",
+    "password": "DHp1tPNByWwX",
     "first_name": "Oksana",
     "last_name": "Semenova",
+    "car_number": "8733Е33",
     "loyalty_card_number": "8139545"
   },
   {
     "username": "dmitriibelov",
-    "password": "fBx4ueD97IrI",
+    "password": "fMq50SAJy8gk",
     "first_name": "Dmitrii",
     "last_name": "Belov",
+    "car_number": "НК365383",
     "loyalty_card_number": "6717435"
   },
   {
     "username": "anastasiiakuzmina",
-    "password": "KkGlnIqJ9PgZ",
+    "password": "NFE6x3ivsAaU",
     "first_name": "Anastasiia",
     "last_name": "Kuzmina",
+    "car_number": "О844852",
     "loyalty_card_number": "3141094"
   },
   {
     "username": "dmitriifedorov",
-    "password": "RyXBofeJe5bn",
+    "password": "KqwpiMXbVDRG",
     "first_name": "Dmitrii",
     "last_name": "Fedorov",
+    "car_number": "А078МН590",
     "loyalty_card_number": "7462332"
   },
   {
     "username": "oksanakuzmina",
-    "password": "KXkp6XJsmK5d",
+    "password": "cZ28I047Ltij",
     "first_name": "Oksana",
     "last_name": "Kuzmina",
+    "car_number": "У967РО792",
     "loyalty_card_number": "1672364"
   },
   {
     "username": "svetlanabaranova",
-    "password": "3XFh73raisd4",
+    "password": "n43wsOqfMXev",
     "first_name": "Svetlana",
     "last_name": "Baranova",
+    "car_number": "ТВО918368",
     "loyalty_card_number": "5046096"
   },
   {
     "username": "elenakomarova",
-    "password": "K6TRvDZolqA0",
+    "password": "gGLGNcXQ97Zo",
     "first_name": "Elena",
     "last_name": "Komarova",
+    "car_number": "Х781314",
     "loyalty_card_number": "9793773"
   },
   {
     "username": "antonpetrov",
-    "password": "boC718Qe2ZIH",
+    "password": "8jQirEaZym2f",
     "first_name": "Anton",
     "last_name": "Petrov",
+    "car_number": "4825С49",
     "loyalty_card_number": "5319090"
   },
   {
     "username": "aleksandragolubeva",
-    "password": "tdvVLHF5fUqi",
+    "password": "868pBKTGVeoG",
     "first_name": "Aleksandra",
     "last_name": "Golubeva",
+    "car_number": "КР188758",
     "loyalty_card_number": "9851640"
   },
   {
     "username": "artemzaitsev",
-    "password": "5yShjz2OnwZJ",
+    "password": "JHkca9CRgHnZ",
     "first_name": "Artem",
     "last_name": "Zaitsev",
+    "car_number": "ТТР344195",
     "loyalty_card_number": "9237191"
   },
   {
     "username": "romanborisov",
-    "password": "PbkmsxKvpGkI",
+    "password": "alWmTfttCcsV",
     "first_name": "Roman",
     "last_name": "Borisov",
+    "car_number": "С393МР299",
     "loyalty_card_number": "4360285"
   },
   {
     "username": "valentinagerasimova",
-    "password": "hnYMIpdaIiox",
+    "password": "Y5s2kjLRY2SX",
     "first_name": "Valentina",
     "last_name": "Gerasimova",
+    "car_number": "176Н13",
     "loyalty_card_number": "9821868"
   },
   {
     "username": "mariialebedeva",
-    "password": "mrvYwfA9CqF0",
+    "password": "tNIWOgwjmpp5",
     "first_name": "Mariia",
     "last_name": "Lebedeva",
+    "car_number": "3153Т44",
     "loyalty_card_number": "9700408"
   },
   {
     "username": "mariiamorozova",
-    "password": "7xElaKINsRtG",
+    "password": "3CvHDhsESVWz",
     "first_name": "Mariia",
     "last_name": "Morozova",
+    "car_number": "РК023456",
     "loyalty_card_number": "4434730"
   },
   {
     "username": "vitaliikorolev",
-    "password": "ztEHtq8f38C4",
+    "password": "lL3XUfWFeItg",
     "first_name": "Vitalii",
     "last_name": "Korolev",
+    "car_number": "АМ507В87",
     "loyalty_card_number": "9742158"
   },
   {
     "username": "vladislavvasilev",
-    "password": "srdjg4X2g9rM",
+    "password": "ZR7CbLn6KBeg",
     "first_name": "Vladislav",
     "last_name": "Vasilev",
+    "car_number": "ТНЕ334918",
     "loyalty_card_number": "8143628"
   },
   {
     "username": "iuriiandreev",
-    "password": "0kzwWPUW6zEL",
+    "password": "SQE3QLKSASci",
     "first_name": "Iurii",
     "last_name": "Andreev",
+    "car_number": "СМ131782",
     "loyalty_card_number": "5408434"
   },
   {
     "username": "antonbeliaev",
-    "password": "7yjsXk65RzrT",
+    "password": "z3POEgMoQIB3",
     "first_name": "Anton",
     "last_name": "Beliaev",
+    "car_number": "ТХМ731135",
     "loyalty_card_number": "8574455"
   },
   {
     "username": "alenakuznetsova",
-    "password": "pKiq0HwhOLlT",
+    "password": "mcHqkQBnEo2v",
     "first_name": "Alena",
     "last_name": "Kuznetsova",
+    "car_number": "АХ745433",
     "loyalty_card_number": "1950079"
   },
   {
     "username": "artemmorozov",
-    "password": "C2Pnq6s3V515",
+    "password": "eOJxwudH4JBO",
     "first_name": "Artem",
     "last_name": "Morozov",
+    "car_number": "ТХЕ101909",
     "loyalty_card_number": "9355983"
   },
   {
     "username": "viktorandreev",
-    "password": "4foQbLObxskp",
+    "password": "xwh30eMcraQi",
     "first_name": "Viktor",
     "last_name": "Andreev",
+    "car_number": "ТЕМ147470",
     "loyalty_card_number": "7632322"
   },
   {
     "username": "romaniakovlev",
-    "password": "wmNGrZQRolkU",
+    "password": "CYPjoPmVpboP",
     "first_name": "Roman",
     "last_name": "Iakovlev",
+    "car_number": "АМ652842",
     "loyalty_card_number": "7503124"
   },
   {
     "username": "nadezhdabeliaeva",
-    "password": "Aq7O9CM8N8M6",
+    "password": "1IfgOPNpPxJb",
     "first_name": "Nadezhda",
     "last_name": "Beliaeva",
+    "car_number": "КМ437134",
     "loyalty_card_number": "6918517"
   },
   {
     "username": "dariagolubeva",
-    "password": "JyWZ4e4ikK1O",
+    "password": "AjKYhzL2mPQ2",
     "first_name": "Daria",
     "last_name": "Golubeva",
+    "car_number": "ОЕ583414",
     "loyalty_card_number": "4259384"
   },
   {
     "username": "tatianagerasimova",
-    "password": "p95r7KiJkfGB",
+    "password": "UCxJMqZXEJqF",
     "first_name": "Tatiana",
     "last_name": "Gerasimova",
+    "car_number": "503А31",
     "loyalty_card_number": "3424502"
   },
   {
     "username": "nataliaromanova",
-    "password": "wHSEx1GtwNLQ",
+    "password": "gRNiiDQPUdyJ",
     "first_name": "Natalia",
     "last_name": "Romanova",
+    "car_number": "СВ812228",
     "loyalty_card_number": "5946782"
   },
   {
     "username": "evgeniivasilev",
-    "password": "VW6qq3e3IB6i",
+    "password": "7E0WxcsboSQR",
     "first_name": "Evgenii",
     "last_name": "Vasilev",
+    "car_number": "УЕ406828",
     "loyalty_card_number": "5250252"
   },
   {
     "username": "iuliiasmirnova",
-    "password": "PLU8k0xJ9Ou1",
+    "password": "Q1IJXPF3NcxV",
     "first_name": "Iuliia",
     "last_name": "Smirnova",
+    "car_number": "803Н37",
     "loyalty_card_number": "1877205"
   },
   {
     "username": "mariiakulikova",
-    "password": "6G4eEV2renYr",
+    "password": "aw6V1ICzMd0N",
     "first_name": "Mariia",
     "last_name": "Kulikova",
+    "car_number": "ТВН210253",
     "loyalty_card_number": "3724976"
   },
   {
     "username": "annazakharova",
-    "password": "dkV60tOPXxkI",
+    "password": "5Ch8nYecHznk",
     "first_name": "Anna",
     "last_name": "Zakharova",
+    "car_number": "ОС709035",
     "loyalty_card_number": "6816790"
   },
   {
     "username": "vladislavpopov",
-    "password": "hdJaeKy0J7xi",
+    "password": "rQyABTyFjAcL",
     "first_name": "Vladislav",
     "last_name": "Popov",
+    "car_number": "ХО140693",
     "loyalty_card_number": "7478760"
   },
   {
     "username": "kseniiavinogradova",
-    "password": "tZjmW2zAyJFF",
+    "password": "mQeAS5iHVqjY",
     "first_name": "Kseniia",
     "last_name": "Vinogradova",
+    "car_number": "А465СЕ527",
     "loyalty_card_number": "1864521"
   },
   {
     "username": "nataliaorlova",
-    "password": "LZ0c4GT3nFtk",
+    "password": "ypqGAfLcePKR",
     "first_name": "Natalia",
     "last_name": "Orlova",
+    "car_number": "ТХ211089",
     "loyalty_card_number": "3534225"
   },
   {
     "username": "kseniiasmirnova",
-    "password": "e3IDcSkU9c2T",
+    "password": "WuCafkyWJfSO",
     "first_name": "Kseniia",
     "last_name": "Smirnova",
+    "car_number": "Н025НР366",
     "loyalty_card_number": "9619854"
   },
   {
     "username": "annasemenova",
-    "password": "MzH5VPvGA7If",
+    "password": "R1vWCsoBqX6e",
     "first_name": "Anna",
     "last_name": "Semenova",
+    "car_number": "930Е43252",
     "loyalty_card_number": "8326854"
   },
   {
     "username": "evgeniiakiseleva",
-    "password": "N1Ymk5suxiTF",
+    "password": "QPK4Chk9o880",
     "first_name": "Evgeniia",
     "last_name": "Kiseleva",
+    "car_number": "ВН781551",
     "loyalty_card_number": "4206589"
   },
   {
     "username": "nikolaipetrov",
-    "password": "5gor8Sq7vHaF",
+    "password": "7T4xp8yCyKDf",
     "first_name": "Nikolai",
     "last_name": "Petrov",
+    "car_number": "Х516228",
     "loyalty_card_number": "4665951"
   },
   {
     "username": "olegzakharov",
-    "password": "HVxHQ64ssbu3",
+    "password": "CsW8eZuVqVTS",
     "first_name": "Oleg",
     "last_name": "Zakharov",
+    "car_number": "ОМ468963",
     "loyalty_card_number": "8120627"
   },
   {
     "username": "iuliiaivanova",
-    "password": "N2k36myqU5xH",
+    "password": "DqySxNY1TDQP",
     "first_name": "Iuliia",
     "last_name": "Ivanova",
+    "car_number": "108Е24",
     "loyalty_card_number": "8525679"
   },
   {
     "username": "evgeniiavinogradova",
-    "password": "PcINCq3BsC70",
+    "password": "J9766hM5yrTn",
     "first_name": "Evgeniia",
     "last_name": "Vinogradova",
+    "car_number": "СС129743",
     "loyalty_card_number": "4517591"
   },
   {
     "username": "liudmilakoroleva",
-    "password": "PRXwmyL83aqM",
+    "password": "b1RyRC6cPpOp",
     "first_name": "Liudmila",
     "last_name": "Koroleva",
+    "car_number": "РО268966",
     "loyalty_card_number": "7357819"
   },
   {
     "username": "mikhailsemenov",
-    "password": "dHtdUglOkETo",
+    "password": "jHgZ61lxyzd7",
     "first_name": "Mikhail",
     "last_name": "Semenov",
+    "car_number": "703А97",
     "loyalty_card_number": "2885965"
   },
   {
     "username": "olegtitov",
-    "password": "H9AXTm6uTkya",
+    "password": "qBve51hWdyhd",
     "first_name": "Oleg",
     "last_name": "Titov",
+    "car_number": "ТХК078896",
     "loyalty_card_number": "4339460"
   },
   {
     "username": "anastasiiapavlova",
-    "password": "rC49cTDPfSW0",
+    "password": "iMX2u7gNjzDa",
     "first_name": "Anastasiia",
     "last_name": "Pavlova",
+    "car_number": "ТО049Х86",
     "loyalty_card_number": "7058227"
   },
   {
     "username": "aleksandrasemenova",
-    "password": "tOVDHrSRjHid",
+    "password": "r3HeZvW0OT0v",
     "first_name": "Aleksandra",
     "last_name": "Semenova",
+    "car_number": "ТОО514379",
     "loyalty_card_number": "6320696"
   },
   {
     "username": "aleksandraguseva",
-    "password": "oy7ETyOcltPi",
+    "password": "wXSCMv0qIlA6",
     "first_name": "Aleksandra",
     "last_name": "Guseva",
+    "car_number": "Р770СО248",
     "loyalty_card_number": "4081618"
   },
   {
     "username": "andreikuzmin",
-    "password": "5r9GKQxHYIl4",
+    "password": "EaV5RGwRaYyY",
     "first_name": "Andrei",
     "last_name": "Kuzmin",
+    "car_number": "103С49",
     "loyalty_card_number": "5201856"
   },
   {
     "username": "dmitriikozlov",
-    "password": "S97ouvJRloC6",
+    "password": "QKSOTBm0ps7a",
     "first_name": "Dmitrii",
     "last_name": "Kozlov",
+    "car_number": "1921Р38",
     "loyalty_card_number": "1729130"
   },
   {
     "username": "anastasiiabeliaeva",
-    "password": "nbwMPAbTxWcH",
+    "password": "g14HDmFYUNCT",
     "first_name": "Anastasiia",
     "last_name": "Beliaeva",
+    "car_number": "ЕЕ912046",
     "loyalty_card_number": "2656074"
   },
   {
     "username": "igorkiselev",
-    "password": "5xrNeNSInMgN",
+    "password": "Uc6ryv6H07Ao",
     "first_name": "Igor",
     "last_name": "Kiselev",
+    "car_number": "РМ351763",
     "loyalty_card_number": "6151935"
   },
   {
     "username": "nikitakozlov",
-    "password": "tN9Z2SWpuWKX",
+    "password": "Z1riaiAeTvla",
     "first_name": "Nikita",
     "last_name": "Kozlov",
+    "car_number": "Е548278",
     "loyalty_card_number": "1085114"
   },
   {
     "username": "nadezhdamikhailova",
-    "password": "hk5dYGFbqken",
+    "password": "JOMylkSTq143",
     "first_name": "Nadezhda",
     "last_name": "Mikhailova",
+    "car_number": "М305722",
     "loyalty_card_number": "9288396"
   },
   {
     "username": "liudmilailina",
-    "password": "zel7zPIHbaPF",
+    "password": "xPD3XBXewdqq",
     "first_name": "Liudmila",
     "last_name": "Ilina",
+    "car_number": "ЕМ501754",
     "loyalty_card_number": "3655059"
   },
   {
     "username": "kseniiakoroleva",
-    "password": "44eRHKjR5XsF",
+    "password": "jU16pezcCaTQ",
     "first_name": "Kseniia",
     "last_name": "Koroleva",
+    "car_number": "НТ419118",
     "loyalty_card_number": "7003631"
   },
   {
     "username": "valentinabelova",
-    "password": "SdqCuk1OOKo1",
+    "password": "sUk1MZIXLMRr",
     "first_name": "Valentina",
     "last_name": "Belova",
+    "car_number": "Н470235",
     "loyalty_card_number": "3547780"
   },
   {
     "username": "nataliasergeeva",
-    "password": "hSqNLAePBcMx",
+    "password": "JIPAbSPDIuxN",
     "first_name": "Natalia",
     "last_name": "Sergeeva",
+    "car_number": "ОХ369468",
     "loyalty_card_number": "6079562"
   },
   {
     "username": "anastasiiaromanova",
-    "password": "iIoUA3HMbR5A",
+    "password": "x9hWwaRa4ImK",
     "first_name": "Anastasiia",
     "last_name": "Romanova",
+    "car_number": "7485Х20",
     "loyalty_card_number": "2950413"
   },
   {
     "username": "kristinatarasova",
-    "password": "XclG9Rv7l1md",
+    "password": "si07B0u9ypkY",
     "first_name": "Kristina",
     "last_name": "Tarasova",
+    "car_number": "КР075485",
     "loyalty_card_number": "7798032"
   },
   {
     "username": "aleksandrvolkov",
-    "password": "uY0hVwjLtb22",
+    "password": "T5YjQIMhxzVz",
     "first_name": "Aleksandr",
     "last_name": "Volkov",
+    "car_number": "ХН08282",
     "loyalty_card_number": "6956768"
   },
   {
     "username": "alenasemenova",
-    "password": "pMvHWOUFD87e",
+    "password": "TFziUZ3Yd86T",
     "first_name": "Alena",
     "last_name": "Semenova",
+    "car_number": "РМ047А94",
     "loyalty_card_number": "5675390"
   },
   {
     "username": "evgeniiaalekseeva",
-    "password": "lOUGYYHmSePJ",
+    "password": "qx0eZWgwtcnu",
     "first_name": "Evgeniia",
     "last_name": "Alekseeva",
+    "car_number": "А768460",
     "loyalty_card_number": "4614822"
   },
   {
     "username": "dmitriivolkov",
-    "password": "CD7CohVayrD3",
+    "password": "6WnbV6GrmcgH",
     "first_name": "Dmitrii",
     "last_name": "Volkov",
+    "car_number": "А586ТК982",
     "loyalty_card_number": "4435528"
   },
   {
     "username": "aleksandrasmirnova",
-    "password": "EAXrOYnxXutW",
+    "password": "klkeSzuR3ucS",
     "first_name": "Aleksandra",
     "last_name": "Smirnova",
+    "car_number": "У548451",
     "loyalty_card_number": "6539911"
   },
   {
     "username": "annaponomareva",
-    "password": "mAXbOClgxsRR",
+    "password": "iJnXqUZ4LWeE",
     "first_name": "Anna",
     "last_name": "Ponomareva",
+    "car_number": "С964МЕ241",
     "loyalty_card_number": "7149048"
   },
   {
     "username": "vitaliivasilev",
-    "password": "2pl03t9GChqe",
+    "password": "lNPYLvErA3Rk",
     "first_name": "Vitalii",
     "last_name": "Vasilev",
+    "car_number": "КМ380К41",
     "loyalty_card_number": "4055382"
   },
   {
     "username": "alinavasileva",
-    "password": "WYoHB1PSwKBa",
+    "password": "kFOMrAVn6BBh",
     "first_name": "Alina",
     "last_name": "Vasileva",
+    "car_number": "УН912438",
     "loyalty_card_number": "4866765"
   },
   {
     "username": "ivankorolev",
-    "password": "RwG988e3AcgG",
+    "password": "sUOzDp1WvxlR",
     "first_name": "Ivan",
     "last_name": "Korolev",
+    "car_number": "8583К58",
     "loyalty_card_number": "1355638"
   },
   {
     "username": "paveliakovlev",
-    "password": "oqyc1zH4wQ8w",
+    "password": "KM6LZdASdRNi",
     "first_name": "Pavel",
     "last_name": "Iakovlev",
+    "car_number": "МК201334",
     "loyalty_card_number": "7721334"
   },
   {
     "username": "marinamikhailova",
-    "password": "1aQpiaolszE5",
+    "password": "5cXhFFDKVUGA",
     "first_name": "Marina",
     "last_name": "Mikhailova",
+    "car_number": "1690Р59",
     "loyalty_card_number": "2987393"
   },
   {
     "username": "deniskorolev",
-    "password": "nTRapUVDrl63",
+    "password": "P14dkw1WZaQr",
     "first_name": "Denis",
     "last_name": "Korolev",
+    "car_number": "ТМА046864",
     "loyalty_card_number": "8881318"
   },
   {
     "username": "iliakiselev",
-    "password": "4KHHcbx9f7Wx",
+    "password": "wjVoIJE3AhJR",
     "first_name": "Ilia",
     "last_name": "Kiselev",
+    "car_number": "УТ642278",
     "loyalty_card_number": "2238926"
   },
   {
     "username": "irinanovikova",
-    "password": "xp4f2IbSSKLd",
+    "password": "wJh2YYPqWKnp",
     "first_name": "Irina",
     "last_name": "Novikova",
+    "car_number": "476Н55",
     "loyalty_card_number": "9345212"
   },
   {
     "username": "igorponomarev",
-    "password": "vqAyGLi2iCAZ",
+    "password": "4rS6jafHLz2d",
     "first_name": "Igor",
     "last_name": "Ponomarev",
+    "car_number": "ТСО703401",
     "loyalty_card_number": "1767284"
   },
   {
     "username": "denisfedorov",
-    "password": "H5a8pLJZNfhV",
+    "password": "Uv9uIVjSWDr0",
     "first_name": "Denis",
     "last_name": "Fedorov",
+    "car_number": "ММ652907",
     "loyalty_card_number": "5578386"
   },
   {
     "username": "antonfedorov",
-    "password": "x6TkpE0gCRet",
+    "password": "yKLsicuITuJ7",
     "first_name": "Anton",
     "last_name": "Fedorov",
+    "car_number": "КК270353",
     "loyalty_card_number": "6403440"
   },
   {
     "username": "tatianabaranova",
-    "password": "D0c1uTbw3rnK",
+    "password": "7niuZtiiEQpq",
     "first_name": "Tatiana",
     "last_name": "Baranova",
+    "car_number": "364К60",
     "loyalty_card_number": "7087980"
   },
   {
     "username": "mariiastepanova",
-    "password": "vhhrPmwNYpq2",
+    "password": "0FQ21gWtaBDS",
     "first_name": "Mariia",
     "last_name": "Stepanova",
+    "car_number": "АУ407К50",
     "loyalty_card_number": "8660005"
   },
   {
     "username": "olgasorokina",
-    "password": "MbfykbJ2HX0z",
+    "password": "loBlJUBI1iqT",
     "first_name": "Olga",
     "last_name": "Sorokina",
+    "car_number": "РМ963Х15",
     "loyalty_card_number": "1605296"
   },
   {
     "username": "svetlanavorobeva",
-    "password": "nhLkCySBYeht",
+    "password": "EgLZXbz53AAz",
     "first_name": "Svetlana",
     "last_name": "Vorobeva",
+    "car_number": "УМ921484",
     "loyalty_card_number": "7817110"
   },
   {
     "username": "iuriisemenov",
-    "password": "tIy16MpD5LXe",
+    "password": "C8u6kVDrAKns",
     "first_name": "Iurii",
     "last_name": "Semenov",
+    "car_number": "МВ403529",
     "loyalty_card_number": "1316079"
   },
   {
     "username": "anastasiiatarasova",
-    "password": "FXnBX9PNgMjx",
+    "password": "LqG1IpncMRvR",
     "first_name": "Anastasiia",
     "last_name": "Tarasova",
+    "car_number": "Е788822",
     "loyalty_card_number": "6757231"
   },
   {
     "username": "alenastepanova",
-    "password": "LT5is3EDCSXU",
+    "password": "Xpx4SOW4PYgz",
     "first_name": "Alena",
     "last_name": "Stepanova",
+    "car_number": "УЕ675890",
     "loyalty_card_number": "7902225"
   },
   {
     "username": "romanmorozov",
-    "password": "3DiysTsDJZtG",
+    "password": "hhm1r6v0IMfF",
     "first_name": "Roman",
     "last_name": "Morozov",
+    "car_number": "СА022713",
     "loyalty_card_number": "9604475"
   },
   {
     "username": "aleksandrasorokina",
-    "password": "eefN7mnIuDJ1",
+    "password": "4Mbm8WANx3Nn",
     "first_name": "Aleksandra",
     "last_name": "Sorokina",
+    "car_number": "О845915",
     "loyalty_card_number": "9412291"
   },
   {
     "username": "olgamikhailova",
-    "password": "Jzk4ZjAr7dgy",
+    "password": "kUppY7aoxXuY",
     "first_name": "Olga",
     "last_name": "Mikhailova",
+    "car_number": "063О28",
     "loyalty_card_number": "4905856"
   },
   {
     "username": "evgeniisokolov",
-    "password": "eopjgdH1bNDS",
+    "password": "puEIfJYnBDMd",
     "first_name": "Evgenii",
     "last_name": "Sokolov",
+    "car_number": "О442ВЕ302",
     "loyalty_card_number": "3152256"
   },
   {
     "username": "mikhailivanov",
-    "password": "A5cvUQfdeRSO",
+    "password": "ltUjahmB9OCg",
     "first_name": "Mikhail",
     "last_name": "Ivanov",
+    "car_number": "8328Р21",
     "loyalty_card_number": "5491853"
   },
   {
     "username": "aleksandrsergeev",
-    "password": "alx1xWOKN2GT",
+    "password": "xCDpmKITbmst",
     "first_name": "Aleksandr",
     "last_name": "Sergeev",
+    "car_number": "ТВТ657380",
     "loyalty_card_number": "6856270"
   },
   {
     "username": "nikitasokolov",
-    "password": "sNnK5JmOzHuU",
+    "password": "ScUqGvAwXcXB",
     "first_name": "Nikita",
     "last_name": "Sokolov",
+    "car_number": "С678ОА929",
     "loyalty_card_number": "9950289"
   },
   {
     "username": "denisstepanov",
-    "password": "5TsPCgOPk408",
+    "password": "nWsTfftVOM0r",
     "first_name": "Denis",
     "last_name": "Stepanov",
+    "car_number": "НЕ065733",
     "loyalty_card_number": "2448621"
   },
   {
     "username": "alekseipavlov",
-    "password": "wIhNXzk6YXzw",
+    "password": "UmlGO7cc6Ep7",
     "first_name": "Aleksei",
     "last_name": "Pavlov",
+    "car_number": "С567ЕС93",
     "loyalty_card_number": "2531660"
   },
   {
     "username": "anastasiiapopova",
-    "password": "S1BLaUx1cSnG",
+    "password": "U9RYKz0ucXLf",
     "first_name": "Anastasiia",
     "last_name": "Popova",
+    "car_number": "А812325",
     "loyalty_card_number": "4565112"
   },
   {
     "username": "iuliiazakharova",
-    "password": "5qGu2h1yOvsA",
+    "password": "RqzBbggOQaLN",
     "first_name": "Iuliia",
     "last_name": "Zakharova",
+    "car_number": "НВ700Т13",
     "loyalty_card_number": "5884150"
   },
   {
     "username": "vladimirvasilev",
-    "password": "VQZebr6V18Tc",
+    "password": "QNTq8YZqpfXE",
     "first_name": "Vladimir",
     "last_name": "Vasilev",
+    "car_number": "АЕ949368",
     "loyalty_card_number": "8071572"
   },
   {
     "username": "antonstepanov",
-    "password": "lGFFUVcbI0o7",
+    "password": "wuwBM9dUreYQ",
     "first_name": "Anton",
     "last_name": "Stepanov",
+    "car_number": "3294А47",
     "loyalty_card_number": "1714161"
   },
   {
     "username": "konstantinpetrov",
-    "password": "LQcyfog6tw0f",
+    "password": "Jda49UHJKEt9",
     "first_name": "Konstantin",
     "last_name": "Petrov",
+    "car_number": "ТМР054746",
     "loyalty_card_number": "8939532"
   },
   {
     "username": "nataliapetrova",
-    "password": "lpVdnFkFgmcB",
+    "password": "ezkT8OvM1S2x",
     "first_name": "Natalia",
     "last_name": "Petrova",
+    "car_number": "ТОА473400",
     "loyalty_card_number": "2938337"
   },
   {
     "username": "nataliavinogradova",
-    "password": "iRaScs1VOIS3",
+    "password": "4TTqasRl6VKR",
     "first_name": "Natalia",
     "last_name": "Vinogradova",
+    "car_number": "ТСУ762976",
     "loyalty_card_number": "2069799"
   },
   {
     "username": "ivanorlov",
-    "password": "kaSAZWsoHZfl",
+    "password": "Kk5PLIIpSzdD",
     "first_name": "Ivan",
     "last_name": "Orlov",
+    "car_number": "ТУМ092644",
     "loyalty_card_number": "6660866"
   },
   {
     "username": "oksanabogdanova",
-    "password": "Gu3soSLhv4m1",
+    "password": "9eluL4pdX6c4",
     "first_name": "Oksana",
     "last_name": "Bogdanova",
+    "car_number": "Т855528",
     "loyalty_card_number": "4925731"
   },
   {
     "username": "evgeniinovikov",
-    "password": "0W3jdXFUiU4s",
+    "password": "Ms3KneJ3360h",
     "first_name": "Evgenii",
     "last_name": "Novikov",
+    "car_number": "ТУР748569",
     "loyalty_card_number": "9951117"
   },
   {
     "username": "liudmilaiakovleva",
-    "password": "bUi84IbXPkEA",
+    "password": "nl5bc6kvdVy9",
     "first_name": "Liudmila",
     "last_name": "Iakovleva",
+    "car_number": "3924Х62",
     "loyalty_card_number": "7899793"
   },
   {
     "username": "iuriipetrov",
-    "password": "TCYGYYFn0iCL",
+    "password": "SDrsBUzQhICn",
     "first_name": "Iurii",
     "last_name": "Petrov",
+    "car_number": "КМ198В23",
     "loyalty_card_number": "4270943"
   },
   {
     "username": "dariamikhailova",
-    "password": "PDjG36xXFdmf",
+    "password": "n4jgSyMux8Z2",
     "first_name": "Daria",
     "last_name": "Mikhailova",
+    "car_number": "ТКУ848146",
     "loyalty_card_number": "1718401"
   },
   {
     "username": "irinakuznetsova",
-    "password": "b2VS5AKzuJX8",
+    "password": "2Eiaq4wS3k4V",
     "first_name": "Irina",
     "last_name": "Kuznetsova",
+    "car_number": "КХ521В45",
     "loyalty_card_number": "3478179"
   },
   {
     "username": "viktorborisov",
-    "password": "gBjAQJIJ6wC6",
+    "password": "b4hV6fjbtdX5",
     "first_name": "Viktor",
     "last_name": "Borisov",
+    "car_number": "1544О52",
     "loyalty_card_number": "9674384"
   },
   {
     "username": "mariiavinogradova",
-    "password": "e23nILxP6lnc",
+    "password": "F99C8cZpqO2k",
     "first_name": "Mariia",
     "last_name": "Vinogradova",
+    "car_number": "МО649384",
     "loyalty_card_number": "7806382"
   },
   {
     "username": "tatianaandreeva",
-    "password": "GdQwMQqW09vn",
+    "password": "79QYpb0d8roK",
     "first_name": "Tatiana",
     "last_name": "Andreeva",
+    "car_number": "УМ233318",
     "loyalty_card_number": "2138184"
   },
   {
     "username": "artemvasilev",
-    "password": "cZrDkJCLnMPO",
+    "password": "4ydkdRe5xHU1",
     "first_name": "Artem",
     "last_name": "Vasilev",
+    "car_number": "АХ009741",
     "loyalty_card_number": "1279680"
   },
   {
     "username": "vitaliibaranov",
-    "password": "kJLB9okhbLVL",
+    "password": "sVsnqmhS0YSB",
     "first_name": "Vitalii",
     "last_name": "Baranov",
+    "car_number": "ХО468292",
     "loyalty_card_number": "5623492"
   },
   {
     "username": "elenakovaleva",
-    "password": "syxgvssCBxaG",
+    "password": "4OImk0W4iIsX",
     "first_name": "Elena",
     "last_name": "Kovaleva",
+    "car_number": "4595Н14",
     "loyalty_card_number": "2454263"
   },
   {
     "username": "vladimirkovalev",
-    "password": "clLuzkW8xuvD",
+    "password": "NS9GA7ab8cB9",
     "first_name": "Vladimir",
     "last_name": "Kovalev",
+    "car_number": "7875К23",
     "loyalty_card_number": "7036912"
   },
   {
     "username": "vladimirborisov",
-    "password": "vZffxiOTRCMQ",
+    "password": "VgZhBI2AstL9",
     "first_name": "Vladimir",
     "last_name": "Borisov",
+    "car_number": "9304Е80",
     "loyalty_card_number": "3525718"
   },
   {
     "username": "maksimvinogradov",
-    "password": "xGOqkuFStylK",
+    "password": "NGwb0Tt6wvKo",
     "first_name": "Maksim",
     "last_name": "Vinogradov",
+    "car_number": "Р080965",
     "loyalty_card_number": "2058739"
   },
   {
     "username": "romanromanov",
-    "password": "4TzB0Aekmhty",
+    "password": "ZZ1ZWz1TMRLi",
     "first_name": "Roman",
     "last_name": "Romanov",
+    "car_number": "Е446278",
     "loyalty_card_number": "6449203"
   },
   {
     "username": "iuriiborisov",
-    "password": "17ZAuzrpDF4v",
+    "password": "k2bJs5UjgHUz",
     "first_name": "Iurii",
     "last_name": "Borisov",
+    "car_number": "С404522",
     "loyalty_card_number": "7431575"
   },
   {
     "username": "marinagolubeva",
-    "password": "c5JJH2aDUvK9",
+    "password": "rqxcoYBANeno",
     "first_name": "Marina",
     "last_name": "Golubeva",
+    "car_number": "3044Р40",
     "loyalty_card_number": "4210996"
   },
   {
     "username": "tatianabeliaeva",
-    "password": "CX1r4KzRXX5G",
+    "password": "6mVbAB6x1YNk",
     "first_name": "Tatiana",
     "last_name": "Beliaeva",
+    "car_number": "РО163841",
     "loyalty_card_number": "1941056"
   },
   {
     "username": "pavellebedev",
-    "password": "dirUXBTI322d",
+    "password": "CBZleTs4dt1L",
     "first_name": "Pavel",
     "last_name": "Lebedev",
+    "car_number": "СН354080",
     "loyalty_card_number": "4287845"
   },
   {
     "username": "nataliabaranova",
-    "password": "rvS6WW8fWZUl",
+    "password": "W4JzL4dwtEnb",
     "first_name": "Natalia",
     "last_name": "Baranova",
+    "car_number": "КВ743У52",
     "loyalty_card_number": "4161285"
   },
   {
     "username": "maksimborisov",
-    "password": "AXv7pBKNxKLc",
+    "password": "J9cq3zihRObH",
     "first_name": "Maksim",
     "last_name": "Borisov",
+    "car_number": "263У37",
     "loyalty_card_number": "3389678"
   },
   {
     "username": "galinagrigoreva",
-    "password": "0TqGBcFmLJ9n",
+    "password": "4FyWhhiUZBUs",
     "first_name": "Galina",
     "last_name": "Grigoreva",
+    "car_number": "820М66392",
     "loyalty_card_number": "5819506"
   },
   {
     "username": "mariiakovaleva",
-    "password": "GRTdZYDNLo7q",
+    "password": "ipuX9yuhEEHS",
     "first_name": "Mariia",
     "last_name": "Kovaleva",
+    "car_number": "815Х17",
     "loyalty_card_number": "7726398"
   },
   {
     "username": "vitaliigusev",
-    "password": "5R4UvbmCaDWg",
+    "password": "e6yOL1fQDHwK",
     "first_name": "Vitalii",
     "last_name": "Gusev",
+    "car_number": "С439813",
     "loyalty_card_number": "8273828"
   },
   {
     "username": "annalebedeva",
-    "password": "66lx9g05Artc",
+    "password": "bEU8VJ849unu",
     "first_name": "Anna",
     "last_name": "Lebedeva",
+    "car_number": "АС686133",
     "loyalty_card_number": "3891078"
   }
 ]
