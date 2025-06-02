@@ -1,0 +1,1290 @@
+[
+  {
+    "username": "ekaterinabaranova",
+    "password": "qVmR4AGbvH8c",
+    "first_name": "Ekaterina",
+    "last_name": "Baranova",
+    "loyalty_card_number": "8961436"
+  },
+  {
+    "username": "galinabeliaeva",
+    "password": "ErHoQLlR1RxJ",
+    "first_name": "Galina",
+    "last_name": "Beliaeva",
+    "loyalty_card_number": "9804031"
+  },
+  {
+    "username": "nikitakiselev",
+    "password": "igd9Ujoko23A",
+    "first_name": "Nikita",
+    "last_name": "Kiselev",
+    "loyalty_card_number": "6365463"
+  },
+  {
+    "username": "maksimfedorov",
+    "password": "yAlXyllLZpM2",
+    "first_name": "Maksim",
+    "last_name": "Fedorov",
+    "loyalty_card_number": "4008653"
+  },
+  {
+    "username": "marinafedorova",
+    "password": "MV2QF6JlrjaZ",
+    "first_name": "Marina",
+    "last_name": "Fedorova",
+    "loyalty_card_number": "9691797"
+  },
+  {
+    "username": "oksanakovaleva",
+    "password": "FFNlVqGAxa2E",
+    "first_name": "Oksana",
+    "last_name": "Kovaleva",
+    "loyalty_card_number": "3900541"
+  },
+  {
+    "username": "iuliiastepanova",
+    "password": "gkpwgKLZK75E",
+    "first_name": "Iuliia",
+    "last_name": "Stepanova",
+    "loyalty_card_number": "7111976"
+  },
+  {
+    "username": "tatianavasileva",
+    "password": "FCL8UE5nVmdC",
+    "first_name": "Tatiana",
+    "last_name": "Vasileva",
+    "loyalty_card_number": "5394469"
+  },
+  {
+    "username": "vladimirmikhailov",
+    "password": "tdsjLdtSBHH2",
+    "first_name": "Vladimir",
+    "last_name": "Mikhailov",
+    "loyalty_card_number": "5164683"
+  },
+  {
+    "username": "igorstepanov",
+    "password": "ybwvV2MbTEX1",
+    "first_name": "Igor",
+    "last_name": "Stepanov",
+    "loyalty_card_number": "2019799"
+  },
+  {
+    "username": "olegandreev",
+    "password": "GNglysUjPSrQ",
+    "first_name": "Oleg",
+    "last_name": "Andreev",
+    "loyalty_card_number": "2033248"
+  },
+  {
+    "username": "vladimirgolubev",
+    "password": "2VeESe2Yd9vI",
+    "first_name": "Vladimir",
+    "last_name": "Golubev",
+    "loyalty_card_number": "9950063"
+  },
+  {
+    "username": "ivankozlov",
+    "password": "1WTfHnUn9X1N",
+    "first_name": "Ivan",
+    "last_name": "Kozlov",
+    "loyalty_card_number": "7980002"
+  },
+  {
+    "username": "romanmakarov",
+    "password": "Xhu7C0A1qfhF",
+    "first_name": "Roman",
+    "last_name": "Makarov",
+    "loyalty_card_number": "1899259"
+  },
+  {
+    "username": "olgazakharova",
+    "password": "GWl0niBjWJC3",
+    "first_name": "Olga",
+    "last_name": "Zakharova",
+    "loyalty_card_number": "8912005"
+  },
+  {
+    "username": "liudmilastepanova",
+    "password": "C7YB5Fi59AFX",
+    "first_name": "Liudmila",
+    "last_name": "Stepanova",
+    "loyalty_card_number": "5363230"
+  },
+  {
+    "username": "konstantintitov",
+    "password": "H8zVbuJx2t71",
+    "first_name": "Konstantin",
+    "last_name": "Titov",
+    "loyalty_card_number": "3973845"
+  },
+  {
+    "username": "mikhailmikhailov",
+    "password": "cXS2yx4h27OC",
+    "first_name": "Mikhail",
+    "last_name": "Mikhailov",
+    "loyalty_card_number": "1225570"
+  },
+  {
+    "username": "svetlanakuznetsova",
+    "password": "LOWU1C27wdpu",
+    "first_name": "Svetlana",
+    "last_name": "Kuznetsova",
+    "loyalty_card_number": "3746594"
+  },
+  {
+    "username": "nikitanovikov",
+    "password": "mXT4aa7YE5ZM",
+    "first_name": "Nikita",
+    "last_name": "Novikov",
+    "loyalty_card_number": "3614984"
+  },
+  {
+    "username": "mikhailpetrov",
+    "password": "Tw4zmYnDIHPu",
+    "first_name": "Mikhail",
+    "last_name": "Petrov",
+    "loyalty_card_number": "7569194"
+  },
+  {
+    "username": "vladimirvinogradov",
+    "password": "L1hk6IufqWTd",
+    "first_name": "Vladimir",
+    "last_name": "Vinogradov",
+    "loyalty_card_number": "9368333"
+  },
+  {
+    "username": "olegkudriavtsev",
+    "password": "2EomJ3DUzKtQ",
+    "first_name": "Oleg",
+    "last_name": "Kudriavtsev",
+    "loyalty_card_number": "2465731"
+  },
+  {
+    "username": "alenaivanova",
+    "password": "WefWSBwiFNQ8",
+    "first_name": "Alena",
+    "last_name": "Ivanova",
+    "loyalty_card_number": "5363806"
+  },
+  {
+    "username": "evgeniibogdanov",
+    "password": "41XaRpZdE1DA",
+    "first_name": "Evgenii",
+    "last_name": "Bogdanov",
+    "loyalty_card_number": "3531324"
+  },
+  {
+    "username": "valentinavasileva",
+    "password": "pEvT6Axr3zjZ",
+    "first_name": "Valentina",
+    "last_name": "Vasileva",
+    "loyalty_card_number": "8749929"
+  },
+  {
+    "username": "oksanasokolova",
+    "password": "ImIy7XyHAu25",
+    "first_name": "Oksana",
+    "last_name": "Sokolova",
+    "loyalty_card_number": "1575669"
+  },
+  {
+    "username": "iliaivanov",
+    "password": "sks8tVL2QtkF",
+    "first_name": "Ilia",
+    "last_name": "Ivanov",
+    "loyalty_card_number": "8148851"
+  },
+  {
+    "username": "iliafedorov",
+    "password": "Nt5RZBJBCh2A",
+    "first_name": "Ilia",
+    "last_name": "Fedorov",
+    "loyalty_card_number": "1361350"
+  },
+  {
+    "username": "iuriibaranov",
+    "password": "UY0bHWHkI7TC",
+    "first_name": "Iurii",
+    "last_name": "Baranov",
+    "loyalty_card_number": "5150897"
+  },
+  {
+    "username": "alenaromanova",
+    "password": "Km34n2Qfn9Do",
+    "first_name": "Alena",
+    "last_name": "Romanova",
+    "loyalty_card_number": "6539539"
+  },
+  {
+    "username": "alenailina",
+    "password": "I50DkPawXkRy",
+    "first_name": "Alena",
+    "last_name": "Ilina",
+    "loyalty_card_number": "9322787"
+  },
+  {
+    "username": "evgeniiapavlova",
+    "password": "PQRg094Cu2Wq",
+    "first_name": "Evgeniia",
+    "last_name": "Pavlova",
+    "loyalty_card_number": "4954928"
+  },
+  {
+    "username": "annabeliaeva",
+    "password": "fJMVFUBOeaD9",
+    "first_name": "Anna",
+    "last_name": "Beliaeva",
+    "loyalty_card_number": "2905002"
+  },
+  {
+    "username": "mikhailgerasimov",
+    "password": "LITdpqQUVoxF",
+    "first_name": "Mikhail",
+    "last_name": "Gerasimov",
+    "loyalty_card_number": "3331441"
+  },
+  {
+    "username": "nikitagolubev",
+    "password": "gSbnq78FXykC",
+    "first_name": "Nikita",
+    "last_name": "Golubev",
+    "loyalty_card_number": "4646726"
+  },
+  {
+    "username": "konstantingusev",
+    "password": "B4AXjJBT9S3N",
+    "first_name": "Konstantin",
+    "last_name": "Gusev",
+    "loyalty_card_number": "5805543"
+  },
+  {
+    "username": "iuliiakovaleva",
+    "password": "krYhru6odd04",
+    "first_name": "Iuliia",
+    "last_name": "Kovaleva",
+    "loyalty_card_number": "9443417"
+  },
+  {
+    "username": "mariiaguseva",
+    "password": "ZKEVbceJe1lL",
+    "first_name": "Mariia",
+    "last_name": "Guseva",
+    "loyalty_card_number": "9041195"
+  },
+  {
+    "username": "iliazakharov",
+    "password": "XMH5FPAoZbFt",
+    "first_name": "Ilia",
+    "last_name": "Zakharov",
+    "loyalty_card_number": "9970227"
+  },
+  {
+    "username": "viktoriiasorokina",
+    "password": "9TeSxlYUet1D",
+    "first_name": "Viktoriia",
+    "last_name": "Sorokina",
+    "loyalty_card_number": "1463217"
+  },
+  {
+    "username": "andreismirnov",
+    "password": "dlmz2mCckzoF",
+    "first_name": "Andrei",
+    "last_name": "Smirnov",
+    "loyalty_card_number": "1074444"
+  },
+  {
+    "username": "sergeizakharov",
+    "password": "GHLgfzdcUpu6",
+    "first_name": "Sergei",
+    "last_name": "Zakharov",
+    "loyalty_card_number": "9920290"
+  },
+  {
+    "username": "evgeniiakomarova",
+    "password": "v9Dbe6Nmy90Q",
+    "first_name": "Evgeniia",
+    "last_name": "Komarova",
+    "loyalty_card_number": "8443220"
+  },
+  {
+    "username": "iuliiavinogradova",
+    "password": "ZalkfZQBVYCu",
+    "first_name": "Iuliia",
+    "last_name": "Vinogradova",
+    "loyalty_card_number": "1973704"
+  },
+  {
+    "username": "elenagrigoreva",
+    "password": "AcYXR1mdD6dS",
+    "first_name": "Elena",
+    "last_name": "Grigoreva",
+    "loyalty_card_number": "8832296"
+  },
+  {
+    "username": "ivansergeev",
+    "password": "W9G9WuaHVOt0",
+    "first_name": "Ivan",
+    "last_name": "Sergeev",
+    "loyalty_card_number": "3806450"
+  },
+  {
+    "username": "elenasoloveva",
+    "password": "ZNz7ZxRX5Dzj",
+    "first_name": "Elena",
+    "last_name": "Soloveva",
+    "loyalty_card_number": "4947549"
+  },
+  {
+    "username": "sergeigolubev",
+    "password": "2pJDyNisKoWX",
+    "first_name": "Sergei",
+    "last_name": "Golubev",
+    "loyalty_card_number": "9057867"
+  },
+  {
+    "username": "dariaalekseeva",
+    "password": "axYFRClxKryA",
+    "first_name": "Daria",
+    "last_name": "Alekseeva",
+    "loyalty_card_number": "6553045"
+  },
+  {
+    "username": "evgeniizakharov",
+    "password": "rJYxCjK4TO23",
+    "first_name": "Evgenii",
+    "last_name": "Zakharov",
+    "loyalty_card_number": "7562533"
+  },
+  {
+    "username": "nataliagolubeva",
+    "password": "DnWtoBqKZMqN",
+    "first_name": "Natalia",
+    "last_name": "Golubeva",
+    "loyalty_card_number": "6627061"
+  },
+  {
+    "username": "olgapetrova",
+    "password": "XUBMZyc8Z4hq",
+    "first_name": "Olga",
+    "last_name": "Petrova",
+    "loyalty_card_number": "5921378"
+  },
+  {
+    "username": "oksanatarasova",
+    "password": "JRNdXX2XHHp3",
+    "first_name": "Oksana",
+    "last_name": "Tarasova",
+    "loyalty_card_number": "9028264"
+  },
+  {
+    "username": "kseniiaorlova",
+    "password": "TcBrqu7CVPUY",
+    "first_name": "Kseniia",
+    "last_name": "Orlova",
+    "loyalty_card_number": "1990868"
+  },
+  {
+    "username": "nataliakiseleva",
+    "password": "fRUJjyyAoQUc",
+    "first_name": "Natalia",
+    "last_name": "Kiseleva",
+    "loyalty_card_number": "8452703"
+  },
+  {
+    "username": "igorpavlov",
+    "password": "fB3eibZny2Tn",
+    "first_name": "Igor",
+    "last_name": "Pavlov",
+    "loyalty_card_number": "7778194"
+  },
+  {
+    "username": "darialebedeva",
+    "password": "ZDgh9h8G1SgX",
+    "first_name": "Daria",
+    "last_name": "Lebedeva",
+    "loyalty_card_number": "2566538"
+  },
+  {
+    "username": "sergeigusev",
+    "password": "aMefnxYREUb9",
+    "first_name": "Sergei",
+    "last_name": "Gusev",
+    "loyalty_card_number": "6601554"
+  },
+  {
+    "username": "oksanasemenova",
+    "password": "VuzfjztrzVGq",
+    "first_name": "Oksana",
+    "last_name": "Semenova",
+    "loyalty_card_number": "8139545"
+  },
+  {
+    "username": "dmitriibelov",
+    "password": "fBx4ueD97IrI",
+    "first_name": "Dmitrii",
+    "last_name": "Belov",
+    "loyalty_card_number": "6717435"
+  },
+  {
+    "username": "anastasiiakuzmina",
+    "password": "KkGlnIqJ9PgZ",
+    "first_name": "Anastasiia",
+    "last_name": "Kuzmina",
+    "loyalty_card_number": "3141094"
+  },
+  {
+    "username": "dmitriifedorov",
+    "password": "RyXBofeJe5bn",
+    "first_name": "Dmitrii",
+    "last_name": "Fedorov",
+    "loyalty_card_number": "7462332"
+  },
+  {
+    "username": "oksanakuzmina",
+    "password": "KXkp6XJsmK5d",
+    "first_name": "Oksana",
+    "last_name": "Kuzmina",
+    "loyalty_card_number": "1672364"
+  },
+  {
+    "username": "svetlanabaranova",
+    "password": "3XFh73raisd4",
+    "first_name": "Svetlana",
+    "last_name": "Baranova",
+    "loyalty_card_number": "5046096"
+  },
+  {
+    "username": "elenakomarova",
+    "password": "K6TRvDZolqA0",
+    "first_name": "Elena",
+    "last_name": "Komarova",
+    "loyalty_card_number": "9793773"
+  },
+  {
+    "username": "antonpetrov",
+    "password": "boC718Qe2ZIH",
+    "first_name": "Anton",
+    "last_name": "Petrov",
+    "loyalty_card_number": "5319090"
+  },
+  {
+    "username": "aleksandragolubeva",
+    "password": "tdvVLHF5fUqi",
+    "first_name": "Aleksandra",
+    "last_name": "Golubeva",
+    "loyalty_card_number": "9851640"
+  },
+  {
+    "username": "artemzaitsev",
+    "password": "5yShjz2OnwZJ",
+    "first_name": "Artem",
+    "last_name": "Zaitsev",
+    "loyalty_card_number": "9237191"
+  },
+  {
+    "username": "romanborisov",
+    "password": "PbkmsxKvpGkI",
+    "first_name": "Roman",
+    "last_name": "Borisov",
+    "loyalty_card_number": "4360285"
+  },
+  {
+    "username": "valentinagerasimova",
+    "password": "hnYMIpdaIiox",
+    "first_name": "Valentina",
+    "last_name": "Gerasimova",
+    "loyalty_card_number": "9821868"
+  },
+  {
+    "username": "mariialebedeva",
+    "password": "mrvYwfA9CqF0",
+    "first_name": "Mariia",
+    "last_name": "Lebedeva",
+    "loyalty_card_number": "9700408"
+  },
+  {
+    "username": "mariiamorozova",
+    "password": "7xElaKINsRtG",
+    "first_name": "Mariia",
+    "last_name": "Morozova",
+    "loyalty_card_number": "4434730"
+  },
+  {
+    "username": "vitaliikorolev",
+    "password": "ztEHtq8f38C4",
+    "first_name": "Vitalii",
+    "last_name": "Korolev",
+    "loyalty_card_number": "9742158"
+  },
+  {
+    "username": "vladislavvasilev",
+    "password": "srdjg4X2g9rM",
+    "first_name": "Vladislav",
+    "last_name": "Vasilev",
+    "loyalty_card_number": "8143628"
+  },
+  {
+    "username": "iuriiandreev",
+    "password": "0kzwWPUW6zEL",
+    "first_name": "Iurii",
+    "last_name": "Andreev",
+    "loyalty_card_number": "5408434"
+  },
+  {
+    "username": "antonbeliaev",
+    "password": "7yjsXk65RzrT",
+    "first_name": "Anton",
+    "last_name": "Beliaev",
+    "loyalty_card_number": "8574455"
+  },
+  {
+    "username": "alenakuznetsova",
+    "password": "pKiq0HwhOLlT",
+    "first_name": "Alena",
+    "last_name": "Kuznetsova",
+    "loyalty_card_number": "1950079"
+  },
+  {
+    "username": "artemmorozov",
+    "password": "C2Pnq6s3V515",
+    "first_name": "Artem",
+    "last_name": "Morozov",
+    "loyalty_card_number": "9355983"
+  },
+  {
+    "username": "viktorandreev",
+    "password": "4foQbLObxskp",
+    "first_name": "Viktor",
+    "last_name": "Andreev",
+    "loyalty_card_number": "7632322"
+  },
+  {
+    "username": "romaniakovlev",
+    "password": "wmNGrZQRolkU",
+    "first_name": "Roman",
+    "last_name": "Iakovlev",
+    "loyalty_card_number": "7503124"
+  },
+  {
+    "username": "nadezhdabeliaeva",
+    "password": "Aq7O9CM8N8M6",
+    "first_name": "Nadezhda",
+    "last_name": "Beliaeva",
+    "loyalty_card_number": "6918517"
+  },
+  {
+    "username": "dariagolubeva",
+    "password": "JyWZ4e4ikK1O",
+    "first_name": "Daria",
+    "last_name": "Golubeva",
+    "loyalty_card_number": "4259384"
+  },
+  {
+    "username": "tatianagerasimova",
+    "password": "p95r7KiJkfGB",
+    "first_name": "Tatiana",
+    "last_name": "Gerasimova",
+    "loyalty_card_number": "3424502"
+  },
+  {
+    "username": "nataliaromanova",
+    "password": "wHSEx1GtwNLQ",
+    "first_name": "Natalia",
+    "last_name": "Romanova",
+    "loyalty_card_number": "5946782"
+  },
+  {
+    "username": "evgeniivasilev",
+    "password": "VW6qq3e3IB6i",
+    "first_name": "Evgenii",
+    "last_name": "Vasilev",
+    "loyalty_card_number": "5250252"
+  },
+  {
+    "username": "iuliiasmirnova",
+    "password": "PLU8k0xJ9Ou1",
+    "first_name": "Iuliia",
+    "last_name": "Smirnova",
+    "loyalty_card_number": "1877205"
+  },
+  {
+    "username": "mariiakulikova",
+    "password": "6G4eEV2renYr",
+    "first_name": "Mariia",
+    "last_name": "Kulikova",
+    "loyalty_card_number": "3724976"
+  },
+  {
+    "username": "annazakharova",
+    "password": "dkV60tOPXxkI",
+    "first_name": "Anna",
+    "last_name": "Zakharova",
+    "loyalty_card_number": "6816790"
+  },
+  {
+    "username": "vladislavpopov",
+    "password": "hdJaeKy0J7xi",
+    "first_name": "Vladislav",
+    "last_name": "Popov",
+    "loyalty_card_number": "7478760"
+  },
+  {
+    "username": "kseniiavinogradova",
+    "password": "tZjmW2zAyJFF",
+    "first_name": "Kseniia",
+    "last_name": "Vinogradova",
+    "loyalty_card_number": "1864521"
+  },
+  {
+    "username": "nataliaorlova",
+    "password": "LZ0c4GT3nFtk",
+    "first_name": "Natalia",
+    "last_name": "Orlova",
+    "loyalty_card_number": "3534225"
+  },
+  {
+    "username": "kseniiasmirnova",
+    "password": "e3IDcSkU9c2T",
+    "first_name": "Kseniia",
+    "last_name": "Smirnova",
+    "loyalty_card_number": "9619854"
+  },
+  {
+    "username": "annasemenova",
+    "password": "MzH5VPvGA7If",
+    "first_name": "Anna",
+    "last_name": "Semenova",
+    "loyalty_card_number": "8326854"
+  },
+  {
+    "username": "evgeniiakiseleva",
+    "password": "N1Ymk5suxiTF",
+    "first_name": "Evgeniia",
+    "last_name": "Kiseleva",
+    "loyalty_card_number": "4206589"
+  },
+  {
+    "username": "nikolaipetrov",
+    "password": "5gor8Sq7vHaF",
+    "first_name": "Nikolai",
+    "last_name": "Petrov",
+    "loyalty_card_number": "4665951"
+  },
+  {
+    "username": "olegzakharov",
+    "password": "HVxHQ64ssbu3",
+    "first_name": "Oleg",
+    "last_name": "Zakharov",
+    "loyalty_card_number": "8120627"
+  },
+  {
+    "username": "iuliiaivanova",
+    "password": "N2k36myqU5xH",
+    "first_name": "Iuliia",
+    "last_name": "Ivanova",
+    "loyalty_card_number": "8525679"
+  },
+  {
+    "username": "evgeniiavinogradova",
+    "password": "PcINCq3BsC70",
+    "first_name": "Evgeniia",
+    "last_name": "Vinogradova",
+    "loyalty_card_number": "4517591"
+  },
+  {
+    "username": "liudmilakoroleva",
+    "password": "PRXwmyL83aqM",
+    "first_name": "Liudmila",
+    "last_name": "Koroleva",
+    "loyalty_card_number": "7357819"
+  },
+  {
+    "username": "mikhailsemenov",
+    "password": "dHtdUglOkETo",
+    "first_name": "Mikhail",
+    "last_name": "Semenov",
+    "loyalty_card_number": "2885965"
+  },
+  {
+    "username": "olegtitov",
+    "password": "H9AXTm6uTkya",
+    "first_name": "Oleg",
+    "last_name": "Titov",
+    "loyalty_card_number": "4339460"
+  },
+  {
+    "username": "anastasiiapavlova",
+    "password": "rC49cTDPfSW0",
+    "first_name": "Anastasiia",
+    "last_name": "Pavlova",
+    "loyalty_card_number": "7058227"
+  },
+  {
+    "username": "aleksandrasemenova",
+    "password": "tOVDHrSRjHid",
+    "first_name": "Aleksandra",
+    "last_name": "Semenova",
+    "loyalty_card_number": "6320696"
+  },
+  {
+    "username": "aleksandraguseva",
+    "password": "oy7ETyOcltPi",
+    "first_name": "Aleksandra",
+    "last_name": "Guseva",
+    "loyalty_card_number": "4081618"
+  },
+  {
+    "username": "andreikuzmin",
+    "password": "5r9GKQxHYIl4",
+    "first_name": "Andrei",
+    "last_name": "Kuzmin",
+    "loyalty_card_number": "5201856"
+  },
+  {
+    "username": "dmitriikozlov",
+    "password": "S97ouvJRloC6",
+    "first_name": "Dmitrii",
+    "last_name": "Kozlov",
+    "loyalty_card_number": "1729130"
+  },
+  {
+    "username": "anastasiiabeliaeva",
+    "password": "nbwMPAbTxWcH",
+    "first_name": "Anastasiia",
+    "last_name": "Beliaeva",
+    "loyalty_card_number": "2656074"
+  },
+  {
+    "username": "igorkiselev",
+    "password": "5xrNeNSInMgN",
+    "first_name": "Igor",
+    "last_name": "Kiselev",
+    "loyalty_card_number": "6151935"
+  },
+  {
+    "username": "nikitakozlov",
+    "password": "tN9Z2SWpuWKX",
+    "first_name": "Nikita",
+    "last_name": "Kozlov",
+    "loyalty_card_number": "1085114"
+  },
+  {
+    "username": "nadezhdamikhailova",
+    "password": "hk5dYGFbqken",
+    "first_name": "Nadezhda",
+    "last_name": "Mikhailova",
+    "loyalty_card_number": "9288396"
+  },
+  {
+    "username": "liudmilailina",
+    "password": "zel7zPIHbaPF",
+    "first_name": "Liudmila",
+    "last_name": "Ilina",
+    "loyalty_card_number": "3655059"
+  },
+  {
+    "username": "kseniiakoroleva",
+    "password": "44eRHKjR5XsF",
+    "first_name": "Kseniia",
+    "last_name": "Koroleva",
+    "loyalty_card_number": "7003631"
+  },
+  {
+    "username": "valentinabelova",
+    "password": "SdqCuk1OOKo1",
+    "first_name": "Valentina",
+    "last_name": "Belova",
+    "loyalty_card_number": "3547780"
+  },
+  {
+    "username": "nataliasergeeva",
+    "password": "hSqNLAePBcMx",
+    "first_name": "Natalia",
+    "last_name": "Sergeeva",
+    "loyalty_card_number": "6079562"
+  },
+  {
+    "username": "anastasiiaromanova",
+    "password": "iIoUA3HMbR5A",
+    "first_name": "Anastasiia",
+    "last_name": "Romanova",
+    "loyalty_card_number": "2950413"
+  },
+  {
+    "username": "kristinatarasova",
+    "password": "XclG9Rv7l1md",
+    "first_name": "Kristina",
+    "last_name": "Tarasova",
+    "loyalty_card_number": "7798032"
+  },
+  {
+    "username": "aleksandrvolkov",
+    "password": "uY0hVwjLtb22",
+    "first_name": "Aleksandr",
+    "last_name": "Volkov",
+    "loyalty_card_number": "6956768"
+  },
+  {
+    "username": "alenasemenova",
+    "password": "pMvHWOUFD87e",
+    "first_name": "Alena",
+    "last_name": "Semenova",
+    "loyalty_card_number": "5675390"
+  },
+  {
+    "username": "evgeniiaalekseeva",
+    "password": "lOUGYYHmSePJ",
+    "first_name": "Evgeniia",
+    "last_name": "Alekseeva",
+    "loyalty_card_number": "4614822"
+  },
+  {
+    "username": "dmitriivolkov",
+    "password": "CD7CohVayrD3",
+    "first_name": "Dmitrii",
+    "last_name": "Volkov",
+    "loyalty_card_number": "4435528"
+  },
+  {
+    "username": "aleksandrasmirnova",
+    "password": "EAXrOYnxXutW",
+    "first_name": "Aleksandra",
+    "last_name": "Smirnova",
+    "loyalty_card_number": "6539911"
+  },
+  {
+    "username": "annaponomareva",
+    "password": "mAXbOClgxsRR",
+    "first_name": "Anna",
+    "last_name": "Ponomareva",
+    "loyalty_card_number": "7149048"
+  },
+  {
+    "username": "vitaliivasilev",
+    "password": "2pl03t9GChqe",
+    "first_name": "Vitalii",
+    "last_name": "Vasilev",
+    "loyalty_card_number": "4055382"
+  },
+  {
+    "username": "alinavasileva",
+    "password": "WYoHB1PSwKBa",
+    "first_name": "Alina",
+    "last_name": "Vasileva",
+    "loyalty_card_number": "4866765"
+  },
+  {
+    "username": "ivankorolev",
+    "password": "RwG988e3AcgG",
+    "first_name": "Ivan",
+    "last_name": "Korolev",
+    "loyalty_card_number": "1355638"
+  },
+  {
+    "username": "paveliakovlev",
+    "password": "oqyc1zH4wQ8w",
+    "first_name": "Pavel",
+    "last_name": "Iakovlev",
+    "loyalty_card_number": "7721334"
+  },
+  {
+    "username": "marinamikhailova",
+    "password": "1aQpiaolszE5",
+    "first_name": "Marina",
+    "last_name": "Mikhailova",
+    "loyalty_card_number": "2987393"
+  },
+  {
+    "username": "deniskorolev",
+    "password": "nTRapUVDrl63",
+    "first_name": "Denis",
+    "last_name": "Korolev",
+    "loyalty_card_number": "8881318"
+  },
+  {
+    "username": "iliakiselev",
+    "password": "4KHHcbx9f7Wx",
+    "first_name": "Ilia",
+    "last_name": "Kiselev",
+    "loyalty_card_number": "2238926"
+  },
+  {
+    "username": "irinanovikova",
+    "password": "xp4f2IbSSKLd",
+    "first_name": "Irina",
+    "last_name": "Novikova",
+    "loyalty_card_number": "9345212"
+  },
+  {
+    "username": "igorponomarev",
+    "password": "vqAyGLi2iCAZ",
+    "first_name": "Igor",
+    "last_name": "Ponomarev",
+    "loyalty_card_number": "1767284"
+  },
+  {
+    "username": "denisfedorov",
+    "password": "H5a8pLJZNfhV",
+    "first_name": "Denis",
+    "last_name": "Fedorov",
+    "loyalty_card_number": "5578386"
+  },
+  {
+    "username": "antonfedorov",
+    "password": "x6TkpE0gCRet",
+    "first_name": "Anton",
+    "last_name": "Fedorov",
+    "loyalty_card_number": "6403440"
+  },
+  {
+    "username": "tatianabaranova",
+    "password": "D0c1uTbw3rnK",
+    "first_name": "Tatiana",
+    "last_name": "Baranova",
+    "loyalty_card_number": "7087980"
+  },
+  {
+    "username": "mariiastepanova",
+    "password": "vhhrPmwNYpq2",
+    "first_name": "Mariia",
+    "last_name": "Stepanova",
+    "loyalty_card_number": "8660005"
+  },
+  {
+    "username": "olgasorokina",
+    "password": "MbfykbJ2HX0z",
+    "first_name": "Olga",
+    "last_name": "Sorokina",
+    "loyalty_card_number": "1605296"
+  },
+  {
+    "username": "svetlanavorobeva",
+    "password": "nhLkCySBYeht",
+    "first_name": "Svetlana",
+    "last_name": "Vorobeva",
+    "loyalty_card_number": "7817110"
+  },
+  {
+    "username": "iuriisemenov",
+    "password": "tIy16MpD5LXe",
+    "first_name": "Iurii",
+    "last_name": "Semenov",
+    "loyalty_card_number": "1316079"
+  },
+  {
+    "username": "anastasiiatarasova",
+    "password": "FXnBX9PNgMjx",
+    "first_name": "Anastasiia",
+    "last_name": "Tarasova",
+    "loyalty_card_number": "6757231"
+  },
+  {
+    "username": "alenastepanova",
+    "password": "LT5is3EDCSXU",
+    "first_name": "Alena",
+    "last_name": "Stepanova",
+    "loyalty_card_number": "7902225"
+  },
+  {
+    "username": "romanmorozov",
+    "password": "3DiysTsDJZtG",
+    "first_name": "Roman",
+    "last_name": "Morozov",
+    "loyalty_card_number": "9604475"
+  },
+  {
+    "username": "aleksandrasorokina",
+    "password": "eefN7mnIuDJ1",
+    "first_name": "Aleksandra",
+    "last_name": "Sorokina",
+    "loyalty_card_number": "9412291"
+  },
+  {
+    "username": "olgamikhailova",
+    "password": "Jzk4ZjAr7dgy",
+    "first_name": "Olga",
+    "last_name": "Mikhailova",
+    "loyalty_card_number": "4905856"
+  },
+  {
+    "username": "evgeniisokolov",
+    "password": "eopjgdH1bNDS",
+    "first_name": "Evgenii",
+    "last_name": "Sokolov",
+    "loyalty_card_number": "3152256"
+  },
+  {
+    "username": "mikhailivanov",
+    "password": "A5cvUQfdeRSO",
+    "first_name": "Mikhail",
+    "last_name": "Ivanov",
+    "loyalty_card_number": "5491853"
+  },
+  {
+    "username": "aleksandrsergeev",
+    "password": "alx1xWOKN2GT",
+    "first_name": "Aleksandr",
+    "last_name": "Sergeev",
+    "loyalty_card_number": "6856270"
+  },
+  {
+    "username": "nikitasokolov",
+    "password": "sNnK5JmOzHuU",
+    "first_name": "Nikita",
+    "last_name": "Sokolov",
+    "loyalty_card_number": "9950289"
+  },
+  {
+    "username": "denisstepanov",
+    "password": "5TsPCgOPk408",
+    "first_name": "Denis",
+    "last_name": "Stepanov",
+    "loyalty_card_number": "2448621"
+  },
+  {
+    "username": "alekseipavlov",
+    "password": "wIhNXzk6YXzw",
+    "first_name": "Aleksei",
+    "last_name": "Pavlov",
+    "loyalty_card_number": "2531660"
+  },
+  {
+    "username": "anastasiiapopova",
+    "password": "S1BLaUx1cSnG",
+    "first_name": "Anastasiia",
+    "last_name": "Popova",
+    "loyalty_card_number": "4565112"
+  },
+  {
+    "username": "iuliiazakharova",
+    "password": "5qGu2h1yOvsA",
+    "first_name": "Iuliia",
+    "last_name": "Zakharova",
+    "loyalty_card_number": "5884150"
+  },
+  {
+    "username": "vladimirvasilev",
+    "password": "VQZebr6V18Tc",
+    "first_name": "Vladimir",
+    "last_name": "Vasilev",
+    "loyalty_card_number": "8071572"
+  },
+  {
+    "username": "antonstepanov",
+    "password": "lGFFUVcbI0o7",
+    "first_name": "Anton",
+    "last_name": "Stepanov",
+    "loyalty_card_number": "1714161"
+  },
+  {
+    "username": "konstantinpetrov",
+    "password": "LQcyfog6tw0f",
+    "first_name": "Konstantin",
+    "last_name": "Petrov",
+    "loyalty_card_number": "8939532"
+  },
+  {
+    "username": "nataliapetrova",
+    "password": "lpVdnFkFgmcB",
+    "first_name": "Natalia",
+    "last_name": "Petrova",
+    "loyalty_card_number": "2938337"
+  },
+  {
+    "username": "nataliavinogradova",
+    "password": "iRaScs1VOIS3",
+    "first_name": "Natalia",
+    "last_name": "Vinogradova",
+    "loyalty_card_number": "2069799"
+  },
+  {
+    "username": "ivanorlov",
+    "password": "kaSAZWsoHZfl",
+    "first_name": "Ivan",
+    "last_name": "Orlov",
+    "loyalty_card_number": "6660866"
+  },
+  {
+    "username": "oksanabogdanova",
+    "password": "Gu3soSLhv4m1",
+    "first_name": "Oksana",
+    "last_name": "Bogdanova",
+    "loyalty_card_number": "4925731"
+  },
+  {
+    "username": "evgeniinovikov",
+    "password": "0W3jdXFUiU4s",
+    "first_name": "Evgenii",
+    "last_name": "Novikov",
+    "loyalty_card_number": "9951117"
+  },
+  {
+    "username": "liudmilaiakovleva",
+    "password": "bUi84IbXPkEA",
+    "first_name": "Liudmila",
+    "last_name": "Iakovleva",
+    "loyalty_card_number": "7899793"
+  },
+  {
+    "username": "iuriipetrov",
+    "password": "TCYGYYFn0iCL",
+    "first_name": "Iurii",
+    "last_name": "Petrov",
+    "loyalty_card_number": "4270943"
+  },
+  {
+    "username": "dariamikhailova",
+    "password": "PDjG36xXFdmf",
+    "first_name": "Daria",
+    "last_name": "Mikhailova",
+    "loyalty_card_number": "1718401"
+  },
+  {
+    "username": "irinakuznetsova",
+    "password": "b2VS5AKzuJX8",
+    "first_name": "Irina",
+    "last_name": "Kuznetsova",
+    "loyalty_card_number": "3478179"
+  },
+  {
+    "username": "viktorborisov",
+    "password": "gBjAQJIJ6wC6",
+    "first_name": "Viktor",
+    "last_name": "Borisov",
+    "loyalty_card_number": "9674384"
+  },
+  {
+    "username": "mariiavinogradova",
+    "password": "e23nILxP6lnc",
+    "first_name": "Mariia",
+    "last_name": "Vinogradova",
+    "loyalty_card_number": "7806382"
+  },
+  {
+    "username": "tatianaandreeva",
+    "password": "GdQwMQqW09vn",
+    "first_name": "Tatiana",
+    "last_name": "Andreeva",
+    "loyalty_card_number": "2138184"
+  },
+  {
+    "username": "artemvasilev",
+    "password": "cZrDkJCLnMPO",
+    "first_name": "Artem",
+    "last_name": "Vasilev",
+    "loyalty_card_number": "1279680"
+  },
+  {
+    "username": "vitaliibaranov",
+    "password": "kJLB9okhbLVL",
+    "first_name": "Vitalii",
+    "last_name": "Baranov",
+    "loyalty_card_number": "5623492"
+  },
+  {
+    "username": "elenakovaleva",
+    "password": "syxgvssCBxaG",
+    "first_name": "Elena",
+    "last_name": "Kovaleva",
+    "loyalty_card_number": "2454263"
+  },
+  {
+    "username": "vladimirkovalev",
+    "password": "clLuzkW8xuvD",
+    "first_name": "Vladimir",
+    "last_name": "Kovalev",
+    "loyalty_card_number": "7036912"
+  },
+  {
+    "username": "vladimirborisov",
+    "password": "vZffxiOTRCMQ",
+    "first_name": "Vladimir",
+    "last_name": "Borisov",
+    "loyalty_card_number": "3525718"
+  },
+  {
+    "username": "maksimvinogradov",
+    "password": "xGOqkuFStylK",
+    "first_name": "Maksim",
+    "last_name": "Vinogradov",
+    "loyalty_card_number": "2058739"
+  },
+  {
+    "username": "romanromanov",
+    "password": "4TzB0Aekmhty",
+    "first_name": "Roman",
+    "last_name": "Romanov",
+    "loyalty_card_number": "6449203"
+  },
+  {
+    "username": "iuriiborisov",
+    "password": "17ZAuzrpDF4v",
+    "first_name": "Iurii",
+    "last_name": "Borisov",
+    "loyalty_card_number": "7431575"
+  },
+  {
+    "username": "marinagolubeva",
+    "password": "c5JJH2aDUvK9",
+    "first_name": "Marina",
+    "last_name": "Golubeva",
+    "loyalty_card_number": "4210996"
+  },
+  {
+    "username": "tatianabeliaeva",
+    "password": "CX1r4KzRXX5G",
+    "first_name": "Tatiana",
+    "last_name": "Beliaeva",
+    "loyalty_card_number": "1941056"
+  },
+  {
+    "username": "pavellebedev",
+    "password": "dirUXBTI322d",
+    "first_name": "Pavel",
+    "last_name": "Lebedev",
+    "loyalty_card_number": "4287845"
+  },
+  {
+    "username": "nataliabaranova",
+    "password": "rvS6WW8fWZUl",
+    "first_name": "Natalia",
+    "last_name": "Baranova",
+    "loyalty_card_number": "4161285"
+  },
+  {
+    "username": "maksimborisov",
+    "password": "AXv7pBKNxKLc",
+    "first_name": "Maksim",
+    "last_name": "Borisov",
+    "loyalty_card_number": "3389678"
+  },
+  {
+    "username": "galinagrigoreva",
+    "password": "0TqGBcFmLJ9n",
+    "first_name": "Galina",
+    "last_name": "Grigoreva",
+    "loyalty_card_number": "5819506"
+  },
+  {
+    "username": "mariiakovaleva",
+    "password": "GRTdZYDNLo7q",
+    "first_name": "Mariia",
+    "last_name": "Kovaleva",
+    "loyalty_card_number": "7726398"
+  },
+  {
+    "username": "vitaliigusev",
+    "password": "5R4UvbmCaDWg",
+    "first_name": "Vitalii",
+    "last_name": "Gusev",
+    "loyalty_card_number": "8273828"
+  },
+  {
+    "username": "annalebedeva",
+    "password": "66lx9g05Artc",
+    "first_name": "Anna",
+    "last_name": "Lebedeva",
+    "loyalty_card_number": "3891078"
+  }
+]

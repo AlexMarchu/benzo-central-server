@@ -1,0 +1,924 @@
+{
+    "LoyaltyCard": [
+        {
+            "holder_name": "EKATERINA BARANOVA",
+            "number": "8961436",
+            "balance": 2703
+        },
+        {
+            "holder_name": "GALINA BELIAEVA",
+            "number": "9804031",
+            "balance": 1119
+        },
+        {
+            "holder_name": "NIKITA KISELEV",
+            "number": "6365463",
+            "balance": 2212
+        },
+        {
+            "holder_name": "MAKSIM FEDOROV",
+            "number": "4008653",
+            "balance": 2868
+        },
+        {
+            "holder_name": "MARINA FEDOROVA",
+            "number": "9691797",
+            "balance": 1922
+        },
+        {
+            "holder_name": "OKSANA KOVALEVA",
+            "number": "3900541",
+            "balance": 1390
+        },
+        {
+            "holder_name": "IULIIA STEPANOVA",
+            "number": "7111976",
+            "balance": 1918
+        },
+        {
+            "holder_name": "TATIANA VASILEVA",
+            "number": "5394469",
+            "balance": 1263
+        },
+        {
+            "holder_name": "VLADIMIR MIKHAILOV",
+            "number": "5164683",
+            "balance": 1734
+        },
+        {
+            "holder_name": "IGOR STEPANOV",
+            "number": "2019799",
+            "balance": 2813
+        },
+        {
+            "holder_name": "OLEG ANDREEV",
+            "number": "2033248",
+            "balance": 1606
+        },
+        {
+            "holder_name": "VLADIMIR GOLUBEV",
+            "number": "9950063",
+            "balance": 1341
+        },
+        {
+            "holder_name": "IVAN KOZLOV",
+            "number": "7980002",
+            "balance": 1601
+        },
+        {
+            "holder_name": "ROMAN MAKAROV",
+            "number": "1899259",
+            "balance": 1686
+        },
+        {
+            "holder_name": "OLGA ZAKHAROVA",
+            "number": "8912005",
+            "balance": 2239
+        },
+        {
+            "holder_name": "LIUDMILA STEPANOVA",
+            "number": "5363230",
+            "balance": 2065
+        },
+        {
+            "holder_name": "KONSTANTIN TITOV",
+            "number": "3973845",
+            "balance": 2881
+        },
+        {
+            "holder_name": "MIKHAIL MIKHAILOV",
+            "number": "1225570",
+            "balance": 1011
+        },
+        {
+            "holder_name": "SVETLANA KUZNETSOVA",
+            "number": "3746594",
+            "balance": 2366
+        },
+        {
+            "holder_name": "NIKITA NOVIKOV",
+            "number": "3614984",
+            "balance": 1142
+        },
+        {
+            "holder_name": "MIKHAIL PETROV",
+            "number": "7569194",
+            "balance": 1462
+        },
+        {
+            "holder_name": "VLADIMIR VINOGRADOV",
+            "number": "9368333",
+            "balance": 1483
+        },
+        {
+            "holder_name": "OLEG KUDRIAVTSEV",
+            "number": "2465731",
+            "balance": 2401
+        },
+        {
+            "holder_name": "ALENA IVANOVA",
+            "number": "5363806",
+            "balance": 1386
+        },
+        {
+            "holder_name": "EVGENII BOGDANOV",
+            "number": "3531324",
+            "balance": 1304
+        },
+        {
+            "holder_name": "VALENTINA VASILEVA",
+            "number": "8749929",
+            "balance": 1041
+        },
+        {
+            "holder_name": "OKSANA SOKOLOVA",
+            "number": "1575669",
+            "balance": 2639
+        },
+        {
+            "holder_name": "ILIA IVANOV",
+            "number": "8148851",
+            "balance": 2219
+        },
+        {
+            "holder_name": "ILIA FEDOROV",
+            "number": "1361350",
+            "balance": 2228
+        },
+        {
+            "holder_name": "IURII BARANOV",
+            "number": "5150897",
+            "balance": 2851
+        },
+        {
+            "holder_name": "ALENA ROMANOVA",
+            "number": "6539539",
+            "balance": 1801
+        },
+        {
+            "holder_name": "ALENA ILINA",
+            "number": "9322787",
+            "balance": 1930
+        },
+        {
+            "holder_name": "EVGENIIA PAVLOVA",
+            "number": "4954928",
+            "balance": 2970
+        },
+        {
+            "holder_name": "ANNA BELIAEVA",
+            "number": "2905002",
+            "balance": 1013
+        },
+        {
+            "holder_name": "MIKHAIL GERASIMOV",
+            "number": "3331441",
+            "balance": 1797
+        },
+        {
+            "holder_name": "NIKITA GOLUBEV",
+            "number": "4646726",
+            "balance": 1892
+        },
+        {
+            "holder_name": "KONSTANTIN GUSEV",
+            "number": "5805543",
+            "balance": 1403
+        },
+        {
+            "holder_name": "IULIIA KOVALEVA",
+            "number": "9443417",
+            "balance": 2716
+        },
+        {
+            "holder_name": "MARIIA GUSEVA",
+            "number": "9041195",
+            "balance": 2155
+        },
+        {
+            "holder_name": "ILIA ZAKHAROV",
+            "number": "9970227",
+            "balance": 2138
+        },
+        {
+            "holder_name": "VIKTORIIA SOROKINA",
+            "number": "1463217",
+            "balance": 2528
+        },
+        {
+            "holder_name": "ANDREI SMIRNOV",
+            "number": "1074444",
+            "balance": 2761
+        },
+        {
+            "holder_name": "SERGEI ZAKHAROV",
+            "number": "9920290",
+            "balance": 2479
+        },
+        {
+            "holder_name": "EVGENIIA KOMAROVA",
+            "number": "8443220",
+            "balance": 1128
+        },
+        {
+            "holder_name": "IULIIA VINOGRADOVA",
+            "number": "1973704",
+            "balance": 1446
+        },
+        {
+            "holder_name": "ELENA GRIGOREVA",
+            "number": "8832296",
+            "balance": 1717
+        },
+        {
+            "holder_name": "IVAN SERGEEV",
+            "number": "3806450",
+            "balance": 2193
+        },
+        {
+            "holder_name": "ELENA SOLOVEVA",
+            "number": "4947549",
+            "balance": 1327
+        },
+        {
+            "holder_name": "SERGEI GOLUBEV",
+            "number": "9057867",
+            "balance": 1728
+        },
+        {
+            "holder_name": "DARIA ALEKSEEVA",
+            "number": "6553045",
+            "balance": 1559
+        },
+        {
+            "holder_name": "EVGENII ZAKHAROV",
+            "number": "7562533",
+            "balance": 1470
+        },
+        {
+            "holder_name": "NATALIA GOLUBEVA",
+            "number": "6627061",
+            "balance": 2191
+        },
+        {
+            "holder_name": "OLGA PETROVA",
+            "number": "5921378",
+            "balance": 2043
+        },
+        {
+            "holder_name": "OKSANA TARASOVA",
+            "number": "9028264",
+            "balance": 2871
+        },
+        {
+            "holder_name": "KSENIIA ORLOVA",
+            "number": "1990868",
+            "balance": 2577
+        },
+        {
+            "holder_name": "NATALIA KISELEVA",
+            "number": "8452703",
+            "balance": 2347
+        },
+        {
+            "holder_name": "IGOR PAVLOV",
+            "number": "7778194",
+            "balance": 2913
+        },
+        {
+            "holder_name": "DARIA LEBEDEVA",
+            "number": "2566538",
+            "balance": 2216
+        },
+        {
+            "holder_name": "SERGEI GUSEV",
+            "number": "6601554",
+            "balance": 1565
+        },
+        {
+            "holder_name": "OKSANA SEMENOVA",
+            "number": "8139545",
+            "balance": 2140
+        },
+        {
+            "holder_name": "DMITRII BELOV",
+            "number": "6717435",
+            "balance": 2066
+        },
+        {
+            "holder_name": "ANASTASIIA KUZMINA",
+            "number": "3141094",
+            "balance": 2367
+        },
+        {
+            "holder_name": "DMITRII FEDOROV",
+            "number": "7462332",
+            "balance": 1069
+        },
+        {
+            "holder_name": "OKSANA KUZMINA",
+            "number": "1672364",
+            "balance": 2036
+        },
+        {
+            "holder_name": "SVETLANA BARANOVA",
+            "number": "5046096",
+            "balance": 2380
+        },
+        {
+            "holder_name": "ELENA KOMAROVA",
+            "number": "9793773",
+            "balance": 1867
+        },
+        {
+            "holder_name": "ANTON PETROV",
+            "number": "5319090",
+            "balance": 2928
+        },
+        {
+            "holder_name": "ALEKSANDRA GOLUBEVA",
+            "number": "9851640",
+            "balance": 2784
+        },
+        {
+            "holder_name": "ARTEM ZAITSEV",
+            "number": "9237191",
+            "balance": 1582
+        },
+        {
+            "holder_name": "ROMAN BORISOV",
+            "number": "4360285",
+            "balance": 2083
+        },
+        {
+            "holder_name": "VALENTINA GERASIMOVA",
+            "number": "9821868",
+            "balance": 1921
+        },
+        {
+            "holder_name": "MARIIA LEBEDEVA",
+            "number": "9700408",
+            "balance": 1110
+        },
+        {
+            "holder_name": "MARIIA MOROZOVA",
+            "number": "4434730",
+            "balance": 1844
+        },
+        {
+            "holder_name": "VITALII KOROLEV",
+            "number": "9742158",
+            "balance": 1400
+        },
+        {
+            "holder_name": "VLADISLAV VASILEV",
+            "number": "8143628",
+            "balance": 1239
+        },
+        {
+            "holder_name": "IURII ANDREEV",
+            "number": "5408434",
+            "balance": 2291
+        },
+        {
+            "holder_name": "ANTON BELIAEV",
+            "number": "8574455",
+            "balance": 2117
+        },
+        {
+            "holder_name": "ALENA KUZNETSOVA",
+            "number": "1950079",
+            "balance": 2432
+        },
+        {
+            "holder_name": "ARTEM MOROZOV",
+            "number": "9355983",
+            "balance": 2619
+        },
+        {
+            "holder_name": "VIKTOR ANDREEV",
+            "number": "7632322",
+            "balance": 2846
+        },
+        {
+            "holder_name": "ROMAN IAKOVLEV",
+            "number": "7503124",
+            "balance": 2992
+        },
+        {
+            "holder_name": "NADEZHDA BELIAEVA",
+            "number": "6918517",
+            "balance": 1088
+        },
+        {
+            "holder_name": "DARIA GOLUBEVA",
+            "number": "4259384",
+            "balance": 2037
+        },
+        {
+            "holder_name": "TATIANA GERASIMOVA",
+            "number": "3424502",
+            "balance": 2034
+        },
+        {
+            "holder_name": "NATALIA ROMANOVA",
+            "number": "5946782",
+            "balance": 2960
+        },
+        {
+            "holder_name": "EVGENII VASILEV",
+            "number": "5250252",
+            "balance": 1614
+        },
+        {
+            "holder_name": "IULIIA SMIRNOVA",
+            "number": "1877205",
+            "balance": 1381
+        },
+        {
+            "holder_name": "MARIIA KULIKOVA",
+            "number": "3724976",
+            "balance": 2872
+        },
+        {
+            "holder_name": "ANNA ZAKHAROVA",
+            "number": "6816790",
+            "balance": 2830
+        },
+        {
+            "holder_name": "VLADISLAV POPOV",
+            "number": "7478760",
+            "balance": 1947
+        },
+        {
+            "holder_name": "KSENIIA VINOGRADOVA",
+            "number": "1864521",
+            "balance": 2011
+        },
+        {
+            "holder_name": "NATALIA ORLOVA",
+            "number": "3534225",
+            "balance": 1896
+        },
+        {
+            "holder_name": "KSENIIA SMIRNOVA",
+            "number": "9619854",
+            "balance": 1313
+        },
+        {
+            "holder_name": "ANNA SEMENOVA",
+            "number": "8326854",
+            "balance": 2081
+        },
+        {
+            "holder_name": "EVGENIIA KISELEVA",
+            "number": "4206589",
+            "balance": 2933
+        },
+        {
+            "holder_name": "NIKOLAI PETROV",
+            "number": "4665951",
+            "balance": 2694
+        },
+        {
+            "holder_name": "OLEG ZAKHAROV",
+            "number": "8120627",
+            "balance": 2949
+        },
+        {
+            "holder_name": "IULIIA IVANOVA",
+            "number": "8525679",
+            "balance": 2860
+        },
+        {
+            "holder_name": "EVGENIIA VINOGRADOVA",
+            "number": "4517591",
+            "balance": 2477
+        },
+        {
+            "holder_name": "LIUDMILA KOROLEVA",
+            "number": "7357819",
+            "balance": 1531
+        },
+        {
+            "holder_name": "MIKHAIL SEMENOV",
+            "number": "2885965",
+            "balance": 1943
+        },
+        {
+            "holder_name": "OLEG TITOV",
+            "number": "4339460",
+            "balance": 1398
+        },
+        {
+            "holder_name": "ANASTASIIA PAVLOVA",
+            "number": "7058227",
+            "balance": 1641
+        },
+        {
+            "holder_name": "ALEKSANDRA SEMENOVA",
+            "number": "6320696",
+            "balance": 2787
+        },
+        {
+            "holder_name": "ALEKSANDRA GUSEVA",
+            "number": "4081618",
+            "balance": 1798
+        },
+        {
+            "holder_name": "ANDREI KUZMIN",
+            "number": "5201856",
+            "balance": 1880
+        },
+        {
+            "holder_name": "DMITRII KOZLOV",
+            "number": "1729130",
+            "balance": 2077
+        },
+        {
+            "holder_name": "ANASTASIIA BELIAEVA",
+            "number": "2656074",
+            "balance": 2916
+        },
+        {
+            "holder_name": "IGOR KISELEV",
+            "number": "6151935",
+            "balance": 1312
+        },
+        {
+            "holder_name": "NIKITA KOZLOV",
+            "number": "1085114",
+            "balance": 1695
+        },
+        {
+            "holder_name": "NADEZHDA MIKHAILOVA",
+            "number": "9288396",
+            "balance": 2762
+        },
+        {
+            "holder_name": "LIUDMILA ILINA",
+            "number": "3655059",
+            "balance": 1304
+        },
+        {
+            "holder_name": "KSENIIA KOROLEVA",
+            "number": "7003631",
+            "balance": 1784
+        },
+        {
+            "holder_name": "VALENTINA BELOVA",
+            "number": "3547780",
+            "balance": 1798
+        },
+        {
+            "holder_name": "NATALIA SERGEEVA",
+            "number": "6079562",
+            "balance": 2338
+        },
+        {
+            "holder_name": "ANASTASIIA ROMANOVA",
+            "number": "2950413",
+            "balance": 1743
+        },
+        {
+            "holder_name": "KRISTINA TARASOVA",
+            "number": "7798032",
+            "balance": 2412
+        },
+        {
+            "holder_name": "ALEKSANDR VOLKOV",
+            "number": "6956768",
+            "balance": 2720
+        },
+        {
+            "holder_name": "ALENA SEMENOVA",
+            "number": "5675390",
+            "balance": 1614
+        },
+        {
+            "holder_name": "EVGENIIA ALEKSEEVA",
+            "number": "4614822",
+            "balance": 2242
+        },
+        {
+            "holder_name": "DMITRII VOLKOV",
+            "number": "4435528",
+            "balance": 1666
+        },
+        {
+            "holder_name": "ALEKSANDRA SMIRNOVA",
+            "number": "6539911",
+            "balance": 2626
+        },
+        {
+            "holder_name": "ANNA PONOMAREVA",
+            "number": "7149048",
+            "balance": 1137
+        },
+        {
+            "holder_name": "VITALII VASILEV",
+            "number": "4055382",
+            "balance": 1980
+        },
+        {
+            "holder_name": "ALINA VASILEVA",
+            "number": "4866765",
+            "balance": 1707
+        },
+        {
+            "holder_name": "IVAN KOROLEV",
+            "number": "1355638",
+            "balance": 1069
+        },
+        {
+            "holder_name": "PAVEL IAKOVLEV",
+            "number": "7721334",
+            "balance": 1673
+        },
+        {
+            "holder_name": "MARINA MIKHAILOVA",
+            "number": "2987393",
+            "balance": 1655
+        },
+        {
+            "holder_name": "DENIS KOROLEV",
+            "number": "8881318",
+            "balance": 2930
+        },
+        {
+            "holder_name": "ILIA KISELEV",
+            "number": "2238926",
+            "balance": 1150
+        },
+        {
+            "holder_name": "IRINA NOVIKOVA",
+            "number": "9345212",
+            "balance": 2186
+        },
+        {
+            "holder_name": "IGOR PONOMAREV",
+            "number": "1767284",
+            "balance": 1872
+        },
+        {
+            "holder_name": "DENIS FEDOROV",
+            "number": "5578386",
+            "balance": 1548
+        },
+        {
+            "holder_name": "ANTON FEDOROV",
+            "number": "6403440",
+            "balance": 2828
+        },
+        {
+            "holder_name": "TATIANA BARANOVA",
+            "number": "7087980",
+            "balance": 1659
+        },
+        {
+            "holder_name": "MARIIA STEPANOVA",
+            "number": "8660005",
+            "balance": 2347
+        },
+        {
+            "holder_name": "OLGA SOROKINA",
+            "number": "1605296",
+            "balance": 1708
+        },
+        {
+            "holder_name": "SVETLANA VOROBEVA",
+            "number": "7817110",
+            "balance": 2737
+        },
+        {
+            "holder_name": "IURII SEMENOV",
+            "number": "1316079",
+            "balance": 2262
+        },
+        {
+            "holder_name": "ANASTASIIA TARASOVA",
+            "number": "6757231",
+            "balance": 2021
+        },
+        {
+            "holder_name": "ALENA STEPANOVA",
+            "number": "7902225",
+            "balance": 1431
+        },
+        {
+            "holder_name": "ROMAN MOROZOV",
+            "number": "9604475",
+            "balance": 2024
+        },
+        {
+            "holder_name": "ALEKSANDRA SOROKINA",
+            "number": "9412291",
+            "balance": 2325
+        },
+        {
+            "holder_name": "OLGA MIKHAILOVA",
+            "number": "4905856",
+            "balance": 2216
+        },
+        {
+            "holder_name": "EVGENII SOKOLOV",
+            "number": "3152256",
+            "balance": 2822
+        },
+        {
+            "holder_name": "MIKHAIL IVANOV",
+            "number": "5491853",
+            "balance": 1662
+        },
+        {
+            "holder_name": "ALEKSANDR SERGEEV",
+            "number": "6856270",
+            "balance": 2959
+        },
+        {
+            "holder_name": "NIKITA SOKOLOV",
+            "number": "9950289",
+            "balance": 2234
+        },
+        {
+            "holder_name": "DENIS STEPANOV",
+            "number": "2448621",
+            "balance": 1382
+        },
+        {
+            "holder_name": "ALEKSEI PAVLOV",
+            "number": "2531660",
+            "balance": 1573
+        },
+        {
+            "holder_name": "ANASTASIIA POPOVA",
+            "number": "4565112",
+            "balance": 1475
+        },
+        {
+            "holder_name": "IULIIA ZAKHAROVA",
+            "number": "5884150",
+            "balance": 2048
+        },
+        {
+            "holder_name": "VLADIMIR VASILEV",
+            "number": "8071572",
+            "balance": 1199
+        },
+        {
+            "holder_name": "ANTON STEPANOV",
+            "number": "1714161",
+            "balance": 1613
+        },
+        {
+            "holder_name": "KONSTANTIN PETROV",
+            "number": "8939532",
+            "balance": 1027
+        },
+        {
+            "holder_name": "NATALIA PETROVA",
+            "number": "2938337",
+            "balance": 1906
+        },
+        {
+            "holder_name": "NATALIA VINOGRADOVA",
+            "number": "2069799",
+            "balance": 1683
+        },
+        {
+            "holder_name": "IVAN ORLOV",
+            "number": "6660866",
+            "balance": 1701
+        },
+        {
+            "holder_name": "OKSANA BOGDANOVA",
+            "number": "4925731",
+            "balance": 2562
+        },
+        {
+            "holder_name": "EVGENII NOVIKOV",
+            "number": "9951117",
+            "balance": 1612
+        },
+        {
+            "holder_name": "LIUDMILA IAKOVLEVA",
+            "number": "7899793",
+            "balance": 1851
+        },
+        {
+            "holder_name": "IURII PETROV",
+            "number": "4270943",
+            "balance": 1747
+        },
+        {
+            "holder_name": "DARIA MIKHAILOVA",
+            "number": "1718401",
+            "balance": 2485
+        },
+        {
+            "holder_name": "IRINA KUZNETSOVA",
+            "number": "3478179",
+            "balance": 2400
+        },
+        {
+            "holder_name": "VIKTOR BORISOV",
+            "number": "9674384",
+            "balance": 1575
+        },
+        {
+            "holder_name": "MARIIA VINOGRADOVA",
+            "number": "7806382",
+            "balance": 1144
+        },
+        {
+            "holder_name": "TATIANA ANDREEVA",
+            "number": "2138184",
+            "balance": 1747
+        },
+        {
+            "holder_name": "ARTEM VASILEV",
+            "number": "1279680",
+            "balance": 2284
+        },
+        {
+            "holder_name": "VITALII BARANOV",
+            "number": "5623492",
+            "balance": 2881
+        },
+        {
+            "holder_name": "ELENA KOVALEVA",
+            "number": "2454263",
+            "balance": 1008
+        },
+        {
+            "holder_name": "VLADIMIR KOVALEV",
+            "number": "7036912",
+            "balance": 1304
+        },
+        {
+            "holder_name": "VLADIMIR BORISOV",
+            "number": "3525718",
+            "balance": 1311
+        },
+        {
+            "holder_name": "MAKSIM VINOGRADOV",
+            "number": "2058739",
+            "balance": 2033
+        },
+        {
+            "holder_name": "ROMAN ROMANOV",
+            "number": "6449203",
+            "balance": 2629
+        },
+        {
+            "holder_name": "IURII BORISOV",
+            "number": "7431575",
+            "balance": 2528
+        },
+        {
+            "holder_name": "MARINA GOLUBEVA",
+            "number": "4210996",
+            "balance": 1854
+        },
+        {
+            "holder_name": "TATIANA BELIAEVA",
+            "number": "1941056",
+            "balance": 1291
+        },
+        {
+            "holder_name": "PAVEL LEBEDEV",
+            "number": "4287845",
+            "balance": 2487
+        },
+        {
+            "holder_name": "NATALIA BARANOVA",
+            "number": "4161285",
+            "balance": 1088
+        },
+        {
+            "holder_name": "MAKSIM BORISOV",
+            "number": "3389678",
+            "balance": 1673
+        },
+        {
+            "holder_name": "GALINA GRIGOREVA",
+            "number": "5819506",
+            "balance": 1060
+        },
+        {
+            "holder_name": "MARIIA KOVALEVA",
+            "number": "7726398",
+            "balance": 1564
+        },
+        {
+            "holder_name": "VITALII GUSEV",
+            "number": "8273828",
+            "balance": 2722
+        },
+        {
+            "holder_name": "ANNA LEBEDEVA",
+            "number": "3891078",
+            "balance": 1259
+        }
+    ]
+}
