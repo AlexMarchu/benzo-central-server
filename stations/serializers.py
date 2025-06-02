@@ -37,3 +37,19 @@ class GasStationSerializer(serializers.ModelSerializer):
     class Meta:
         model = GasStation
         fields = ['id', 'address', 'stations']
+
+class GasStationListSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = GasStation
+        fields = ['id', 'address']
+
+class StationStatusSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Station
+        fields = ['id', 'status']
+
+class FuelInfoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Fuel
+        fields = ['fuel_type', 'price', 'amount']
+        
