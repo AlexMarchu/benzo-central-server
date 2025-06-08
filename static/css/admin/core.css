@@ -1,0 +1,231 @@
+:root {
+  --md-sys-color-primary: rgb(167 58 0);
+  --md-sys-color-surface-tint: rgb(167 58 0);
+  --md-sys-color-on-primary: rgb(255 255 255);
+  --md-sys-color-primary-container: rgb(255 119 61);
+  --md-sys-color-on-primary-container: rgb(100 32 0);
+  --md-sys-color-secondary: rgb(147 75 0);
+  --md-sys-color-on-secondary: rgb(255 255 255);
+  --md-sys-color-secondary-container: rgb(241 145 67);
+  --md-sys-color-on-secondary-container: rgb(98 48 0);
+  --md-sys-color-tertiary: rgb(124 88 0);
+  --md-sys-color-on-tertiary: rgb(255 255 255);
+  --md-sys-color-tertiary-container: rgb(250 188 60);
+  --md-sys-color-on-tertiary-container: rgb(109 77 0);
+  --md-sys-color-error: rgb(186 26 26);
+  --md-sys-color-on-error: rgb(255 255 255);
+  --md-sys-color-error-container: rgb(255 218 214);
+  --md-sys-color-on-error-container: rgb(147 0 10);
+  --md-sys-color-background: rgb(255 248 246);
+  --md-sys-color-on-background: rgb(37 25 20);
+  --md-sys-color-surface: rgb(255 248 246);
+  --md-sys-color-on-surface: rgb(37 25 20);
+  --md-sys-color-surface-variant: rgb(253 219 208);
+  --md-sys-color-on-surface-variant: rgb(88 66 57);
+  --md-sys-color-outline: rgb(140 113 104);
+  --md-sys-color-outline-variant: rgb(224 192 180);
+  --md-sys-color-shadow: rgb(0 0 0);
+  --md-sys-color-scrim: rgb(0 0 0);
+  --md-sys-color-inverse-surface: rgb(59 45 40);
+  --md-sys-color-inverse-on-surface: rgb(255 237 231);
+  --md-sys-color-inverse-primary: rgb(255 181 153);
+  --md-sys-color-primary-fixed: rgb(255 219 206);
+  --md-sys-color-on-primary-fixed: rgb(55 14 0);
+  --md-sys-color-primary-fixed-dim: rgb(255 181 153);
+  --md-sys-color-on-primary-fixed-variant: rgb(127 43 0);
+  --md-sys-color-secondary-fixed: rgb(255 220 197);
+  --md-sys-color-on-secondary-fixed: rgb(48 20 0);
+  --md-sys-color-secondary-fixed-dim: rgb(255 183 130);
+  --md-sys-color-on-secondary-fixed-variant: rgb(112 56 0);
+  --md-sys-color-tertiary-fixed: rgb(255 222 167);
+  --md-sys-color-on-tertiary-fixed: rgb(39 25 0);
+  --md-sys-color-tertiary-fixed-dim: rgb(250 188 60);
+  --md-sys-color-on-tertiary-fixed-variant: rgb(94 66 0);
+  --md-sys-color-surface-dim: rgb(236 213 205);
+  --md-sys-color-surface-bright: rgb(255 248 246);
+  --md-sys-color-surface-container-lowest: rgb(255 255 255);
+  --md-sys-color-surface-container-low: rgb(255 241 236);
+  --md-sys-color-surface-container: rgb(255 233 226);
+  --md-sys-color-surface-container-high: rgb(251 227 219);
+  --md-sys-color-surface-container-highest: rgb(245 222 214);
+}
+
+[data-theme="dark"] {
+ --md-sys-color-primary: rgb(255 211 195);
+  --md-sys-color-surface-tint: rgb(255 181 153);
+  --md-sys-color-on-primary: rgb(72 20 0);
+  --md-sys-color-primary-container: rgb(255 119 61);
+  --md-sys-color-on-primary-container: rgb(41 8 0);
+  --md-sys-color-secondary: rgb(255 212 183);
+  --md-sys-color-on-secondary: rgb(63 28 0);
+  --md-sys-color-secondary-container: rgb(241 145 67);
+  --md-sys-color-on-secondary-container: rgb(51 22 0);
+  --md-sys-color-tertiary: rgb(255 222 167);
+  --md-sys-color-on-tertiary: rgb(57 39 0);
+  --md-sys-color-tertiary-container: rgb(250 188 60);
+  --md-sys-color-on-tertiary-container: rgb(73 50 0);
+  --md-sys-color-error: rgb(255 210 204);
+  --md-sys-color-on-error: rgb(84 0 3);
+  --md-sys-color-error-container: rgb(255 84 73);
+  --md-sys-color-on-error-container: rgb(0 0 0);
+  --md-sys-color-background: rgb(28 17 12);
+  --md-sys-color-on-background: rgb(245 222 214);
+  --md-sys-color-surface: rgb(28 17 12);
+  --md-sys-color-on-surface: rgb(255 255 255);
+  --md-sys-color-surface-variant: rgb(88 66 57);
+  --md-sys-color-on-surface-variant: rgb(247 213 202);
+  --md-sys-color-outline: rgb(202 171 160);
+  --md-sys-color-outline-variant: rgb(167 138 128);
+  --md-sys-color-shadow: rgb(0 0 0);
+  --md-sys-color-scrim: rgb(0 0 0);
+  --md-sys-color-inverse-surface: rgb(245 222 214);
+  --md-sys-color-inverse-on-surface: rgb(52 39 34);
+  --md-sys-color-inverse-primary: rgb(129 43 0);
+  --md-sys-color-primary-fixed: rgb(255 219 206);
+  --md-sys-color-on-primary-fixed: rgb(38 7 0);
+  --md-sys-color-primary-fixed-dim: rgb(255 181 153);
+  --md-sys-color-on-primary-fixed-variant: rgb(100 31 0);
+  --md-sys-color-secondary-fixed: rgb(255 220 197);
+  --md-sys-color-on-secondary-fixed: rgb(32 12 0);
+  --md-sys-color-secondary-fixed-dim: rgb(255 183 130);
+  --md-sys-color-on-secondary-fixed-variant: rgb(87 42 0);
+  --md-sys-color-tertiary-fixed: rgb(255 222 167);
+  --md-sys-color-on-tertiary-fixed: rgb(26 15 0);
+  --md-sys-color-tertiary-fixed-dim: rgb(250 188 60);
+  --md-sys-color-on-tertiary-fixed-variant: rgb(73 50 0);
+  --md-sys-color-surface-dim: rgb(28 17 12);
+  --md-sys-color-surface-bright: rgb(80 65 60);
+  --md-sys-color-surface-container-lowest: rgb(14 5 3);
+  --md-sys-color-surface-container-low: rgb(39 27 22);
+  --md-sys-color-surface-container: rgb(50 37 32);
+  --md-sys-color-surface-container-high: rgb(62 47 42);
+  --md-sys-color-surface-container-highest: rgb(73 58 53);
+}
+
+#header {
+  background-color: var(--md-sys-color-primary-container) !important;
+  color: var(--md-sys-color-on-primary) !important;
+}
+
+#header a:link, a:visited {
+  color: white !important;
+}
+
+#header a:hover {
+  color: white !important;
+}
+
+#header button.theme-toggle {
+    background: var(--md-sys-color-primary-container) !important;
+}
+
+#branding h1 {
+  color: var(--md-sys-color-on-primary) !important;
+}
+
+button.theme-toggle {
+  /* display: none; */
+  background-color: var(--md-sys-color-primary-container) !important;
+  color: var(--md-sys-color-on-primary) !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+button.theme-toggle:hover {
+  background-color: var(--md-sys-color-primary) !important;
+  color: var(--md-sys-color-on-primary) !important;
+}
+
+button.theme-toggle svg {
+  fill: var(--md-sys-color-on-primary) !important;
+  stroke: var(--md-sys-color-on-primary) !important;
+}
+
+.module h2, .module caption, .inline-group h2 {
+  background-color: var(--md-sys-color-secondary-container) !important;
+  color: var(--md-sys-color-on-secondary) !important;
+}
+
+.object-tools a:link, a:visited {
+    color: var(--md-sys-color-primary) !important;
+}
+
+a:link, a:visited {
+  color: var(--md-sys-color-primary) !important;
+}
+
+a:hover {
+  color: var(--md-sys-color-primary-container) !important;
+}
+
+a.deletelink {
+    background-color: var(--md-sys-color-error) !important;  
+    color: var(--md-sys-color-on-error) !important;         
+    padding: 8px 15px !important;
+    border-radius: 4px !important;
+    transition: background-color 0.25s ease-out !important;
+}
+
+input[type="submit"][value="Удалить"] {
+    background-color: var(--md-sys-color-error) !important;
+    color: var(--md-sys-color-on-error) !important;
+}
+
+a.deletelink:hover,
+input[type="submit"][value="Удалить"]:hover {
+    background-color: color-mix(in srgb, var(--md-sys-color-error) 85%, black 15%) !important;
+    color: var(--md-sys-color-on-error) !important;
+}
+
+.button, input[type="submit"], input[type="button"], .submit-row input {
+  background-color: var(--md-sys-color-tertiary-container) !important;
+  color: var(--md-sys-color-on-tertiary) !important;
+}
+
+body {
+  background-color: var(--md-sys-color-background) !important;
+  color: var(--md-sys-color-on-background) !important;
+}
+
+div.breadcrumbs {
+  background-color: var(--md-sys-color-secondary-container) !important;
+  color: var(--md-sys-color-on-secondary) !important;
+}
+
+.button, 
+input[type="submit"], 
+input[type="button"], 
+.submit-row input,
+a.button {
+    background-color: var(--md-sys-color-tertiary-container) !important;
+    color: var(--md-sys-color-on-tertiary) !important;
+    transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.button:hover, 
+input[type="submit"]:hover, 
+input[type="button"]:hover, 
+.submit-row input:hover,
+a.button:hover {
+    background-color: color-mix(in srgb, var(--md-sys-color-tertiary-container) 90%, var(--md-sys-color-tertiary) 10%) !important;
+}
+
+.object-tools a:link, 
+.object-tools a:visited {
+    background-color: var(--md-sys-color-secondary-container) !important;
+    color: var(--md-sys-color-on-secondary) !important;
+    transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.object-tools a:hover {
+    background-color: color-mix(in srgb, var(--md-sys-color-secondary-container) 90%, var(--md-sys-color-secondary) 10%) !important;
+}
+
+#header button.theme-toggle {
+    background: var(--md-sys-color-primary-container) !important;
+    transition: background 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+#header button.theme-toggle:hover {
+    background: color-mix(in srgb, var(--md-sys-color-primary-container) 90%, var(--md-sys-color-primary) 10%) !important;
+}

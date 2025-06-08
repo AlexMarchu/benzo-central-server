@@ -1,0 +1,12 @@
+{% extends "admin/base.html" %}
+{% load static %}
+
+{% block title %}{{ title }} | BENZO Admin{% endblock %}
+
+{% block extrahead %}
+    <link rel="icon" href="{% static 'images/logo2.svg' %}" type="image/svg+xml">
+{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">BENZO Administration</a></h1>
+{% endblock %}
