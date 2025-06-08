@@ -16,6 +16,13 @@ class UserRegisterSerializer(serializers.ModelSerializer):
         if User.objects.filter(username=value).exists():
             raise serializers.ValidationError('Login is taken')
         return value
+    
+    def generate_loyalty_card_number(self):
+        import random
+        while True:
+            card_number = f'{random.randint(1, 9)}{''.join(random.randint(0, 9) for _ in range(6))}'
+            if not LoyaltyCard.objects.filter(number=card_number).exists():
+                return card_number
 
 class UserLoginSerializer(serializers.Serializer):
     login = serializers.CharField(source='username')
@@ -30,20 +37,22 @@ class UserLoginSerializer(serializers.Serializer):
 class UserDetailSerializer(serializers.ModelSerializer):
     login = serializers.CharField(source='username')
     name = serializers.CharField(source='first_name', allow_null=True)
+    phone_number = serializers.CharField(source='phone', allow_null=True)
     birth_date = serializers.DateField(format='%Y-%m-%d', allow_null=True)  # (YYYY-MM-DD)
 
     class Meta:
         model = User
-        fields = ('login', 'name', 'birth_date', 'car_number', 'penalty')
+        fields = ('login', 'name', 'birth_date', 'car_number', 'phone_number', 'email', 'gender', 'penalty')
 
 class UserUpdateSerializer(serializers.ModelSerializer):
     login = serializers.CharField(source='username', required=False)
     name = serializers.CharField(source='first_name', required=False)
+    phone_number = serializers.CharField(source='phone', allow_null=True)
     birth_date = serializers.DateField(format='%Y-%m-%d', required=False, allow_null=True)
 
     class Meta:
         model = User
-        fields = ('login', 'password', 'name', 'birth_date', 'car_number')
+        fields = ('login', 'password', 'name', 'birth_date', 'car_number', 'phone_number', 'email', 'gender')
         extra_kwargs = {
             'password': {'write_only': True, 'required': False},
         }

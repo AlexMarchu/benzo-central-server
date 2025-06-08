@@ -4,1471 +4,2207 @@
     "password": "l3VG1EDVmDNY",
     "first_name": "Ekaterina",
     "last_name": "Baranova",
+    "email": "ekaterina.baranova745@hotmail.com",
     "car_number": "ТНТ785731",
-    "loyalty_card_number": "8961436"
+    "loyalty_card_number": "8961436",
+    "phone": "+79842770297",
+    "gender": "F",
+    "birth_date": "1988-04-06"
   },
   {
     "username": "galinabeliaeva",
-    "password": "F9kWES46Ca66",
+    "password": "9FvG2p730URG",
     "first_name": "Galina",
     "last_name": "Beliaeva",
-    "car_number": "715Т45858",
-    "loyalty_card_number": "9804031"
+    "email": "galina.beliaeva721@outlook.com",
+    "car_number": "ОС351262",
+    "loyalty_card_number": "9804031",
+    "phone": "+79944564972",
+    "gender": "F",
+    "birth_date": "1967-07-29"
   },
   {
     "username": "nikitakiselev",
-    "password": "Y4UK81v9FvG2",
+    "password": "l8mMW4p7nsyc",
     "first_name": "Nikita",
     "last_name": "Kiselev",
-    "car_number": "ТХУ523120",
-    "loyalty_card_number": "6365463"
+    "email": "nikita.kiselev@yandex.ru",
+    "car_number": "0470К45",
+    "loyalty_card_number": "6365463",
+    "phone": "+79234776466",
+    "gender": "M",
+    "birth_date": "1982-08-15"
   },
   {
     "username": "maksimfedorov",
-    "password": "AZWInAl2rvVA",
+    "password": "5jzKxDjoia6b",
     "first_name": "Maksim",
     "last_name": "Fedorov",
-    "car_number": "ТР954Е94",
-    "loyalty_card_number": "4008653"
+    "email": "maksim.fedorov767@mail.ru",
+    "car_number": "М505ВР468",
+    "loyalty_card_number": "4008653",
+    "phone": "+79244193933",
+    "gender": "M",
+    "birth_date": "1978-10-24"
   },
   {
     "username": "marinafedorova",
-    "password": "4YxLLTDS0LJh",
+    "password": "28rh0lP0mcbA",
     "first_name": "Marina",
     "last_name": "Fedorova",
-    "car_number": "968К62040",
-    "loyalty_card_number": "9691797"
+    "email": "marina.fedorova661@outlook.com",
+    "car_number": "ТСА75311",
+    "loyalty_card_number": "9691797",
+    "phone": "+79143209064",
+    "gender": "F",
+    "birth_date": "1990-06-30"
   },
   {
     "username": "oksanakovaleva",
-    "password": "7nsycDUbnrMt",
+    "password": "t3TMNOOzc5GC",
     "first_name": "Oksana",
     "last_name": "Kovaleva",
-    "car_number": "7541О49",
-    "loyalty_card_number": "3900541"
+    "email": "oksana.kovaleva@gmail.com",
+    "car_number": "ХА328949",
+    "loyalty_card_number": "3900541",
+    "phone": "+79941659807",
+    "gender": "M",
+    "birth_date": "1999-12-04"
   },
   {
     "username": "iuliiastepanova",
-    "password": "yA5kj5iZ8Tr5",
+    "password": "ZfmRU2zIOig0",
     "first_name": "Iuliia",
     "last_name": "Stepanova",
-    "car_number": "401Т37968",
-    "loyalty_card_number": "7111976"
+    "email": "iuliia.stepanova@yandex.ru",
+    "car_number": "ТКС34659",
+    "loyalty_card_number": "7111976",
+    "phone": "+79243550574",
+    "gender": "F",
+    "birth_date": "2001-01-07"
   },
   {
     "username": "tatianavasileva",
-    "password": "joia6b6XSd0s",
+    "password": "K7VEM2AfG1ms",
     "first_name": "Tatiana",
     "last_name": "Vasileva",
-    "car_number": "1210Р67",
-    "loyalty_card_number": "5394469"
+    "email": "tatiana.vasileva59@yandex.ru",
+    "car_number": "ХВ200О89",
+    "loyalty_card_number": "5394469",
+    "phone": "+79047680620",
+    "gender": "M",
+    "birth_date": "1989-02-11"
   },
   {
     "username": "vladimirmikhailov",
-    "password": "Oq0g0MoNpmVV",
+    "password": "eUXAe9zfynE2",
     "first_name": "Vladimir",
     "last_name": "Mikhailov",
-    "car_number": "У033ХН717",
-    "loyalty_card_number": "5164683"
+    "email": "vladimir.mikhailov245@yandex.ru",
+    "car_number": "8133О99",
+    "loyalty_card_number": "5164683",
+    "phone": "+79241750027",
+    "gender": "F",
+    "birth_date": "1979-11-02"
   },
   {
     "username": "igorstepanov",
-    "password": "0p28rh0lP0mc",
+    "password": "4CDoFYItcXt0",
     "first_name": "Igor",
     "last_name": "Stepanov",
-    "car_number": "О206СА762",
-    "loyalty_card_number": "2019799"
+    "email": "igor.stepanov937@mail.ru",
+    "car_number": "ТЕВ703749",
+    "loyalty_card_number": "2019799",
+    "phone": "+79942149224",
+    "gender": "M",
+    "birth_date": "1995-03-28"
   },
   {
     "username": "olegandreev",
-    "password": "at1PnjSd5ZK9",
+    "password": "zVIE2ZPaf2NS",
     "first_name": "Oleg",
     "last_name": "Andreev",
-    "car_number": "О312ОС428",
-    "loyalty_card_number": "2033248"
+    "email": "oleg.andreev358@mail.ru",
+    "car_number": "ТУК114294",
+    "loyalty_card_number": "2033248",
+    "phone": "+79940452328",
+    "gender": "F",
+    "birth_date": "1959-02-16"
   },
   {
     "username": "vladimirgolubev",
-    "password": "PFxt3TMNOOzc",
+    "password": "zDDeRVc5LMHz",
     "first_name": "Vladimir",
     "last_name": "Golubev",
-    "car_number": "РВ048235",
-    "loyalty_card_number": "9950063"
+    "email": "vladimir.golubev673@gmail.com",
+    "car_number": "5046Н60",
+    "loyalty_card_number": "9950063",
+    "phone": "+79949325768",
+    "gender": "M",
+    "birth_date": "1973-02-12"
   },
   {
     "username": "ivankozlov",
-    "password": "tnhUBwWUMHbD",
+    "password": "WPFor0sa4eES",
     "first_name": "Ivan",
     "last_name": "Kozlov",
-    "car_number": "АВ64178",
-    "loyalty_card_number": "7980002"
+    "email": "ivan.kozlov321@hotmail.com",
+    "car_number": "ОЕ606270",
+    "loyalty_card_number": "7980002",
+    "phone": "+79246156973",
+    "gender": "F",
+    "birth_date": "1970-09-03"
   },
   {
     "username": "romanmakarov",
-    "password": "EZfmRU2zIOig",
+    "password": "UQdiqVCnhfWm",
     "first_name": "Roman",
     "last_name": "Makarov",
-    "car_number": "ТКС34659",
-    "loyalty_card_number": "1899259"
+    "email": "roman.makarov135@mail.ru",
+    "car_number": "847Н83498",
+    "loyalty_card_number": "1899259",
+    "phone": "+79949453356",
+    "gender": "F",
+    "birth_date": "1981-01-24"
   },
   {
     "username": "olgazakharova",
-    "password": "Qn5uxbuCsvhC",
+    "password": "SvFXSMtL0HJt",
     "first_name": "Olga",
     "last_name": "Zakharova",
-    "car_number": "9832О20",
-    "loyalty_card_number": "8912005"
+    "email": "olga.zakharova183@outlook.com",
+    "car_number": "ТЕР055574",
+    "loyalty_card_number": "8912005",
+    "phone": "+79244718848",
+    "gender": "M",
+    "birth_date": "2006-05-18"
   },
   {
     "username": "liudmilastepanova",
-    "password": "G1ms3q59Shmy",
+    "password": "d1CHhpk4OQiA",
     "first_name": "Liudmila",
     "last_name": "Stepanova",
-    "car_number": "ВР407578",
-    "loyalty_card_number": "5363230"
+    "email": "liudmila.stepanova860@yandex.ru",
+    "car_number": "381К80",
+    "loyalty_card_number": "5363230",
+    "phone": "+79241136558",
+    "gender": "M",
+    "birth_date": "1986-07-31"
   },
   {
     "username": "konstantintitov",
-    "password": "bBYZicaO3dQk",
+    "password": "K2n0N4VcD7Fd",
     "first_name": "Konstantin",
     "last_name": "Titov",
-    "car_number": "В684819",
-    "loyalty_card_number": "3973845"
+    "email": "konstantin.titov521@mail.ru",
+    "car_number": "УН318505",
+    "loyalty_card_number": "3973845",
+    "phone": "+79246257995",
+    "gender": "M",
+    "birth_date": "1986-06-16"
   },
   {
     "username": "mikhailmikhailov",
-    "password": "9zfynE2DFySS",
+    "password": "ThQs16jSTIDh",
     "first_name": "Mikhail",
     "last_name": "Mikhailov",
-    "car_number": "РН054499",
-    "loyalty_card_number": "1225570"
+    "email": "mikhail.mikhailov@outlook.com",
+    "car_number": "ЕХ341К82",
+    "loyalty_card_number": "1225570",
+    "phone": "+79942199301",
+    "gender": "M",
+    "birth_date": "1990-03-24"
   },
   {
     "username": "svetlanakuznetsova",
-    "password": "3cj82EWWxRqp",
+    "password": "ddd7UVWor0Ol",
     "first_name": "Svetlana",
     "last_name": "Kuznetsova",
-    "car_number": "ТКР473248",
-    "loyalty_card_number": "3746594"
+    "email": "svetlana.kuznetsova@hotmail.com",
+    "car_number": "КМ125581",
+    "loyalty_card_number": "3746594",
+    "phone": "+79840009651",
+    "gender": "F",
+    "birth_date": "2006-01-21"
   },
   {
     "username": "nikitanovikov",
-    "password": "FYItcXt03Pig",
+    "password": "dgcsdog7cFdb",
     "first_name": "Nikita",
     "last_name": "Novikov",
-    "car_number": "ТХК190826",
-    "loyalty_card_number": "3614984"
+    "email": "nikita.novikov@gmail.com",
+    "car_number": "993Р44",
+    "loyalty_card_number": "3614984",
+    "phone": "+79144430808",
+    "gender": "F",
+    "birth_date": "2003-09-14"
   },
   {
     "username": "mikhailpetrov",
-    "password": "gUsNilPqKhGr",
+    "password": "7Vn9VfbUa8bK",
     "first_name": "Mikhail",
     "last_name": "Petrov",
-    "car_number": "ТНО411773",
-    "loyalty_card_number": "7569194"
+    "email": "mikhail.petrov@yandex.ru",
+    "car_number": "К768585",
+    "loyalty_card_number": "7569194",
+    "phone": "+79947819991",
+    "gender": "F",
+    "birth_date": "1998-06-15"
   },
   {
     "username": "vladimirvinogradov",
-    "password": "IE2ZPaf2NS9T",
+    "password": "23bEkFiBUPnW",
     "first_name": "Vladimir",
     "last_name": "Vinogradov",
-    "car_number": "ТУК114294",
-    "loyalty_card_number": "9368333"
+    "email": "vladimir.vinogradov581@gmail.com",
+    "car_number": "ВУ238745",
+    "loyalty_card_number": "9368333",
+    "phone": "+79841134870",
+    "gender": "F",
+    "birth_date": "1978-06-05"
   },
   {
     "username": "olegkudriavtsev",
-    "password": "Xj1arwinQkGR",
+    "password": "0S0rsDsjMuN9",
     "first_name": "Oleg",
     "last_name": "Kudriavtsev",
-    "car_number": "СТ592264",
-    "loyalty_card_number": "2465731"
+    "email": "oleg.kudriavtsev629@outlook.com",
+    "car_number": "К196ТХ746",
+    "loyalty_card_number": "2465731",
+    "phone": "+79048192366",
+    "gender": "M",
+    "birth_date": "2004-11-18"
   },
   {
     "username": "alenaivanova",
-    "password": "swwLbzDDeRVc",
+    "password": "oZ792eM8hOmh",
     "first_name": "Alena",
     "last_name": "Ivanova",
-    "car_number": "ТС408496",
-    "loyalty_card_number": "5363806"
+    "email": "alena.ivanova974@gmail.com",
+    "car_number": "ЕА782Т26",
+    "loyalty_card_number": "5363806",
+    "phone": "+79232716008",
+    "gender": "M",
+    "birth_date": "1992-08-25"
   },
   {
     "username": "evgeniibogdanov",
-    "password": "UtuzkL55oPlv",
+    "password": "Vpv9vBvbyR8n",
     "first_name": "Evgenii",
     "last_name": "Bogdanov",
-    "car_number": "6332С96",
-    "loyalty_card_number": "3531324"
+    "email": "evgenii.bogdanov907@outlook.com",
+    "car_number": "Т084623",
+    "loyalty_card_number": "3531324",
+    "phone": "+79243876382",
+    "gender": "F",
+    "birth_date": "1962-08-15"
   },
   {
     "username": "valentinavasileva",
-    "password": "4hJ5QalWPFor",
+    "password": "3dxubDpeOFkA",
     "first_name": "Valentina",
     "last_name": "Vasileva",
-    "car_number": "АВ491Х77",
-    "loyalty_card_number": "8749929"
+    "email": "valentina.vasileva199@yandex.ru",
+    "car_number": "ТСО259816",
+    "loyalty_card_number": "8749929",
+    "phone": "+79245232592",
+    "gender": "F",
+    "birth_date": "2002-10-14"
   },
   {
     "username": "oksanasokolova",
-    "password": "YX97Akx6UEWV",
+    "password": "693efPnsj1za",
     "first_name": "Oksana",
     "last_name": "Sokolova",
-    "car_number": "ТХО94788",
-    "loyalty_card_number": "1575669"
+    "email": "oksana.sokolova@yandex.ru",
+    "car_number": "СС529О57",
+    "loyalty_card_number": "1575669",
+    "phone": "+79843094915",
+    "gender": "M",
+    "birth_date": "1962-01-07"
   },
   {
     "username": "iliaivanov",
-    "password": "4uyMFm4I8w2C",
+    "password": "adoeqhTTsY48",
     "first_name": "Ilia",
     "last_name": "Ivanov",
-    "car_number": "С240994",
-    "loyalty_card_number": "8148851"
+    "email": "ilia.ivanov524@outlook.com",
+    "car_number": "8377Т68",
+    "loyalty_card_number": "8148851",
+    "phone": "+79948638795",
+    "gender": "F",
+    "birth_date": "1988-04-01"
   },
   {
     "username": "iliafedorov",
-    "password": "diqVCnhfWmj0",
+    "password": "FJP6hfFfmKzv",
     "first_name": "Ilia",
     "last_name": "Fedorov",
-    "car_number": "Х273782",
-    "loyalty_card_number": "1361350"
+    "email": "ilia.fedorov@outlook.com",
+    "car_number": "8504Р27",
+    "loyalty_card_number": "1361350",
+    "phone": "+79842144914",
+    "gender": "F",
+    "birth_date": "1986-07-27"
   },
   {
     "username": "iuriibaranov",
-    "password": "summuOB4PsNl",
+    "password": "7r5bgsm963sp",
     "first_name": "Iurii",
     "last_name": "Baranov",
-    "car_number": "277М71153",
-    "loyalty_card_number": "5150897"
+    "email": "iurii.baranov@outlook.com",
+    "car_number": "ТТ222437",
+    "loyalty_card_number": "5150897",
+    "phone": "+79246993574",
+    "gender": "M",
+    "birth_date": "1987-04-23"
   },
   {
     "username": "alenaromanova",
-    "password": "FXSMtL0HJtRZ",
+    "password": "S0Q1WnKy3EcY",
     "first_name": "Alena",
     "last_name": "Romanova",
-    "car_number": "РУ714В74",
-    "loyalty_card_number": "6539539"
+    "email": "alena.romanova833@yandex.ru",
+    "car_number": "ОЕ087743",
+    "loyalty_card_number": "6539539",
+    "phone": "+79143580934",
+    "gender": "M",
+    "birth_date": "2006-07-25"
   },
   {
     "username": "alenailina",
-    "password": "HrJT99jSclyQ",
+    "password": "nuqmaXvdR0F7",
     "first_name": "Alena",
     "last_name": "Ilina",
-    "car_number": "ТС060860",
-    "loyalty_card_number": "9322787"
+    "email": "alena.ilina564@outlook.com",
+    "car_number": "020Т87774",
+    "loyalty_card_number": "9322787",
+    "phone": "+79144823016",
+    "gender": "M",
+    "birth_date": "1990-03-29"
   },
   {
     "username": "evgeniiapavlova",
-    "password": "CHhpk4OQiAAx",
+    "password": "wQdkhD4MQECj",
     "first_name": "Evgeniia",
     "last_name": "Pavlova",
-    "car_number": "ТСХ833120",
-    "loyalty_card_number": "4954928"
+    "email": "evgeniia.pavlova@mail.ru",
+    "car_number": "РМ035187",
+    "loyalty_card_number": "4954928",
+    "phone": "+79943277427",
+    "gender": "F",
+    "birth_date": "1990-05-16"
   },
   {
     "username": "annabeliaeva",
-    "password": "Ze4WpRV4UZ2z",
+    "password": "25L12koDmXbE",
     "first_name": "Anna",
     "last_name": "Beliaeva",
-    "car_number": "Н892313",
-    "loyalty_card_number": "2905002"
+    "email": "anna.beliaeva249@hotmail.com",
+    "car_number": "ТАМ38771",
+    "loyalty_card_number": "2905002",
+    "phone": "+79847966261",
+    "gender": "F",
+    "birth_date": "1982-03-20"
   },
   {
     "username": "mikhailgerasimov",
-    "password": "Uz1oX7uK2n0N",
+    "password": "fBOUDmHaHaUq",
     "first_name": "Mikhail",
     "last_name": "Gerasimov",
-    "car_number": "Р958РА621",
-    "loyalty_card_number": "3331441"
+    "email": "mikhail.gerasimov@hotmail.com",
+    "car_number": "АМ749219",
+    "loyalty_card_number": "3331441",
+    "phone": "+79230861011",
+    "gender": "M",
+    "birth_date": "1965-07-21"
   },
   {
     "username": "nikitagolubev",
-    "password": "RutESyUiwCKK",
+    "password": "pwp0gzsTOEdm",
     "first_name": "Nikita",
     "last_name": "Golubev",
-    "car_number": "Е530975",
-    "loyalty_card_number": "4646726"
+    "email": "nikita.golubev969@gmail.com",
+    "car_number": "МР939582",
+    "loyalty_card_number": "4646726",
+    "phone": "+79042840114",
+    "gender": "M",
+    "birth_date": "1962-01-09"
   },
   {
     "username": "konstantingusev",
-    "password": "YW3wuThQs16j",
+    "password": "9oeB5IgH2j8U",
     "first_name": "Konstantin",
     "last_name": "Gusev",
-    "car_number": "РВ498832",
-    "loyalty_card_number": "5805543"
+    "email": "konstantin.gusev689@yandex.ru",
+    "car_number": "021Е56",
+    "loyalty_card_number": "5805543",
+    "phone": "+79247455647",
+    "gender": "M",
+    "birth_date": "1957-12-12"
   },
   {
     "username": "iuliiakovaleva",
-    "password": "Tvm6KmkXXWeK",
+    "password": "7ltvi8pbCoFn",
     "first_name": "Iuliia",
     "last_name": "Kovaleva",
-    "car_number": "ТТХ821219",
-    "loyalty_card_number": "9443417"
+    "email": "iuliia.kovaleva@hotmail.com",
+    "car_number": "3266Т96",
+    "loyalty_card_number": "9443417",
+    "phone": "+79144498945",
+    "gender": "M",
+    "birth_date": "2000-08-07"
   },
   {
     "username": "mariiaguseva",
-    "password": "QahkorExddd7",
+    "password": "R1iWRPf71a0n",
     "first_name": "Mariia",
     "last_name": "Guseva",
-    "car_number": "ТМУ187563",
-    "loyalty_card_number": "9041195"
+    "email": "mariia.guseva143@mail.ru",
+    "car_number": "А589ЕР409",
+    "loyalty_card_number": "9041195",
+    "phone": "+79238583372",
+    "gender": "F",
+    "birth_date": "1996-03-23"
   },
   {
     "username": "iliazakharov",
-    "password": "mr8W67eJzddc",
+    "password": "m8oLkvPWRp7x",
     "first_name": "Ilia",
     "last_name": "Zakharov",
-    "car_number": "ОН110409",
-    "loyalty_card_number": "9970227"
+    "email": "ilia.zakharov639@outlook.com",
+    "car_number": "УН802978",
+    "loyalty_card_number": "9970227",
+    "phone": "+79041675712",
+    "gender": "F",
+    "birth_date": "2003-10-01"
   },
   {
     "username": "viktoriiasorokina",
-    "password": "dRIIdgcsdog7",
+    "password": "r1bJOsotLcLm",
     "first_name": "Viktoriia",
     "last_name": "Sorokina",
-    "car_number": "Р057АО500",
-    "loyalty_card_number": "1463217"
+    "email": "viktoriia.sorokina132@outlook.com",
+    "car_number": "ТТА068149",
+    "loyalty_card_number": "1463217",
+    "phone": "+79844736851",
+    "gender": "M",
+    "birth_date": "1977-01-03"
   },
   {
     "username": "andreismirnov",
-    "password": "rttrpaGaGEky",
+    "password": "h1Re6MngRaGx",
     "first_name": "Andrei",
     "last_name": "Smirnov",
-    "car_number": "СХ348521",
-    "loyalty_card_number": "1074444"
+    "email": "andrei.smirnov@hotmail.com",
+    "car_number": "609Н21898",
+    "loyalty_card_number": "1074444",
+    "phone": "+79239545237",
+    "gender": "M",
+    "birth_date": "1985-02-11"
   },
   {
     "username": "sergeizakharov",
-    "password": "bUa8bK1v8n4V",
+    "password": "Og7ZIoRjwzUi",
     "first_name": "Sergei",
     "last_name": "Zakharov",
-    "car_number": "9678Е69",
-    "loyalty_card_number": "9920290"
+    "email": "sergei.zakharov762@outlook.com",
+    "car_number": "ТРМ412961",
+    "loyalty_card_number": "9920290",
+    "phone": "+79231208796",
+    "gender": "F",
+    "birth_date": "1980-02-12"
   },
   {
     "username": "evgeniiakomarova",
-    "password": "IhYMMN9htaCp",
+    "password": "CkNQjgr840J0",
     "first_name": "Evgeniia",
     "last_name": "Komarova",
-    "car_number": "0438Р30",
-    "loyalty_card_number": "8443220"
+    "email": "evgeniia.komarova@gmail.com",
+    "car_number": "Н865ОТ625",
+    "loyalty_card_number": "8443220",
+    "phone": "+79944434508",
+    "gender": "M",
+    "birth_date": "1959-10-08"
   },
   {
     "username": "iuliiavinogradova",
-    "password": "FiBUPnWNgPoT",
+    "password": "dSiDUxn2Vptm",
     "first_name": "Iuliia",
     "last_name": "Vinogradova",
-    "car_number": "653В90",
-    "loyalty_card_number": "1973704"
+    "email": "iuliia.vinogradova211@gmail.com",
+    "car_number": "ТВТ268320",
+    "loyalty_card_number": "1973704",
+    "phone": "+79240568655",
+    "gender": "M",
+    "birth_date": "2004-08-25"
   },
   {
     "username": "elenagrigoreva",
-    "password": "emsGUD7Yb2NF",
+    "password": "XotogFD2dSCX",
     "first_name": "Elena",
     "last_name": "Grigoreva",
-    "car_number": "ТАТ94785",
-    "loyalty_card_number": "8832296"
+    "email": "elena.grigoreva756@outlook.com",
+    "car_number": "ТМВ703378",
+    "loyalty_card_number": "8832296",
+    "phone": "+79846565699",
+    "gender": "F",
+    "birth_date": "1999-02-24"
   },
   {
     "username": "ivansergeev",
-    "password": "3o0S0rsDsjMu",
+    "password": "fYlrOO8gTcZI",
     "first_name": "Ivan",
     "last_name": "Sergeev",
-    "car_number": "АК196635",
-    "loyalty_card_number": "3806450"
+    "email": "ivan.sergeev@mail.ru",
+    "car_number": "ТНС985855",
+    "loyalty_card_number": "3806450",
+    "phone": "+79234521039",
+    "gender": "M",
+    "birth_date": "2004-12-25"
   },
   {
     "username": "elenasoloveva",
-    "password": "TUcU9GeLioyB",
+    "password": "AiyQTC60ogKF",
     "first_name": "Elena",
     "last_name": "Soloveva",
-    "car_number": "ХХ884081",
-    "loyalty_card_number": "4947549"
+    "email": "elena.soloveva@hotmail.com",
+    "car_number": "У269ТА412",
+    "loyalty_card_number": "4947549",
+    "phone": "+79044029012",
+    "gender": "M",
+    "birth_date": "1992-04-27"
   },
   {
     "username": "sergeigolubev",
-    "password": "27nZoN5A3WHo",
+    "password": "pHgbBB8908OY",
     "first_name": "Sergei",
     "last_name": "Golubev",
-    "car_number": "ТВ322525",
-    "loyalty_card_number": "9057867"
+    "email": "sergei.golubev644@hotmail.com",
+    "car_number": "О738УТ838",
+    "loyalty_card_number": "9057867",
+    "phone": "+79941456988",
+    "gender": "F",
+    "birth_date": "1984-12-23"
   },
   {
     "username": "dariaalekseeva",
-    "password": "riaWKiJkUYWZ",
+    "password": "kacvnTZ6tZjc",
     "first_name": "Daria",
     "last_name": "Alekseeva",
-    "car_number": "1951О14",
-    "loyalty_card_number": "6553045"
+    "email": "daria.alekseeva241@gmail.com",
+    "car_number": "НА959070",
+    "loyalty_card_number": "6553045",
+    "phone": "+79042956417",
+    "gender": "M",
+    "birth_date": "1989-03-17"
   },
   {
     "username": "evgeniizakharov",
-    "password": "UZ6bSI1LUkAX",
+    "password": "RnJuvd4BsX8E",
     "first_name": "Evgenii",
     "last_name": "Zakharov",
-    "car_number": "ХО394052",
-    "loyalty_card_number": "7562533"
+    "email": "evgenii.zakharov852@yandex.ru",
+    "car_number": "0056Х29",
+    "loyalty_card_number": "7562533",
+    "phone": "+79232119298",
+    "gender": "M",
+    "birth_date": "1966-07-27"
   },
   {
     "username": "nataliagolubeva",
-    "password": "9vBvbyR8nwKY",
+    "password": "thzio9dG8Brh",
     "first_name": "Natalia",
     "last_name": "Golubeva",
-    "car_number": "В965УК841",
-    "loyalty_card_number": "6627061"
+    "email": "natalia.golubeva@yandex.ru",
+    "car_number": "9230С78",
+    "loyalty_card_number": "6627061",
+    "phone": "+79143859650",
+    "gender": "F",
+    "birth_date": "1972-07-19"
   },
   {
     "username": "olgapetrova",
-    "password": "2UIEB9o5Ji8Q",
+    "password": "BN4313y922KM",
     "first_name": "Olga",
     "last_name": "Petrova",
-    "car_number": "МР736А16",
-    "loyalty_card_number": "5921378"
+    "email": "olga.petrova87@gmail.com",
+    "car_number": "ВО261444",
+    "loyalty_card_number": "5921378",
+    "phone": "+79940385733",
+    "gender": "M",
+    "birth_date": "1980-05-25"
   },
   {
     "username": "oksanatarasova",
-    "password": "xubDpeOFkAO4",
+    "password": "QiLYza2jLNdB",
     "first_name": "Oksana",
     "last_name": "Tarasova",
-    "car_number": "ОМ581729",
-    "loyalty_card_number": "9028264"
+    "email": "oksana.tarasova255@gmail.com",
+    "car_number": "ЕХ221833",
+    "loyalty_card_number": "9028264",
+    "phone": "+79246980170",
+    "gender": "M",
+    "birth_date": "1995-06-29"
   },
   {
     "username": "kseniiaorlova",
-    "password": "oR27j10w2Mk2",
+    "password": "GfuDITGMyCx6",
     "first_name": "Kseniia",
     "last_name": "Orlova",
-    "car_number": "525У34",
-    "loyalty_card_number": "1990868"
+    "email": "kseniia.orlova172@hotmail.com",
+    "car_number": "РН757К85",
+    "loyalty_card_number": "1990868",
+    "phone": "+79237780834",
+    "gender": "M",
+    "birth_date": "1990-03-23"
   },
   {
     "username": "nataliakiseleva",
-    "password": "7mVXG693efPn",
+    "password": "EwrxNpgQB4Z6",
     "first_name": "Natalia",
     "last_name": "Kiseleva",
-    "car_number": "ЕО012М75",
-    "loyalty_card_number": "8452703"
+    "email": "natalia.kiseleva874@mail.ru",
+    "car_number": "792Х30",
+    "loyalty_card_number": "8452703",
+    "phone": "+79247090794",
+    "gender": "F",
+    "birth_date": "1978-06-19"
   },
   {
     "username": "igorpavlov",
-    "password": "IH0Bx5EYmbNq",
+    "password": "SKCoJscJrwbH",
     "first_name": "Igor",
     "last_name": "Pavlov",
-    "car_number": "ХВ364158",
-    "loyalty_card_number": "7778194"
+    "email": "igor.pavlov794@hotmail.com",
+    "car_number": "УА451831",
+    "loyalty_card_number": "7778194",
+    "phone": "+79238629520",
+    "gender": "M",
+    "birth_date": "2006-02-01"
   },
   {
     "username": "darialebedeva",
-    "password": "rEo7MM6dadoe",
+    "password": "9djaSQfNeXky",
     "first_name": "Daria",
     "last_name": "Lebedeva",
-    "car_number": "ВХ723М69",
-    "loyalty_card_number": "2566538"
+    "email": "daria.lebedeva927@yandex.ru",
+    "car_number": "495У49",
+    "loyalty_card_number": "2566538",
+    "phone": "+79847968091",
+    "gender": "F",
+    "birth_date": "1990-05-08"
   },
   {
     "username": "sergeigusev",
-    "password": "GNDoUWJynHEN",
+    "password": "g4VSR7j7EjJr",
     "first_name": "Sergei",
     "last_name": "Gusev",
-    "car_number": "О916875",
-    "loyalty_card_number": "6601554"
+    "email": "sergei.gusev@mail.ru",
+    "car_number": "А030266",
+    "loyalty_card_number": "6601554",
+    "phone": "+79143288074",
+    "gender": "M",
+    "birth_date": "1989-08-24"
   },
   {
     "username": "oksanasemenova",
-    "password": "F79vFJP6hfFf",
+    "password": "y9zBT2KH48mu",
     "first_name": "Oksana",
     "last_name": "Semenova",
-    "car_number": "ТТО337462",
-    "loyalty_card_number": "8139545"
+    "email": "oksana.semenova@outlook.com",
+    "car_number": "М654УТ221",
+    "loyalty_card_number": "8139545",
+    "phone": "+79843543597",
+    "gender": "F",
+    "birth_date": "1979-03-26"
   },
   {
     "username": "dmitriibelov",
-    "password": "HDW79iyUi46h",
+    "password": "WZcYYBLsumzi",
     "first_name": "Dmitrii",
     "last_name": "Belov",
-    "car_number": "МТ097М50",
-    "loyalty_card_number": "6717435"
+    "email": "dmitrii.belov281@mail.ru",
+    "car_number": "ВХ101362",
+    "loyalty_card_number": "6717435",
+    "phone": "+79040723444",
+    "gender": "F",
+    "birth_date": "1959-07-25"
   },
   {
     "username": "anastasiiakuzmina",
-    "password": "m98OF6WVM3u7",
+    "password": "dEDv8TcbEfyv",
     "first_name": "Anastasiia",
     "last_name": "Kuzmina",
-    "car_number": "АВ295К46",
-    "loyalty_card_number": "3141094"
+    "email": "anastasiia.kuzmina@gmail.com",
+    "car_number": "Р564513",
+    "loyalty_card_number": "3141094",
+    "phone": "+79233858281",
+    "gender": "M",
+    "birth_date": "2007-03-26"
   },
   {
     "username": "dmitriifedorov",
-    "password": "pGMNi0WnQAQM",
+    "password": "k5n4zYIF4IoT",
     "first_name": "Dmitrii",
     "last_name": "Fedorov",
-    "car_number": "КН491933",
-    "loyalty_card_number": "7462332"
+    "email": "dmitrii.fedorov928@outlook.com",
+    "car_number": "ТХЕ328969",
+    "loyalty_card_number": "7462332",
+    "phone": "+79248756000",
+    "gender": "M",
+    "birth_date": "1971-08-29"
   },
   {
     "username": "oksanakuzmina",
-    "password": "W3Utks30XEvS",
+    "password": "76DX8tDnYkfC",
     "first_name": "Oksana",
     "last_name": "Kuzmina",
-    "car_number": "ТКТ385902",
-    "loyalty_card_number": "1672364"
+    "email": "oksana.kuzmina791@mail.ru",
+    "car_number": "ХВ296870",
+    "loyalty_card_number": "1672364",
+    "phone": "+79237979325",
+    "gender": "F",
+    "birth_date": "2006-12-02"
   },
   {
     "username": "svetlanabaranova",
-    "password": "EcYJyjRdqwpX",
+    "password": "TiONZnH82DbH",
     "first_name": "Svetlana",
     "last_name": "Baranova",
-    "car_number": "С006884",
-    "loyalty_card_number": "5046096"
+    "email": "svetlana.baranova129@yandex.ru",
+    "car_number": "882М45",
+    "loyalty_card_number": "5046096",
+    "phone": "+79247363490",
+    "gender": "M",
+    "birth_date": "1968-10-31"
   },
   {
     "username": "elenakomarova",
-    "password": "nrWbuB04XWiJ",
+    "password": "qSqOoav7cegR",
     "first_name": "Elena",
     "last_name": "Komarova",
-    "car_number": "ТНМ19818",
-    "loyalty_card_number": "9793773"
+    "email": "elena.komarova@hotmail.com",
+    "car_number": "560Х37",
+    "loyalty_card_number": "9793773",
+    "phone": "+79245867368",
+    "gender": "F",
+    "birth_date": "1964-06-04"
   },
   {
     "username": "antonpetrov",
-    "password": "XvdR0F7kbK2G",
+    "password": "cgZt1JHuUYrH",
     "first_name": "Anton",
     "last_name": "Petrov",
-    "car_number": "М827128",
-    "loyalty_card_number": "5319090"
+    "email": "anton.petrov@hotmail.com",
+    "car_number": "ЕР526910",
+    "loyalty_card_number": "5319090",
+    "phone": "+79843795067",
+    "gender": "M",
+    "birth_date": "1974-07-21"
   },
   {
     "username": "aleksandragolubeva",
-    "password": "pb4hU3Bg33J0",
+    "password": "Ybr6jTouUros",
     "first_name": "Aleksandra",
     "last_name": "Golubeva",
-    "car_number": "942Н55",
-    "loyalty_card_number": "9851640"
+    "email": "aleksandra.golubeva600@hotmail.com",
+    "car_number": "КМ866633",
+    "loyalty_card_number": "9851640",
+    "phone": "+79148018475",
+    "gender": "F",
+    "birth_date": "1985-07-06"
   },
   {
     "username": "artemzaitsev",
-    "password": "QdkhD4MQECjH",
+    "password": "jaSVNIGZMfZT",
     "first_name": "Artem",
     "last_name": "Zaitsev",
-    "car_number": "4285А87",
-    "loyalty_card_number": "9237191"
+    "email": "artem.zaitsev356@gmail.com",
+    "car_number": "173В03949",
+    "loyalty_card_number": "9237191",
+    "phone": "+79045206439",
+    "gender": "M",
+    "birth_date": "2003-07-19"
   },
   {
     "username": "romanborisov",
-    "password": "9j2ni0VZEE68",
+    "password": "zFGZ5LFtlijT",
     "first_name": "Roman",
     "last_name": "Borisov",
-    "car_number": "ТУМ180458",
-    "loyalty_card_number": "4360285"
+    "email": "roman.borisov@hotmail.com",
+    "car_number": "Т890АТ954",
+    "loyalty_card_number": "4360285",
+    "phone": "+79043636996",
+    "gender": "F",
+    "birth_date": "1990-11-05"
   },
   {
     "username": "valentinagerasimova",
-    "password": "HwnxvYx25L12",
+    "password": "q6dwGOWDZA9I",
     "first_name": "Valentina",
     "last_name": "Gerasimova",
-    "car_number": "3511А48",
-    "loyalty_card_number": "9821868"
+    "email": "valentina.gerasimova@outlook.com",
+    "car_number": "С474МТ472",
+    "loyalty_card_number": "9821868",
+    "phone": "+79145217058",
+    "gender": "F",
+    "birth_date": "1963-06-05"
   },
   {
     "username": "mariialebedeva",
-    "password": "ydAD8KyAjAhM",
+    "password": "jW61vCbogYfw",
     "first_name": "Mariia",
     "last_name": "Lebedeva",
-    "car_number": "468К89",
-    "loyalty_card_number": "9700408"
+    "email": "mariia.lebedeva235@yandex.ru",
+    "car_number": "ХА477778",
+    "loyalty_card_number": "9700408",
+    "phone": "+79943135552",
+    "gender": "F",
+    "birth_date": "2002-03-27"
   },
   {
     "username": "mariiamorozova",
-    "password": "RrfBOUDmHaHa",
+    "password": "AIba1dmNcdUS",
     "first_name": "Mariia",
     "last_name": "Morozova",
-    "car_number": "ТА294Х36",
-    "loyalty_card_number": "4434730"
+    "email": "mariia.morozova387@mail.ru",
+    "car_number": "А677УЕ888",
+    "loyalty_card_number": "4434730",
+    "phone": "+79248939459",
+    "gender": "M",
+    "birth_date": "1966-07-05"
   },
   {
     "username": "vitaliikorolev",
-    "password": "NcGRXyT12f5a",
+    "password": "qXhhGEzyOO3T",
     "first_name": "Vitalii",
     "last_name": "Korolev",
-    "car_number": "ВХ399233",
-    "loyalty_card_number": "9742158"
+    "email": "vitalii.korolev@hotmail.com",
+    "car_number": "С280944",
+    "loyalty_card_number": "9742158",
+    "phone": "+79140603297",
+    "gender": "M",
+    "birth_date": "2002-02-03"
   },
   {
     "username": "vladislavvasilev",
-    "password": "Hfpwp0gzsTOE",
+    "password": "zBlI87neSzuy",
     "first_name": "Vladislav",
     "last_name": "Vasilev",
-    "car_number": "К628МР948",
-    "loyalty_card_number": "8143628"
+    "email": "vladislav.vasilev993@mail.ru",
+    "car_number": "О069РА682",
+    "loyalty_card_number": "8143628",
+    "phone": "+79234733132",
+    "gender": "F",
+    "birth_date": "1972-08-07"
   },
   {
     "username": "iuriiandreev",
-    "password": "JclH2sah8gRV",
+    "password": "MM4ymPezfQNO",
     "first_name": "Iurii",
     "last_name": "Andreev",
-    "car_number": "ХА487К10",
-    "loyalty_card_number": "5408434"
+    "email": "iurii.andreev692@yandex.ru",
+    "car_number": "МН447699",
+    "loyalty_card_number": "5408434",
+    "phone": "+79842255263",
+    "gender": "F",
+    "birth_date": "1977-07-23"
   },
   {
     "username": "antonbeliaev",
-    "password": "d9oeB5IgH2j8",
+    "password": "IJBnfZ3G0SW8",
     "first_name": "Anton",
     "last_name": "Beliaev",
-    "car_number": "021Е56",
-    "loyalty_card_number": "8574455"
+    "email": "anton.beliaev@yandex.ru",
+    "car_number": "ХУ546672",
+    "loyalty_card_number": "8574455",
+    "phone": "+79944897271",
+    "gender": "M",
+    "birth_date": "1975-04-07"
   },
   {
     "username": "alenakuznetsova",
-    "password": "QDsxY1wyTsDm",
+    "password": "4oNFpquOzibk",
     "first_name": "Alena",
     "last_name": "Kuznetsova",
-    "car_number": "А390510",
-    "loyalty_card_number": "1950079"
+    "email": "alena.kuznetsova437@hotmail.com",
+    "car_number": "ТОЕ380906",
+    "loyalty_card_number": "1950079",
+    "phone": "+79239780845",
+    "gender": "F",
+    "birth_date": "2003-08-11"
   },
   {
     "username": "artemmorozov",
-    "password": "7ltvi8pbCoFn",
+    "password": "qwErnO74TV9z",
     "first_name": "Artem",
     "last_name": "Morozov",
-    "car_number": "3266Т96",
-    "loyalty_card_number": "9355983"
+    "email": "artem.morozov958@yandex.ru",
+    "car_number": "ТОК072370",
+    "loyalty_card_number": "9355983",
+    "phone": "+79040468548",
+    "gender": "M",
+    "birth_date": "1999-07-18"
   },
   {
     "username": "viktorandreev",
-    "password": "r53qVr8MI8Lt",
+    "password": "EOJVZDHTw6f8",
     "first_name": "Viktor",
     "last_name": "Andreev",
-    "car_number": "Е057969",
-    "loyalty_card_number": "7632322"
+    "email": "viktor.andreev@gmail.com",
+    "car_number": "ТАТ335255",
+    "loyalty_card_number": "7632322",
+    "phone": "+79841792347",
+    "gender": "M",
+    "birth_date": "2003-11-13"
   },
   {
     "username": "romaniakovlev",
-    "password": "NER1iWRPf71a",
+    "password": "VFSdqmaiWfcJ",
     "first_name": "Roman",
     "last_name": "Iakovlev",
-    "car_number": "ТАА589169",
-    "loyalty_card_number": "7503124"
+    "email": "roman.iakovlev324@yandex.ru",
+    "car_number": "ЕР829В10",
+    "loyalty_card_number": "7503124",
+    "phone": "+79848911755",
+    "gender": "M",
+    "birth_date": "1959-01-06"
   },
   {
     "username": "nadezhdabeliaeva",
-    "password": "EyYIJvRIT5om",
+    "password": "6jIyYC0GZz1y",
     "first_name": "Nadezhda",
     "last_name": "Beliaeva",
-    "car_number": "2224С50",
-    "loyalty_card_number": "6918517"
+    "email": "nadezhda.beliaeva799@hotmail.com",
+    "car_number": "ТМО721180",
+    "loyalty_card_number": "6918517",
+    "phone": "+79842665950",
+    "gender": "M",
+    "birth_date": "1971-07-29"
   },
   {
     "username": "dariagolubeva",
-    "password": "GyiuBm8oLkvP",
+    "password": "IHO85RIDntr4",
     "first_name": "Daria",
     "last_name": "Golubeva",
-    "car_number": "ТКН108980",
-    "loyalty_card_number": "4259384"
+    "email": "daria.golubeva603@gmail.com",
+    "car_number": "639Е56955",
+    "loyalty_card_number": "4259384",
+    "phone": "+79231056456",
+    "gender": "M",
+    "birth_date": "1957-10-26"
   },
   {
     "username": "tatianagerasimova",
-    "password": "RxF5884IbgBE",
+    "password": "g7JpqzSBgHj1",
     "first_name": "Tatiana",
     "last_name": "Gerasimova",
-    "car_number": "У718820",
-    "loyalty_card_number": "3424502"
+    "email": "tatiana.gerasimova1@gmail.com",
+    "car_number": "ТНВ188868",
+    "loyalty_card_number": "3424502",
+    "phone": "+79843826522",
+    "gender": "M",
+    "birth_date": "1975-08-14"
   },
   {
     "username": "nataliaromanova",
-    "password": "jO5YSE33NRDH",
+    "password": "vL94NlxoxxJm",
     "first_name": "Natalia",
     "last_name": "Romanova",
-    "car_number": "АС653М38",
-    "loyalty_card_number": "5946782"
+    "email": "natalia.romanova122@mail.ru",
+    "car_number": "233А80",
+    "loyalty_card_number": "5946782",
+    "phone": "+79948785184",
+    "gender": "M",
+    "birth_date": "1994-05-26"
   },
   {
     "username": "evgeniivasilev",
-    "password": "tLcLmQMaeiBR",
+    "password": "ziGb8FncH5nR",
     "first_name": "Evgenii",
     "last_name": "Vasilev",
-    "car_number": "РК437С55",
-    "loyalty_card_number": "5250252"
+    "email": "evgenii.vasilev150@outlook.com",
+    "car_number": "977Т86253",
+    "loyalty_card_number": "5250252",
+    "phone": "+79235391540",
+    "gender": "F",
+    "birth_date": "2005-03-16"
   },
   {
     "username": "iuliiasmirnova",
-    "password": "3YTXf9INn9Zi",
+    "password": "KjNr49bBBVUN",
     "first_name": "Iuliia",
     "last_name": "Smirnova",
-    "car_number": "3566В97",
-    "loyalty_card_number": "1877205"
+    "email": "iuliia.smirnova713@gmail.com",
+    "car_number": "ТХ662305",
+    "loyalty_card_number": "1877205",
+    "phone": "+79946043673",
+    "gender": "M",
+    "birth_date": "1971-10-11"
   },
   {
     "username": "mariiakulikova",
-    "password": "e6MngRaGxisd",
+    "password": "tLzKPRBafm8d",
     "first_name": "Mariia",
     "last_name": "Kulikova",
-    "car_number": "Н129ТН227",
-    "loyalty_card_number": "3724976"
+    "email": "mariia.kulikova160@outlook.com",
+    "car_number": "ОУ532979",
+    "loyalty_card_number": "3724976",
+    "phone": "+79147463434",
+    "gender": "M",
+    "birth_date": "1970-06-13"
   },
   {
     "username": "annazakharova",
-    "password": "S31NKQwrUvim",
+    "password": "xpfyezRTEba5",
     "first_name": "Anna",
     "last_name": "Zakharova",
-    "car_number": "8272В48",
-    "loyalty_card_number": "6816790"
+    "email": "anna.zakharova@yandex.ru",
+    "car_number": "ТКТ016614",
+    "loyalty_card_number": "6816790",
+    "phone": "+79042973298",
+    "gender": "M",
+    "birth_date": "1972-07-31"
   },
   {
     "username": "vladislavpopov",
-    "password": "xItOg7ZIoRjw",
+    "password": "J4I5sfr9ez7h",
     "first_name": "Vladislav",
     "last_name": "Popov",
-    "car_number": "748Е38",
-    "loyalty_card_number": "7478760"
+    "email": "vladislav.popov31@yandex.ru",
+    "car_number": "ТЕУ135665",
+    "loyalty_card_number": "7478760",
+    "phone": "+79240420112",
+    "gender": "M",
+    "birth_date": "1969-06-21"
   },
   {
     "username": "kseniiavinogradova",
-    "password": "EZrz7Lfid6QJ",
+    "password": "LBJjR7iBzyfX",
     "first_name": "Kseniia",
     "last_name": "Vinogradova",
-    "car_number": "9809О42",
-    "loyalty_card_number": "1864521"
+    "email": "kseniia.vinogradova176@mail.ru",
+    "car_number": "ТОЕ490902",
+    "loyalty_card_number": "1864521",
+    "phone": "+79942671083",
+    "gender": "M",
+    "birth_date": "1962-02-27"
   },
   {
     "username": "nataliaorlova",
-    "password": "NHVF792SOqCk",
+    "password": "ijEsnzxq84J9",
     "first_name": "Natalia",
     "last_name": "Orlova",
-    "car_number": "УЕ107289",
-    "loyalty_card_number": "3534225"
+    "email": "natalia.orlova586@gmail.com",
+    "car_number": "605С32",
+    "loyalty_card_number": "3534225",
+    "phone": "+79242186261",
+    "gender": "F",
+    "birth_date": "1999-10-06"
   },
   {
     "username": "kseniiasmirnova",
-    "password": "840J0cw25yMM",
+    "password": "tv5OIbCIO0aE",
     "first_name": "Kseniia",
     "last_name": "Smirnova",
-    "car_number": "262М24543",
-    "loyalty_card_number": "9619854"
+    "email": "kseniia.smirnova979@hotmail.com",
+    "car_number": "НХ746598",
+    "loyalty_card_number": "9619854",
+    "phone": "+79141112545",
+    "gender": "F",
+    "birth_date": "1962-07-31"
   },
   {
     "username": "annasemenova",
-    "password": "YZ4vdSHbjHOg",
+    "password": "V5Fj6q4d64Kz",
     "first_name": "Anna",
     "last_name": "Semenova",
-    "car_number": "А713ЕР752",
-    "loyalty_card_number": "8326854"
+    "email": "anna.semenova864@outlook.com",
+    "car_number": "РУ25173",
+    "loyalty_card_number": "8326854",
+    "phone": "+79235833557",
+    "gender": "F",
+    "birth_date": "1977-10-14"
   },
   {
     "username": "evgeniiakiseleva",
-    "password": "xn2VptmR8fNq",
+    "password": "XEEeKk0TjglN",
     "first_name": "Evgeniia",
     "last_name": "Kiseleva",
-    "car_number": "УА326О76",
-    "loyalty_card_number": "4206589"
+    "email": "evgeniia.kiseleva877@outlook.com",
+    "car_number": "О621УН430",
+    "loyalty_card_number": "4206589",
+    "phone": "+79242849872",
+    "gender": "M",
+    "birth_date": "1991-08-26"
   },
   {
     "username": "nikolaipetrov",
-    "password": "VAvxoOBnaHXo",
+    "password": "KHpZ9vXEhaE1",
     "first_name": "Nikolai",
     "last_name": "Petrov",
-    "car_number": "КВ502Р16",
-    "loyalty_card_number": "4665951"
+    "email": "nikolai.petrov105@yandex.ru",
+    "car_number": "Н616ОМ559",
+    "loyalty_card_number": "4665951",
+    "phone": "+79143714280",
+    "gender": "F",
+    "birth_date": "1993-11-17"
   },
   {
     "username": "olegzakharov",
-    "password": "SCX5RqfRxByx",
+    "password": "DNOOcqwggvof",
     "first_name": "Oleg",
     "last_name": "Zakharov",
-    "car_number": "356О89",
-    "loyalty_card_number": "8120627"
+    "email": "oleg.zakharov735@outlook.com",
+    "car_number": "ТСА059470",
+    "loyalty_card_number": "8120627",
+    "phone": "+79047823160",
+    "gender": "M",
+    "birth_date": "1966-04-08"
   },
   {
     "username": "iuliiaivanova",
-    "password": "KvRZVBM7PDfY",
+    "password": "la0UIQOwOebx",
     "first_name": "Iuliia",
     "last_name": "Ivanova",
-    "car_number": "С208НС994",
-    "loyalty_card_number": "8525679"
+    "email": "iuliia.ivanova@yandex.ru",
+    "car_number": "РС031В94",
+    "loyalty_card_number": "8525679",
+    "phone": "+79948446172",
+    "gender": "F",
+    "birth_date": "2002-11-17"
   },
   {
     "username": "evgeniiavinogradova",
-    "password": "0NX3t22w2Y5k",
+    "password": "e1JrZiaSgmZ2",
     "first_name": "Evgeniia",
     "last_name": "Vinogradova",
-    "car_number": "АХ356485",
-    "loyalty_card_number": "4517591"
+    "email": "evgeniia.vinogradova106@hotmail.com",
+    "car_number": "181М83",
+    "loyalty_card_number": "4517591",
+    "phone": "+79242083366",
+    "gender": "M",
+    "birth_date": "1982-05-25"
   },
   {
     "username": "liudmilakoroleva",
-    "password": "mhmvRHAiyQTC",
+    "password": "3fl9Edw8Fhrn",
     "first_name": "Liudmila",
     "last_name": "Koroleva",
-    "car_number": "ТВТ511952",
-    "loyalty_card_number": "7357819"
+    "email": "liudmila.koroleva440@yandex.ru",
+    "car_number": "Р460677",
+    "loyalty_card_number": "7357819",
+    "phone": "+79849464954",
+    "gender": "M",
+    "birth_date": "1965-11-20"
   },
   {
     "username": "mikhailsemenov",
-    "password": "bOqMbzdsRaZi",
+    "password": "VNSzJn6qZ69i",
     "first_name": "Mikhail",
     "last_name": "Semenov",
-    "car_number": "АВ872161",
-    "loyalty_card_number": "2885965"
+    "email": "mikhail.semenov@mail.ru",
+    "car_number": "ТСВ360455",
+    "loyalty_card_number": "2885965",
+    "phone": "+79247354078",
+    "gender": "F",
+    "birth_date": "1960-05-24"
   },
   {
     "username": "olegtitov",
-    "password": "8pg72KypHgbB",
+    "password": "fO39tabSRUTX",
     "first_name": "Oleg",
     "last_name": "Titov",
-    "car_number": "994У14",
-    "loyalty_card_number": "4339460"
+    "email": "oleg.titov725@gmail.com",
+    "car_number": "Х378ОК267",
+    "loyalty_card_number": "4339460",
+    "phone": "+79239047386",
+    "gender": "M",
+    "birth_date": "1974-05-02"
   },
   {
     "username": "anastasiiapavlova",
-    "password": "zUPNZXper5xR",
+    "password": "euZyGj5WSNpy",
     "first_name": "Anastasiia",
     "last_name": "Pavlova",
-    "car_number": "587С74",
-    "loyalty_card_number": "7058227"
+    "email": "anastasiia.pavlova385@hotmail.com",
+    "car_number": "ОР995918",
+    "loyalty_card_number": "7058227",
+    "phone": "+79043431416",
+    "gender": "M",
+    "birth_date": "1965-12-17"
   },
   {
     "username": "aleksandrasemenova",
-    "password": "x9QOJtkacvnT",
+    "password": "teqqqcI9ghrt",
     "first_name": "Aleksandra",
     "last_name": "Semenova",
-    "car_number": "ЕА793В55",
-    "loyalty_card_number": "6320696"
+    "email": "aleksandra.semenova210@outlook.com",
+    "car_number": "1095К42",
+    "loyalty_card_number": "6320696",
+    "phone": "+79941754564",
+    "gender": "M",
+    "birth_date": "1986-10-13"
   },
   {
     "username": "aleksandraguseva",
-    "password": "dZ2LEhkNwBtQ",
+    "password": "5mDx59MSc4Kj",
     "first_name": "Aleksandra",
     "last_name": "Guseva",
-    "car_number": "РЕ572932",
-    "loyalty_card_number": "4081618"
+    "email": "aleksandra.guseva57@mail.ru",
+    "car_number": "АТ558112",
+    "loyalty_card_number": "4081618",
+    "phone": "+79842605248",
+    "gender": "M",
+    "birth_date": "1989-09-24"
   },
   {
     "username": "andreikuzmin",
-    "password": "pT5aTwRnJuvd",
+    "password": "1UT0WrFKyRgl",
     "first_name": "Andrei",
     "last_name": "Kuzmin",
-    "car_number": "301Р71",
-    "loyalty_card_number": "5201856"
+    "email": "andrei.kuzmin773@outlook.com",
+    "car_number": "ЕА243Х68",
+    "loyalty_card_number": "5201856",
+    "phone": "+79942762639",
+    "gender": "F",
+    "birth_date": "1987-05-26"
   },
   {
     "username": "dmitriikozlov",
-    "password": "O1a1V5j34JRO",
+    "password": "PgcAMVMlj1Ep",
     "first_name": "Dmitrii",
     "last_name": "Kozlov",
-    "car_number": "082В63029",
-    "loyalty_card_number": "1729130"
+    "email": "dmitrii.kozlov@mail.ru",
+    "car_number": "ТМС794868",
+    "loyalty_card_number": "1729130",
+    "phone": "+79044399792",
+    "gender": "F",
+    "birth_date": "1968-07-10"
   },
   {
     "username": "anastasiiabeliaeva",
-    "password": "KJLoBG1XkLYK",
+    "password": "2JnY3bxQ3Mal",
     "first_name": "Anastasiia",
     "last_name": "Beliaeva",
-    "car_number": "ТВМ123419",
-    "loyalty_card_number": "2656074"
+    "email": "anastasiia.beliaeva600@outlook.com",
+    "car_number": "ТСМ752956",
+    "loyalty_card_number": "2656074",
+    "phone": "+79145953312",
+    "gender": "F",
+    "birth_date": "1970-07-28"
   },
   {
     "username": "igorkiselev",
-    "password": "io9dG8BrhS4C",
+    "password": "atrfNiwwdFdG",
     "first_name": "Igor",
     "last_name": "Kiselev",
-    "car_number": "СС348755",
-    "loyalty_card_number": "6151935"
+    "email": "igor.kiselev@mail.ru",
+    "car_number": "А286УС693",
+    "loyalty_card_number": "6151935",
+    "phone": "+79843853868",
+    "gender": "M",
+    "birth_date": "1985-09-25"
   },
   {
     "username": "nikitakozlov",
-    "password": "m4VZSGw68LBw",
+    "password": "52Z4wV6qjvxK",
     "first_name": "Nikita",
     "last_name": "Kozlov",
-    "car_number": "О065АК181",
-    "loyalty_card_number": "1085114"
+    "email": "nikita.kozlov113@mail.ru",
+    "car_number": "ОУ031962",
+    "loyalty_card_number": "1085114",
+    "phone": "+79146743601",
+    "gender": "F",
+    "birth_date": "2005-03-31"
   },
   {
     "username": "nadezhdamikhailova",
-    "password": "BN4313y922KM",
+    "password": "i0Tt9WNn9pOn",
     "first_name": "Nadezhda",
     "last_name": "Mikhailova",
-    "car_number": "ВО261444",
-    "loyalty_card_number": "9288396"
+    "email": "nadezhda.mikhailova98@hotmail.com",
+    "car_number": "ТА864327",
+    "loyalty_card_number": "9288396",
+    "phone": "+79046154768",
+    "gender": "M",
+    "birth_date": "2001-07-01"
   },
   {
     "username": "liudmilailina",
-    "password": "nc45mXI6xPFm",
+    "password": "q19aFxkF0vaY",
     "first_name": "Liudmila",
     "last_name": "Ilina",
-    "car_number": "ТТТ191884",
-    "loyalty_card_number": "3655059"
+    "email": "liudmila.ilina453@outlook.com",
+    "car_number": "КР176512",
+    "loyalty_card_number": "3655059",
+    "phone": "+79847444312",
+    "gender": "F",
+    "birth_date": "1980-06-26"
   },
   {
     "username": "kseniiakoroleva",
-    "password": "tfO4cqQiLYza",
+    "password": "7wbvF6F2gSk2",
     "first_name": "Kseniia",
     "last_name": "Koroleva",
-    "car_number": "595Т05265",
-    "loyalty_card_number": "7003631"
+    "email": "kseniia.koroleva806@yandex.ru",
+    "car_number": "ОК874682",
+    "loyalty_card_number": "7003631",
+    "phone": "+79948303916",
+    "gender": "M",
+    "birth_date": "1966-10-30"
   },
   {
     "username": "valentinabelova",
-    "password": "GjUiUlR0zM67",
+    "password": "YeVX1AZO8MMp",
     "first_name": "Valentina",
     "last_name": "Belova",
-    "car_number": "АВ786096",
-    "loyalty_card_number": "3547780"
+    "email": "valentina.belova284@gmail.com",
+    "car_number": "КО037584",
+    "loyalty_card_number": "3547780",
+    "phone": "+79842080239",
+    "gender": "F",
+    "birth_date": "1978-07-08"
   },
   {
     "username": "nataliasergeeva",
-    "password": "a5p9JpgJBGfu",
+    "password": "9sAkhC820BMw",
     "first_name": "Natalia",
     "last_name": "Sergeeva",
-    "car_number": "8854Х75",
-    "loyalty_card_number": "6079562"
+    "email": "natalia.sergeeva@hotmail.com",
+    "car_number": "НН540957",
+    "loyalty_card_number": "6079562",
+    "phone": "+79236641339",
+    "gender": "F",
+    "birth_date": "1989-04-24"
   },
   {
     "username": "anastasiiaromanova",
-    "password": "MyCx6tD1uVpL",
+    "password": "7VFc7I8wof71",
     "first_name": "Anastasiia",
     "last_name": "Romanova",
-    "car_number": "ХР789593",
-    "loyalty_card_number": "2950413"
+    "email": "anastasiia.romanova625@mail.ru",
+    "car_number": "ХХ880А67",
+    "loyalty_card_number": "2950413",
+    "phone": "+79246734297",
+    "gender": "M",
+    "birth_date": "1977-09-25"
   },
   {
     "username": "kristinatarasova",
-    "password": "G1bJp5qbNhkS",
+    "password": "Wwmq1K60UXcI",
     "first_name": "Kristina",
     "last_name": "Tarasova",
-    "car_number": "НР574044",
-    "loyalty_card_number": "7798032"
+    "email": "kristina.tarasova938@gmail.com",
+    "car_number": "ЕН465150",
+    "loyalty_card_number": "7798032",
+    "phone": "+79944723948",
+    "gender": "M",
+    "birth_date": "1969-08-10"
   },
   {
     "username": "aleksandrvolkov",
-    "password": "xNpgQB4Z61yX",
+    "password": "Y3neHBSCfE04",
     "first_name": "Aleksandr",
     "last_name": "Volkov",
-    "car_number": "Т889АР634",
-    "loyalty_card_number": "6956768"
+    "email": "aleksandr.volkov@mail.ru",
+    "car_number": "РМ372238",
+    "loyalty_card_number": "6956768",
+    "phone": "+79049319257",
+    "gender": "F",
+    "birth_date": "2004-01-21"
   },
   {
     "username": "alenasemenova",
-    "password": "4q5WKvDv2soS",
+    "password": "cFENEBy3c43e",
     "first_name": "Alena",
     "last_name": "Semenova",
-    "car_number": "РК571298",
-    "loyalty_card_number": "5675390"
+    "email": "alena.semenova@mail.ru",
+    "car_number": "У153737",
+    "loyalty_card_number": "5675390",
+    "phone": "+79844856854",
+    "gender": "M",
+    "birth_date": "1959-02-28"
   },
   {
     "username": "evgeniiaalekseeva",
-    "password": "cJrwbHlU5TdB",
+    "password": "n8JicX6u5ahY",
     "first_name": "Evgeniia",
     "last_name": "Alekseeva",
-    "car_number": "УА451831",
-    "loyalty_card_number": "4614822"
+    "email": "evgeniia.alekseeva767@yandex.ru",
+    "car_number": "ХТ324У29",
+    "loyalty_card_number": "4614822",
+    "phone": "+79234153240",
+    "gender": "M",
+    "birth_date": "1970-12-29"
   },
   {
     "username": "dmitriivolkov",
-    "password": "0LVI4ykL3uia",
+    "password": "FqJQIPFpkiU1",
     "first_name": "Dmitrii",
     "last_name": "Volkov",
-    "car_number": "ТЕР502803",
-    "loyalty_card_number": "4435528"
+    "email": "dmitrii.volkov138@hotmail.com",
+    "car_number": "157В95494",
+    "loyalty_card_number": "4435528",
+    "phone": "+79048769491",
+    "gender": "M",
+    "birth_date": "1964-08-18"
   },
   {
     "username": "aleksandrasmirnova",
-    "password": "XNI9djaSQfNe",
+    "password": "YzQUbKlXFGwx",
     "first_name": "Aleksandra",
     "last_name": "Smirnova",
-    "car_number": "РР600О76",
-    "loyalty_card_number": "6539911"
+    "email": "aleksandra.smirnova243@yandex.ru",
+    "car_number": "ТСХ597180",
+    "loyalty_card_number": "6539911",
+    "phone": "+79945452440",
+    "gender": "F",
+    "birth_date": "1961-12-26"
   },
   {
     "username": "annaponomareva",
-    "password": "8PaNhBQv566k",
+    "password": "VdGQK8pf6yZx",
     "first_name": "Anna",
     "last_name": "Ponomareva",
-    "car_number": "В234870",
-    "loyalty_card_number": "7149048"
+    "email": "anna.ponomareva259@gmail.com",
+    "car_number": "Т097ТС760",
+    "loyalty_card_number": "7149048",
+    "phone": "+79042873457",
+    "gender": "M",
+    "birth_date": "1994-09-18"
   },
   {
     "username": "vitaliivasilev",
-    "password": "jJrxdbCu73ni",
+    "password": "1lgjA6HymraZ",
     "first_name": "Vitalii",
     "last_name": "Vasilev",
-    "car_number": "СА780542",
-    "loyalty_card_number": "4055382"
+    "email": "vitalii.vasilev516@yandex.ru",
+    "car_number": "ХХ419432",
+    "loyalty_card_number": "4055382",
+    "phone": "+79146953933",
+    "gender": "F",
+    "birth_date": "1967-04-10"
   },
   {
     "username": "alinavasileva",
-    "password": "hppqwy9zBT2K",
+    "password": "n5I164XUjXzm",
     "first_name": "Alina",
     "last_name": "Vasileva",
-    "car_number": "КН307210",
-    "loyalty_card_number": "4866765"
+    "email": "alina.vasileva@outlook.com",
+    "car_number": "К579СК393",
+    "loyalty_card_number": "4866765",
+    "phone": "+79846500916",
+    "gender": "F",
+    "birth_date": "1964-05-03"
   },
   {
     "username": "ivankorolev",
-    "password": "PawbrOO2KnEm",
+    "password": "uHCOadd0qQ13",
     "first_name": "Ivan",
     "last_name": "Korolev",
-    "car_number": "М369250",
-    "loyalty_card_number": "1355638"
+    "email": "ivan.korolev710@hotmail.com",
+    "car_number": "НН625580",
+    "loyalty_card_number": "1355638",
+    "phone": "+79048190867",
+    "gender": "F",
+    "birth_date": "1991-10-05"
   },
   {
     "username": "paveliakovlev",
-    "password": "LF4rczURDZpW",
+    "password": "kiLMklF1iMsf",
     "first_name": "Pavel",
     "last_name": "Iakovlev",
-    "car_number": "О598МН204",
-    "loyalty_card_number": "7721334"
+    "email": "pavel.iakovlev626@mail.ru",
+    "car_number": "К048НМ258",
+    "loyalty_card_number": "7721334",
+    "phone": "+79940592895",
+    "gender": "F",
+    "birth_date": "1984-11-01"
   },
   {
     "username": "marinamikhailova",
-    "password": "zihh3V1dA35c",
+    "password": "flPl91Jl709I",
     "first_name": "Marina",
     "last_name": "Mikhailova",
-    "car_number": "Р787ЕК928",
-    "loyalty_card_number": "2987393"
+    "email": "marina.mikhailova654@yandex.ru",
+    "car_number": "853У82",
+    "loyalty_card_number": "2987393",
+    "phone": "+79049998301",
+    "gender": "F",
+    "birth_date": "1969-11-27"
   },
   {
     "username": "deniskorolev",
-    "password": "Rq07tY1rztfr",
+    "password": "XUSq1elWP9zd",
     "first_name": "Denis",
     "last_name": "Korolev",
-    "car_number": "Х986012",
-    "loyalty_card_number": "8881318"
+    "email": "denis.korolev953@yandex.ru",
+    "car_number": "1411Е97",
+    "loyalty_card_number": "8881318",
+    "phone": "+79949427928",
+    "gender": "M",
+    "birth_date": "1958-02-25"
   },
   {
     "username": "iliakiselev",
-    "password": "dEDv8TcbEfyv",
+    "password": "cxRqmjrAIdNF",
     "first_name": "Ilia",
     "last_name": "Kiselev",
-    "car_number": "Р564513",
-    "loyalty_card_number": "2238926"
+    "email": "ilia.kiselev804@mail.ru",
+    "car_number": "М809045",
+    "loyalty_card_number": "2238926",
+    "phone": "+79045511794",
+    "gender": "F",
+    "birth_date": "1987-11-03"
   },
   {
     "username": "irinanovikova",
-    "password": "HSpHxIjJhRbg",
+    "password": "CyG8kSNkSMvP",
     "first_name": "Irina",
     "last_name": "Novikova",
-    "car_number": "В605СЕ925",
-    "loyalty_card_number": "9345212"
+    "email": "irina.novikova509@mail.ru",
+    "car_number": "ВМ913229",
+    "loyalty_card_number": "9345212",
+    "phone": "+79147634043",
+    "gender": "M",
+    "birth_date": "1977-11-19"
   },
   {
     "username": "igorponomarev",
-    "password": "n4zYIF4IoT42",
+    "password": "B8l8BekiZGJb",
     "first_name": "Igor",
     "last_name": "Ponomarev",
-    "car_number": "ТХЕ328969",
-    "loyalty_card_number": "1767284"
+    "email": "igor.ponomarev948@gmail.com",
+    "car_number": "УК522Н91",
+    "loyalty_card_number": "1767284",
+    "phone": "+79148070094",
+    "gender": "M",
+    "birth_date": "2002-03-15"
   },
   {
     "username": "denisfedorov",
-    "password": "0OJC5xzcc4cG",
+    "password": "N0GYMUGUGiVT",
     "first_name": "Denis",
     "last_name": "Fedorov",
-    "car_number": "ТХР928706",
-    "loyalty_card_number": "5578386"
+    "email": "denis.fedorov@gmail.com",
+    "car_number": "РЕ388653",
+    "loyalty_card_number": "5578386",
+    "phone": "+79246365461",
+    "gender": "F",
+    "birth_date": "1959-12-02"
   },
   {
     "username": "antonfedorov",
-    "password": "7zk76DX8tDnY",
+    "password": "cmQcjeKZ5nDx",
     "first_name": "Anton",
     "last_name": "Fedorov",
-    "car_number": "ТУУ653611",
-    "loyalty_card_number": "6403440"
+    "email": "anton.fedorov89@gmail.com",
+    "car_number": "6742А23",
+    "loyalty_card_number": "6403440",
+    "phone": "+79144228103",
+    "gender": "M",
+    "birth_date": "1977-07-16"
   },
   {
     "username": "tatianabaranova",
-    "password": "DNmRX8luzxeX",
+    "password": "mRk1iRv3umcc",
     "first_name": "Tatiana",
     "last_name": "Baranova",
-    "car_number": "С218190",
-    "loyalty_card_number": "7087980"
+    "email": "tatiana.baranova@gmail.com",
+    "car_number": "СК167190",
+    "loyalty_card_number": "7087980",
+    "phone": "+79140485764",
+    "gender": "F",
+    "birth_date": "1962-05-04"
   },
   {
     "username": "mariiastepanova",
-    "password": "NZnH82DbH2kD",
+    "password": "S04lb9hOOV70",
     "first_name": "Mariia",
     "last_name": "Stepanova",
-    "car_number": "С441ММ928",
-    "loyalty_card_number": "8660005"
+    "email": "mariia.stepanova@hotmail.com",
+    "car_number": "ТУТ532369",
+    "loyalty_card_number": "8660005",
+    "phone": "+79846014911",
+    "gender": "F",
+    "birth_date": "1984-03-07"
   },
   {
     "username": "olgasorokina",
-    "password": "4PFm5ypsNd9g",
+    "password": "Dk4qqamTPdwP",
     "first_name": "Olga",
     "last_name": "Sorokina",
-    "car_number": "Н205630",
-    "loyalty_card_number": "1605296"
+    "email": "olga.sorokina921@gmail.com",
+    "car_number": "ВЕ166Р28",
+    "loyalty_card_number": "1605296",
+    "phone": "+79149317938",
+    "gender": "F",
+    "birth_date": "2006-06-18"
   },
   {
     "username": "svetlanavorobeva",
-    "password": "NiqSqOoav7ce",
+    "password": "TgYgkpvW6hSi",
     "first_name": "Svetlana",
     "last_name": "Vorobeva",
-    "car_number": "УО894598",
-    "loyalty_card_number": "7817110"
+    "email": "svetlana.vorobeva331@mail.ru",
+    "car_number": "ЕХ089Р72",
+    "loyalty_card_number": "7817110",
+    "phone": "+79142301485",
+    "gender": "M",
+    "birth_date": "2004-01-14"
   },
   {
     "username": "iuriisemenov",
-    "password": "nUwTYHZOU9SB",
+    "password": "kMu2f6Xt3bDk",
     "first_name": "Iurii",
     "last_name": "Semenov",
-    "car_number": "3958О97",
-    "loyalty_card_number": "1316079"
+    "email": "iurii.semenov261@mail.ru",
+    "car_number": "9018С89",
+    "loyalty_card_number": "1316079",
+    "phone": "+79241508819",
+    "gender": "F",
+    "birth_date": "1966-04-18"
   },
   {
     "username": "anastasiiatarasova",
-    "password": "I6VFhLKecgZt",
+    "password": "U0HzJqqnAnWT",
     "first_name": "Anastasiia",
     "last_name": "Tarasova",
-    "car_number": "СН454276",
-    "loyalty_card_number": "6757231"
+    "email": "anastasiia.tarasova978@hotmail.com",
+    "car_number": "ТОА963657",
+    "loyalty_card_number": "6757231",
+    "phone": "+79940994129",
+    "gender": "M",
+    "birth_date": "1981-03-08"
   },
   {
     "username": "alenastepanova",
-    "password": "Jj7Cu1a2B1nD",
+    "password": "Qj2RP6J26ALN",
     "first_name": "Alena",
     "last_name": "Stepanova",
-    "car_number": "ТТУ37020",
-    "loyalty_card_number": "7902225"
+    "email": "alena.stepanova398@gmail.com",
+    "car_number": "887К57430",
+    "loyalty_card_number": "7902225",
+    "phone": "+79231322192",
+    "gender": "M",
+    "birth_date": "1961-10-26"
   },
   {
     "username": "romanmorozov",
-    "password": "yCfsgLmYbr6j",
+    "password": "gc6h4TKA3Zad",
     "first_name": "Roman",
     "last_name": "Morozov",
-    "car_number": "ТНХ279239",
-    "loyalty_card_number": "9604475"
+    "email": "roman.morozov@outlook.com",
+    "car_number": "ТМЕ653326",
+    "loyalty_card_number": "9604475",
+    "phone": "+79237933982",
+    "gender": "F",
+    "birth_date": "1972-03-16"
   },
   {
     "username": "aleksandrasorokina",
-    "password": "sGot8HlwHafG",
+    "password": "TlFwvqWolVEs",
     "first_name": "Aleksandra",
     "last_name": "Sorokina",
-    "car_number": "РН324Р14",
-    "loyalty_card_number": "9412291"
+    "email": "aleksandra.sorokina926@gmail.com",
+    "car_number": "Р382252",
+    "loyalty_card_number": "9412291",
+    "phone": "+79844094861",
+    "gender": "F",
+    "birth_date": "1992-11-02"
   },
   {
     "username": "olgamikhailova",
-    "password": "LKtjaSVNIGZM",
+    "password": "lhkcEOV9kuHf",
     "first_name": "Olga",
     "last_name": "Mikhailova",
-    "car_number": "ХХ249931",
-    "loyalty_card_number": "4905856"
+    "email": "olga.mikhailova@outlook.com",
+    "car_number": "НМ778627",
+    "loyalty_card_number": "4905856",
+    "phone": "+79044580040",
+    "gender": "F",
+    "birth_date": "1970-10-03"
   },
   {
     "username": "evgeniisokolov",
-    "password": "667hctfvPjcO",
+    "password": "KJqz5yAsQLTq",
     "first_name": "Evgenii",
     "last_name": "Sokolov",
-    "car_number": "282У34",
-    "loyalty_card_number": "3152256"
+    "email": "evgenii.sokolov993@hotmail.com",
+    "car_number": "Х538РР301",
+    "loyalty_card_number": "3152256",
+    "phone": "+79046025717",
+    "gender": "M",
+    "birth_date": "1999-06-17"
   },
   {
     "username": "mikhailivanov",
-    "password": "NcChwSaGzFGZ",
+    "password": "ZhV4IDobV7MO",
     "first_name": "Mikhail",
     "last_name": "Ivanov",
-    "car_number": "РМ190147",
-    "loyalty_card_number": "5491853"
+    "email": "mikhail.ivanov@gmail.com",
+    "car_number": "ЕС771630",
+    "loyalty_card_number": "5491853",
+    "phone": "+79040446716",
+    "gender": "M",
+    "birth_date": "1963-02-06"
   },
   {
     "username": "aleksandrsergeev",
-    "password": "jTdN374b8N7e",
+    "password": "NhnaBUTvoMNo",
     "first_name": "Aleksandr",
     "last_name": "Sergeev",
-    "car_number": "ТОК409816",
-    "loyalty_card_number": "6856270"
+    "email": "aleksandr.sergeev739@gmail.com",
+    "car_number": "ТОА066397",
+    "loyalty_card_number": "6856270",
+    "phone": "+79843756010",
+    "gender": "M",
+    "birth_date": "2004-02-27"
   },
   {
     "username": "nikitasokolov",
-    "password": "KMBApPLMxq6d",
+    "password": "WwuUAmCBR1nH",
     "first_name": "Nikita",
     "last_name": "Sokolov",
-    "car_number": "С766462",
-    "loyalty_card_number": "9950289"
+    "email": "nikita.sokolov886@hotmail.com",
+    "car_number": "114Е10551",
+    "loyalty_card_number": "9950289",
+    "phone": "+79945519947",
+    "gender": "M",
+    "birth_date": "1986-12-17"
   },
   {
     "username": "denisstepanov",
-    "password": "9IdJDt2YNC1u",
+    "password": "Ewy5KMNqrt8O",
     "first_name": "Denis",
     "last_name": "Stepanov",
-    "car_number": "Е112766",
-    "loyalty_card_number": "2448621"
+    "email": "denis.stepanov708@outlook.com",
+    "car_number": "ТАС095703",
+    "loyalty_card_number": "2448621",
+    "phone": "+79042771110",
+    "gender": "M",
+    "birth_date": "2003-11-18"
   },
   {
     "username": "alekseipavlov",
-    "password": "bxJsbgQQFejW",
+    "password": "Vfh9y6ZP5irf",
     "first_name": "Aleksei",
     "last_name": "Pavlov",
-    "car_number": "Р037339",
-    "loyalty_card_number": "2531660"
+    "email": "aleksei.pavlov715@outlook.com",
+    "car_number": "МР840033",
+    "loyalty_card_number": "2531660",
+    "phone": "+79948579744",
+    "gender": "M",
+    "birth_date": "1984-06-13"
   },
   {
     "username": "anastasiiapopova",
-    "password": "gYfwgVa7PsIi",
+    "password": "OPOuEGEpbNMM",
     "first_name": "Anastasiia",
     "last_name": "Popova",
-    "car_number": "ТВК370943",
-    "loyalty_card_number": "4565112"
+    "email": "anastasiia.popova684@yandex.ru",
+    "car_number": "ТОТ353426",
+    "loyalty_card_number": "4565112",
+    "phone": "+79147234855",
+    "gender": "M",
+    "birth_date": "1991-07-03"
   },
   {
     "username": "iuliiazakharova",
-    "password": "x5vPlwy3ojUM",
+    "password": "sYyDW4mnj5Rf",
     "first_name": "Iuliia",
     "last_name": "Zakharova",
-    "car_number": "ТРО55134",
-    "loyalty_card_number": "5884150"
+    "email": "iuliia.zakharova853@mail.ru",
+    "car_number": "ТТХ702625",
+    "loyalty_card_number": "5884150",
+    "phone": "+79235346365",
+    "gender": "M",
+    "birth_date": "1999-10-19"
   },
   {
     "username": "vladimirvasilev",
-    "password": "a1dmNcdUSXYZ",
+    "password": "qh7OxDoTgLr1",
     "first_name": "Vladimir",
     "last_name": "Vasilev",
-    "car_number": "А677УЕ888",
-    "loyalty_card_number": "8071572"
+    "email": "vladimir.vasilev691@outlook.com",
+    "car_number": "МХ416319",
+    "loyalty_card_number": "8071572",
+    "phone": "+79239159009",
+    "gender": "F",
+    "birth_date": "1989-11-07"
   },
   {
     "username": "antonstepanov",
-    "password": "TIKmNt2xM9au",
+    "password": "x8S8Ed1MJFAz",
     "first_name": "Anton",
     "last_name": "Stepanov",
-    "car_number": "368В43",
-    "loyalty_card_number": "1714161"
+    "email": "anton.stepanov@gmail.com",
+    "car_number": "291А63",
+    "loyalty_card_number": "1714161",
+    "phone": "+79237010928",
+    "gender": "M",
+    "birth_date": "1957-07-26"
   },
   {
     "username": "konstantinpetrov",
-    "password": "XhhGEzyOO3Tl",
+    "password": "tReH0riiHD2K",
     "first_name": "Konstantin",
     "last_name": "Petrov",
-    "car_number": "ТН600979",
-    "loyalty_card_number": "8939532"
+    "email": "konstantin.petrov748@yandex.ru",
+    "car_number": "9298О75",
+    "loyalty_card_number": "8939532",
+    "phone": "+79049936638",
+    "gender": "F",
+    "birth_date": "2002-03-05"
   },
   {
     "username": "nataliapetrova",
-    "password": "k3rwdya4oj2L",
+    "password": "qigvNJ5YDCSQ",
     "first_name": "Natalia",
     "last_name": "Petrova",
-    "car_number": "1314Е21",
-    "loyalty_card_number": "2938337"
+    "email": "natalia.petrova484@gmail.com",
+    "car_number": "656М14527",
+    "loyalty_card_number": "2938337",
+    "phone": "+79942603818",
+    "gender": "M",
+    "birth_date": "2007-03-14"
   },
   {
     "username": "nataliavinogradova",
-    "password": "ZT4MFzBlI87n",
+    "password": "vu6v4yoVhueS",
     "first_name": "Natalia",
     "last_name": "Vinogradova",
-    "car_number": "ХО517059",
-    "loyalty_card_number": "2069799"
+    "email": "natalia.vinogradova712@yandex.ru",
+    "car_number": "5182А44",
+    "loyalty_card_number": "2069799",
+    "phone": "+79040168706",
+    "gender": "F",
+    "birth_date": "2000-03-27"
   },
   {
     "username": "ivanorlov",
-    "password": "XayeZEdQMZt7",
+    "password": "cClnEBTlwJ1z",
     "first_name": "Ivan",
     "last_name": "Orlov",
-    "car_number": "3694К21",
-    "loyalty_card_number": "6660866"
+    "email": "ivan.orlov546@mail.ru",
+    "car_number": "ТР376889",
+    "loyalty_card_number": "6660866",
+    "phone": "+79946676887",
+    "gender": "F",
+    "birth_date": "1958-07-06"
   },
   {
     "username": "oksanabogdanova",
-    "password": "pjEC0Z97tkMM",
+    "password": "Lf7PD4CJarD6",
     "first_name": "Oksana",
     "last_name": "Bogdanova",
-    "car_number": "197У19",
-    "loyalty_card_number": "4925731"
+    "email": "oksana.bogdanova492@outlook.com",
+    "car_number": "М545МХ411",
+    "loyalty_card_number": "4925731",
+    "phone": "+79040353859",
+    "gender": "F",
+    "birth_date": "1969-11-11"
   },
   {
     "username": "evgeniinovikov",
-    "password": "zfQNO5NsxBRD",
+    "password": "hvqiyvATceqR",
     "first_name": "Evgenii",
     "last_name": "Novikov",
-    "car_number": "У280558",
-    "loyalty_card_number": "9951117"
+    "email": "evgenii.novikov@mail.ru",
+    "car_number": "ТВ208289",
+    "loyalty_card_number": "9951117",
+    "phone": "+79841070474",
+    "gender": "M",
+    "birth_date": "1983-04-08"
   },
   {
     "username": "liudmilaiakovleva",
-    "password": "mvOYRk7oIJBn",
+    "password": "mYLvrWv8ulfl",
     "first_name": "Liudmila",
     "last_name": "Iakovleva",
-    "car_number": "СХ843896",
-    "loyalty_card_number": "7899793"
+    "email": "liudmila.iakovleva676@hotmail.com",
+    "car_number": "8924Н18",
+    "loyalty_card_number": "7899793",
+    "phone": "+79241191271",
+    "gender": "M",
+    "birth_date": "1986-05-20"
   },
   {
     "username": "iuriipetrov",
-    "password": "vUFjTq0YWGNP",
+    "password": "IgvJ5gxX6ANp",
     "first_name": "Iurii",
     "last_name": "Petrov",
-    "car_number": "2863Р24",
-    "loyalty_card_number": "4270943"
+    "email": "iurii.petrov701@gmail.com",
+    "car_number": "Н123372",
+    "loyalty_card_number": "4270943",
+    "phone": "+79235930876",
+    "gender": "M",
+    "birth_date": "1987-04-30"
   },
   {
     "username": "dariamikhailova",
-    "password": "2omCXUpm4oNF",
+    "password": "Xvs5OQCxj4N6",
     "first_name": "Daria",
     "last_name": "Mikhailova",
-    "car_number": "ТМН656421",
-    "loyalty_card_number": "1718401"
+    "email": "daria.mikhailova567@hotmail.com",
+    "car_number": "ТРЕ131457",
+    "loyalty_card_number": "1718401",
+    "phone": "+79143752435",
+    "gender": "F",
+    "birth_date": "1982-12-14"
   },
   {
     "username": "irinakuznetsova",
-    "password": "ibkn9Ajx4HK4",
+    "password": "BsFhemCdSeAS",
     "first_name": "Irina",
     "last_name": "Kuznetsova",
-    "car_number": "8973А74",
-    "loyalty_card_number": "3478179"
+    "email": "irina.kuznetsova838@outlook.com",
+    "car_number": "502Х87",
+    "loyalty_card_number": "3478179",
+    "phone": "+79149175380",
+    "gender": "F",
+    "birth_date": "1982-07-08"
   },
   {
     "username": "viktorborisov",
-    "password": "UtwvvFBJ4JNG",
+    "password": "WO7T8y51lmpM",
     "first_name": "Viktor",
     "last_name": "Borisov",
-    "car_number": "НР282К91",
-    "loyalty_card_number": "9674384"
+    "email": "viktor.borisov702@outlook.com",
+    "car_number": "687Р67",
+    "loyalty_card_number": "9674384",
+    "phone": "+79145039450",
+    "gender": "M",
+    "birth_date": "2006-09-19"
   },
   {
     "username": "mariiavinogradova",
-    "password": "74TV9z9Pymew",
+    "password": "C1I5Vl1OQObf",
     "first_name": "Mariia",
     "last_name": "Vinogradova",
-    "car_number": "А267ОС343",
-    "loyalty_card_number": "7806382"
+    "email": "mariia.vinogradova636@yandex.ru",
+    "car_number": "ТНА387937",
+    "loyalty_card_number": "7806382",
+    "phone": "+79146524187",
+    "gender": "M",
+    "birth_date": "2002-01-19"
   },
   {
     "username": "tatianaandreeva",
-    "password": "tIXeCh7mNEEO",
+    "password": "LzzZtHvTgek7",
     "first_name": "Tatiana",
     "last_name": "Andreeva",
-    "car_number": "ХР857155",
-    "loyalty_card_number": "2138184"
+    "email": "tatiana.andreeva652@hotmail.com",
+    "car_number": "532М66266",
+    "loyalty_card_number": "2138184",
+    "phone": "+79238486213",
+    "gender": "F",
+    "birth_date": "1959-10-17"
   },
   {
     "username": "artemvasilev",
-    "password": "6f89ZSmdNupF",
+    "password": "CFwh8XIYmvH5",
     "first_name": "Artem",
     "last_name": "Vasilev",
-    "car_number": "РТ244634",
-    "loyalty_card_number": "1279680"
+    "email": "artem.vasilev669@gmail.com",
+    "car_number": "ТТ834149",
+    "loyalty_card_number": "1279680",
+    "phone": "+79843498338",
+    "gender": "M",
+    "birth_date": "1963-11-23"
   },
   {
     "username": "vitaliibaranov",
-    "password": "qYEdsOhHVFSd",
+    "password": "L70HaYjw2PJn",
     "first_name": "Vitalii",
     "last_name": "Baranov",
-    "car_number": "КА140В15",
-    "loyalty_card_number": "5623492"
+    "email": "vitalii.baranov901@gmail.com",
+    "car_number": "ТАТ569179",
+    "loyalty_card_number": "5623492",
+    "phone": "+79942497467",
+    "gender": "F",
+    "birth_date": "1961-10-31"
   },
   {
     "username": "elenakovaleva",
-    "password": "JqiDZhaAHLh0",
+    "password": "vujRK0PVgFYk",
     "first_name": "Elena",
     "last_name": "Kovaleva",
-    "car_number": "ТВР850776",
-    "loyalty_card_number": "2454263"
+    "email": "elena.kovaleva282@hotmail.com",
+    "car_number": "ОН338411",
+    "loyalty_card_number": "2454263",
+    "phone": "+79848482834",
+    "gender": "M",
+    "birth_date": "2001-12-24"
   },
   {
     "username": "vladimirkovalev",
-    "password": "wveTSupb6jIy",
+    "password": "JOcjyWI1jTv8",
     "first_name": "Vladimir",
     "last_name": "Kovalev",
-    "car_number": "8239О59",
-    "loyalty_card_number": "7036912"
+    "email": "vladimir.kovalev746@yandex.ru",
+    "car_number": "МР065960",
+    "loyalty_card_number": "7036912",
+    "phone": "+79143731102",
+    "gender": "M",
+    "birth_date": "1967-08-14"
   },
   {
     "username": "vladimirborisov",
-    "password": "Ps6zTkX5Ek5A",
+    "password": "2OV35J3j85WE",
     "first_name": "Vladimir",
     "last_name": "Borisov",
-    "car_number": "333Т94",
-    "loyalty_card_number": "3525718"
+    "email": "vladimir.borisov375@gmail.com",
+    "car_number": "НВ176258",
+    "loyalty_card_number": "3525718",
+    "phone": "+79042610878",
+    "gender": "F",
+    "birth_date": "2000-06-30"
   },
   {
     "username": "maksimvinogradov",
-    "password": "v5aeTtXJ9kIH",
+    "password": "1CzRrPK29HId",
     "first_name": "Maksim",
     "last_name": "Vinogradov",
-    "car_number": "ТУС479223",
-    "loyalty_card_number": "2058739"
+    "email": "maksim.vinogradov466@gmail.com",
+    "car_number": "894О63",
+    "loyalty_card_number": "2058739",
+    "phone": "+79044796391",
+    "gender": "M",
+    "birth_date": "1962-11-22"
   },
   {
     "username": "romanromanov",
-    "password": "tr4kNlJwKhcv",
+    "password": "sccItdrfsXLU",
     "first_name": "Roman",
     "last_name": "Romanov",
-    "car_number": "293Н61",
-    "loyalty_card_number": "6449203"
+    "email": "roman.romanov343@yandex.ru",
+    "car_number": "ТУХ644942",
+    "loyalty_card_number": "6449203",
+    "phone": "+79041990309",
+    "gender": "M",
+    "birth_date": "1997-09-03"
   },
   {
     "username": "iuriiborisov",
-    "password": "fH2Laag7Jpqz",
+    "password": "UeknY5yInKXj",
     "first_name": "Iurii",
     "last_name": "Borisov",
-    "car_number": "104С29",
-    "loyalty_card_number": "7431575"
+    "email": "iurii.borisov489@mail.ru",
+    "car_number": "574К34",
+    "loyalty_card_number": "7431575",
+    "phone": "+79942587825",
+    "gender": "F",
+    "birth_date": "2002-12-12"
   },
   {
     "username": "marinagolubeva",
-    "password": "1Ruel1zOpJlV",
+    "password": "iMilbheEZjlW",
     "first_name": "Marina",
     "last_name": "Golubeva",
-    "car_number": "375Е95",
-    "loyalty_card_number": "4210996"
+    "email": "marina.golubeva531@outlook.com",
+    "car_number": "ЕМ242Н46",
+    "loyalty_card_number": "4210996",
+    "phone": "+79148879238",
+    "gender": "M",
+    "birth_date": "2002-04-08"
   },
   {
     "username": "tatianabeliaeva",
-    "password": "Xj9G72WhL3ag",
+    "password": "zUVuoyTEvVxD",
     "first_name": "Tatiana",
     "last_name": "Beliaeva",
-    "car_number": "ТНТ987911",
-    "loyalty_card_number": "1941056"
+    "email": "tatiana.beliaeva@yandex.ru",
+    "car_number": "НН390718",
+    "loyalty_card_number": "1941056",
+    "phone": "+79040112407",
+    "gender": "M",
+    "birth_date": "1964-12-14"
   },
   {
     "username": "pavellebedev",
-    "password": "NlxoxxJmBobJ",
+    "password": "Nezjg1KfJvFQ",
     "first_name": "Pavel",
     "last_name": "Lebedev",
-    "car_number": "УС494021",
-    "loyalty_card_number": "4287845"
+    "email": "pavel.lebedev977@yandex.ru",
+    "car_number": "О319ТЕ984",
+    "loyalty_card_number": "4287845",
+    "phone": "+79141708114",
+    "gender": "M",
+    "birth_date": "1979-08-09"
   },
   {
     "username": "nataliabaranova",
-    "password": "5mhvAziGb8Fn",
+    "password": "TwufdADuJSXJ",
     "first_name": "Natalia",
     "last_name": "Baranova",
-    "car_number": "С922КУ189",
-    "loyalty_card_number": "4161285"
+    "email": "natalia.baranova191@gmail.com",
+    "car_number": "764Е85778",
+    "loyalty_card_number": "4161285",
+    "phone": "+79049860880",
+    "gender": "M",
+    "birth_date": "1994-07-31"
   },
   {
     "username": "maksimborisov",
-    "password": "9K1vHwm6Kfwr",
+    "password": "Rgq3tboKNY4n",
     "first_name": "Maksim",
     "last_name": "Borisov",
-    "car_number": "М923ОЕ432",
-    "loyalty_card_number": "3389678"
+    "email": "maksim.borisov263@hotmail.com",
+    "car_number": "АМ154218",
+    "loyalty_card_number": "3389678",
+    "phone": "+79041521863",
+    "gender": "F",
+    "birth_date": "1995-10-25"
   },
   {
     "username": "galinagrigoreva",
-    "password": "IKjNr49bBBVU",
+    "password": "awIjXHv8fob8",
     "first_name": "Galina",
     "last_name": "Grigoreva",
-    "car_number": "ТТ728671",
-    "loyalty_card_number": "5819506"
+    "email": "galina.grigoreva945@mail.ru",
+    "car_number": "0725С55",
+    "loyalty_card_number": "5819506",
+    "phone": "+79233412448",
+    "gender": "M",
+    "birth_date": "1983-09-14"
   },
   {
     "username": "mariiakovaleva",
-    "password": "snyXctW2nyEm",
+    "password": "C1SwyD9IxeoE",
     "first_name": "Mariia",
     "last_name": "Kovaleva",
-    "car_number": "ТКХ712784",
-    "loyalty_card_number": "7726398"
+    "email": "mariia.kovaleva@mail.ru",
+    "car_number": "С535ХТ831",
+    "loyalty_card_number": "7726398",
+    "phone": "+79044183637",
+    "gender": "M",
+    "birth_date": "1997-08-04"
   },
   {
     "username": "vitaliigusev",
-    "password": "cktLzKPRBafm",
+    "password": "63hu3MBfNeeo",
     "first_name": "Vitalii",
     "last_name": "Gusev",
-    "car_number": "С835ОУ944",
-    "loyalty_card_number": "8273828"
+    "email": "vitalii.gusev907@gmail.com",
+    "car_number": "УТ408Е33",
+    "loyalty_card_number": "8273828",
+    "phone": "+79046912552",
+    "gender": "F",
+    "birth_date": "1965-02-24"
   },
   {
     "username": "annalebedeva",
-    "password": "O8OuIqWE9Wty",
+    "password": "x66WzeWBWlSI",
     "first_name": "Anna",
     "last_name": "Lebedeva",
-    "car_number": "ТМК29363",
-    "loyalty_card_number": "3891078"
+    "email": "anna.lebedeva138@gmail.com",
+    "car_number": "ТНВ111308",
+    "loyalty_card_number": "3891078",
+    "phone": "+79844894489",
+    "gender": "F",
+    "birth_date": "1978-08-17"
   }
 ]

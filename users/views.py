@@ -22,9 +22,15 @@ class UserRegisterView(APIView):
     def post(self, request):
         serializer = UserRegisterSerializer(data=request.data)
         if serializer.is_valid():
+            loyalty_card = LoyaltyCard.objects.create(
+                number=serializer.generate_loyalty_card_number(),
+                balance=0
+            )
+
             user = User.objects.create_user(
                 username=serializer.validated_data['username'],
                 password=serializer.validated_data['password'],
+                loyalty_card=loyalty_card
             )
             token = Token.objects.create(user=user)
             return Response({'token': token.key}, status=status.HTTP_201_CREATED)

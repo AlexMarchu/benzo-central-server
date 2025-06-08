@@ -4,6 +4,8 @@ import random
 import os
 import sys
 import re
+import datetime
+from datetime import timedelta
 
 import django
 from django.contrib.auth.hashers import make_password
@@ -46,6 +48,24 @@ def generate_car_number():
         car_number = random.choice(patterns)()
         if re.fullmatch(r'^(([АВЕКМНОРСТУХ]\d{3}(?<!000)[АВЕКМНОРСТУХ]{1,2})(\d{2,3})|(\d{4}(?<!0000)[АВЕКМНОРСТУХ]{2})(\d{2})|(\d{3}(?<!000)(C?D|[ТНМВКЕ])\d{3}(?<!000))(\d{2}(?<!00))|([ТСК][АВЕКМНОРСТУХ]{2}\d{3}(?<!000))(\d{2})|([АВЕКМНОРСТУХ]{2}\d{3}(?<!000)[АВЕКМНОРСТУХ])(\d{2})|([АВЕКМНОРСТУХ]\d{4}(?<!0000))(\d{2})|(\d{3}(?<!000)[АВЕКМНОРСТУХ])(\d{2})|(\d{4}(?<!0000)[АВЕКМНОРСТУХ])(\d{2})|([АВЕКМНОРСТУХ]{2}\d{4}(?<!0000))(\d{2})|([АВЕКМНОРСТУХ]{2}\d{3}(?<!000))(\d{2,3})|(^Т[АВЕКМНОРСТУХ]{2}\d{3}(?<!000)\d{2,3}))$', car_number):
             return car_number
+        
+def generate_phone_number():
+    # +79662700422
+    codes = ['904', '994', '914', '984', '923', '924']
+    return f'+7{random.choice(codes)}{''.join(str(random.randint(0, 9)) for _ in range(7))}'
+
+def generate_email(first_name, last_name):
+    domains = ['gmail.com', 'yandex.ru', 'mail.ru', 'outlook.com', 'hotmail.com']
+    name_part = f"{first_name.lower()}.{last_name.lower()}"
+    random_num = str(random.randint(1, 999)) if random.random() > 0.3 else ""
+    domain = random.choice(domains)
+    return f"{name_part}{random_num}@{domain}"
+
+def generate_birth_date():
+    end_date = datetime.date.today() - timedelta(days=365*18)
+    start_date = end_date - timedelta(days=365*50)
+    random_days = random.randint(0, (end_date - start_date).days)
+    return start_date + timedelta(days=random_days)
 
 def import_data():
     path = os.path.join(os.path.dirname(__file__), 'loyalty_card.json')
@@ -68,6 +88,10 @@ def import_data():
         username = create_username(card_data['holder_name'])
         password = generate_password()
         car_number = generate_car_number()
+        phone_number = generate_phone_number()
+        gender = random.choice(['M', 'F'])
+        email = generate_email(first_name, last_name)
+        birth_date = generate_birth_date()
 
 
         user = User.objects.create(
@@ -76,7 +100,11 @@ def import_data():
             first_name=first_name,
             last_name=last_name,
             loyalty_card=loyalty_card,
-            car_number=car_number
+            car_number=car_number,
+            phone=phone_number,
+            gender=gender,
+            email=email,
+            birth_date=birth_date
         )
 
         users_data.append({
@@ -84,8 +112,12 @@ def import_data():
             'password': password,
             'first_name': first_name,
             'last_name': last_name,
+            'email': email,
             'car_number': car_number,
-            'loyalty_card_number': card_data['number']
+            'loyalty_card_number': card_data['number'],
+            'phone': phone_number,
+            'gender': gender,
+            'birth_date': birth_date.strftime('%Y-%m-%d')
         })
 
         print(f'User {first_name} {last_name} created successfully')
@@ -94,7 +126,7 @@ def import_data():
     with open(output_path, 'w', encoding='utf-8') as file:
         json.dump(users_data, file, ensure_ascii=False, indent=2)
 
-    print(f'Created {len(users_data)} users with loyalty_cards and car_numbers')
+    print(f'Created {len(users_data)} users')
 
 if __name__ == '__main__':
     import_data()
