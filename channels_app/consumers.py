@@ -17,6 +17,7 @@ class ServerConsumer(AsyncWebsocketConsumer):
         super().__init__(*args, **kwargs)
 
     async def connect(self):
+        print(f'CENTRAL SERVER | connect attempt: {self.scope}')
         await self.accept()
         await self.channel_layer.group_add(f'all', self.channel_name)
         print(f'CENTRAL SERVER | client {self.channel_name} connected')
