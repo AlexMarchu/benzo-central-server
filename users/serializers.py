@@ -20,7 +20,7 @@ class UserRegisterSerializer(serializers.ModelSerializer):
     def generate_loyalty_card_number(self):
         import random
         while True:
-            card_number = f'{random.randint(1, 9)}{''.join(random.randint(0, 9) for _ in range(6))}'
+            card_number = f'{random.randint(1, 9)}{''.join(f'{random.randint(0, 9)}' for _ in range(6))}'
             if not LoyaltyCard.objects.filter(number=card_number).exists():
                 return card_number
 
