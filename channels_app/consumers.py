@@ -188,7 +188,7 @@ class ServerConsumer(AsyncWebsocketConsumer):
 
             user = None
             try:
-                user = await User.objects.aget(car_number=message.car_number.text)
+                user = await User.objects.select_related('loyalty_card').aget(car_number=message.car_number.text)
             except User.DoesNotExist:
                 pass
 
@@ -204,14 +204,14 @@ class ServerConsumer(AsyncWebsocketConsumer):
                 date_time=timezone.now()
             )
 
-            if message.used_bonuses > 0:
-                try:
-                    user = await User.objects.select_related('loyalty_card').aget(car_number=message.car_number.text)
-                    if user.loyalty_card:
-                        user.loyalty_card.balance -= message.used_bonuses
-                        await user.loyalty_card.asave()
-                except User.DoesNotExist:
-                    pass
+            if user:
+                if message.used_bonuses > 0:
+                    user.loyalty_card.balance -= message.used_bonuses
+                    await user.loyalty_card.asave()
+                else:
+                    bonus_amount = round(message.payment_amount * 0.05)
+                    user.loyalty_card.balance += bonus_amount
+                    await user.loyalty_card.asave()
 
         except Exception as e:
             print(f'CENTRAL SERVER | Error processing payment: {e}')

@@ -10,7 +10,7 @@
     "model": "stations.station",
     "pk": 1,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 1
     }
   },
@@ -35,10 +35,18 @@
     }
   },
   {
+    "model": "stations.station",
+    "pk": 2,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 1
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 3,
     "fields": {
-      "station": 1,
+      "station": 2,
       "fuel_type": "98",
       "price": 5620,
       "amount": 1794300
@@ -48,7 +56,7 @@
     "model": "stations.fuel",
     "pk": 4,
     "fields": {
-      "station": 1,
+      "station": 2,
       "fuel_type": "DT",
       "price": 4850,
       "amount": 3007500
@@ -63,9 +71,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 2,
+    "pk": 3,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 2
     }
   },
@@ -73,7 +81,7 @@
     "model": "stations.fuel",
     "pk": 5,
     "fields": {
-      "station": 2,
+      "station": 3,
       "fuel_type": "92",
       "price": 4449,
       "amount": 5653100
@@ -83,17 +91,25 @@
     "model": "stations.fuel",
     "pk": 6,
     "fields": {
-      "station": 2,
+      "station": 3,
       "fuel_type": "95",
       "price": 4785,
       "amount": 8120900
     }
   },
   {
+    "model": "stations.station",
+    "pk": 4,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 2
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 7,
     "fields": {
-      "station": 2,
+      "station": 4,
       "fuel_type": "98",
       "price": 5609,
       "amount": 4924900
@@ -103,7 +119,7 @@
     "model": "stations.fuel",
     "pk": 8,
     "fields": {
-      "station": 2,
+      "station": 4,
       "fuel_type": "DT",
       "price": 4969,
       "amount": 8278900
@@ -118,9 +134,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 3,
+    "pk": 5,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 3
     }
   },
@@ -128,7 +144,7 @@
     "model": "stations.fuel",
     "pk": 9,
     "fields": {
-      "station": 3,
+      "station": 5,
       "fuel_type": "92",
       "price": 4240,
       "amount": 7932500
@@ -138,17 +154,25 @@
     "model": "stations.fuel",
     "pk": 10,
     "fields": {
-      "station": 3,
+      "station": 5,
       "fuel_type": "95",
       "price": 4485,
       "amount": 8313100
     }
   },
   {
+    "model": "stations.station",
+    "pk": 6,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 3
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 11,
     "fields": {
-      "station": 3,
+      "station": 6,
       "fuel_type": "98",
       "price": 5160,
       "amount": 3078900
@@ -158,7 +182,7 @@
     "model": "stations.fuel",
     "pk": 12,
     "fields": {
-      "station": 3,
+      "station": 6,
       "fuel_type": "DT",
       "price": 5180,
       "amount": 8876100
@@ -173,9 +197,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 4,
+    "pk": 7,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 4
     }
   },
@@ -183,7 +207,7 @@
     "model": "stations.fuel",
     "pk": 13,
     "fields": {
-      "station": 4,
+      "station": 7,
       "fuel_type": "92",
       "price": 4320,
       "amount": 5670000
@@ -193,17 +217,25 @@
     "model": "stations.fuel",
     "pk": 14,
     "fields": {
-      "station": 4,
+      "station": 7,
       "fuel_type": "95",
       "price": 4670,
       "amount": 3263600
     }
   },
   {
+    "model": "stations.station",
+    "pk": 8,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 4
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 15,
     "fields": {
-      "station": 4,
+      "station": 8,
       "fuel_type": "98",
       "price": 5461,
       "amount": 1065200
@@ -213,7 +245,7 @@
     "model": "stations.fuel",
     "pk": 16,
     "fields": {
-      "station": 4,
+      "station": 8,
       "fuel_type": "DT",
       "price": 4990,
       "amount": 6099200
@@ -228,9 +260,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 5,
+    "pk": 9,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 5
     }
   },
@@ -238,7 +270,7 @@
     "model": "stations.fuel",
     "pk": 17,
     "fields": {
-      "station": 5,
+      "station": 9,
       "fuel_type": "92",
       "price": 4383,
       "amount": 2917200
@@ -248,17 +280,25 @@
     "model": "stations.fuel",
     "pk": 18,
     "fields": {
-      "station": 5,
+      "station": 9,
       "fuel_type": "95",
       "price": 4770,
       "amount": 4785000
     }
   },
   {
+    "model": "stations.station",
+    "pk": 10,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 5
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 19,
     "fields": {
-      "station": 5,
+      "station": 10,
       "fuel_type": "98",
       "price": 5315,
       "amount": 888600
@@ -268,7 +308,7 @@
     "model": "stations.fuel",
     "pk": 20,
     "fields": {
-      "station": 5,
+      "station": 10,
       "fuel_type": "DT",
       "price": 4740,
       "amount": 2875500
@@ -283,9 +323,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 6,
+    "pk": 11,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 6
     }
   },
@@ -293,7 +333,7 @@
     "model": "stations.fuel",
     "pk": 21,
     "fields": {
-      "station": 6,
+      "station": 11,
       "fuel_type": "92",
       "price": 4350,
       "amount": 1744900
@@ -303,17 +343,25 @@
     "model": "stations.fuel",
     "pk": 22,
     "fields": {
-      "station": 6,
+      "station": 11,
       "fuel_type": "95",
       "price": 4794,
       "amount": 4820200
     }
   },
   {
+    "model": "stations.station",
+    "pk": 12,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 6
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 23,
     "fields": {
-      "station": 6,
+      "station": 12,
       "fuel_type": "98",
       "price": 5409,
       "amount": 2161000
@@ -323,7 +371,7 @@
     "model": "stations.fuel",
     "pk": 24,
     "fields": {
-      "station": 6,
+      "station": 12,
       "fuel_type": "DT",
       "price": 4760,
       "amount": 1776200
@@ -338,9 +386,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 7,
+    "pk": 13,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 7
     }
   },
@@ -348,7 +396,7 @@
     "model": "stations.fuel",
     "pk": 25,
     "fields": {
-      "station": 7,
+      "station": 13,
       "fuel_type": "92",
       "price": 4150,
       "amount": 990000
@@ -358,17 +406,25 @@
     "model": "stations.fuel",
     "pk": 26,
     "fields": {
-      "station": 7,
+      "station": 13,
       "fuel_type": "95",
       "price": 4430,
       "amount": 9109400
     }
   },
   {
+    "model": "stations.station",
+    "pk": 14,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 7
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 27,
     "fields": {
-      "station": 7,
+      "station": 14,
       "fuel_type": "98",
       "price": 5486,
       "amount": 9816600
@@ -378,7 +434,7 @@
     "model": "stations.fuel",
     "pk": 28,
     "fields": {
-      "station": 7,
+      "station": 14,
       "fuel_type": "DT",
       "price": 4900,
       "amount": 1118800
@@ -393,9 +449,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 8,
+    "pk": 15,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 8
     }
   },
@@ -403,7 +459,7 @@
     "model": "stations.fuel",
     "pk": 29,
     "fields": {
-      "station": 8,
+      "station": 15,
       "fuel_type": "92",
       "price": 4320,
       "amount": 7682300
@@ -413,17 +469,25 @@
     "model": "stations.fuel",
     "pk": 30,
     "fields": {
-      "station": 8,
+      "station": 15,
       "fuel_type": "95",
       "price": 4670,
       "amount": 9661800
     }
   },
   {
+    "model": "stations.station",
+    "pk": 16,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 8
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 31,
     "fields": {
-      "station": 8,
+      "station": 16,
       "fuel_type": "98",
       "price": 5461,
       "amount": 6173500
@@ -433,7 +497,7 @@
     "model": "stations.fuel",
     "pk": 32,
     "fields": {
-      "station": 8,
+      "station": 16,
       "fuel_type": "DT",
       "price": 4990,
       "amount": 1421200
@@ -448,9 +512,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 9,
+    "pk": 17,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 9
     }
   },
@@ -458,7 +522,7 @@
     "model": "stations.fuel",
     "pk": 33,
     "fields": {
-      "station": 9,
+      "station": 17,
       "fuel_type": "92",
       "price": 4255,
       "amount": 6575900
@@ -468,17 +532,25 @@
     "model": "stations.fuel",
     "pk": 34,
     "fields": {
-      "station": 9,
+      "station": 17,
       "fuel_type": "95",
       "price": 4510,
       "amount": 1487700
     }
   },
   {
+    "model": "stations.station",
+    "pk": 18,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 9
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 35,
     "fields": {
-      "station": 9,
+      "station": 18,
       "fuel_type": "98",
       "price": 5317,
       "amount": 9060000
@@ -488,7 +560,7 @@
     "model": "stations.fuel",
     "pk": 36,
     "fields": {
-      "station": 9,
+      "station": 18,
       "fuel_type": "DT",
       "price": 5005,
       "amount": 2744700
@@ -503,9 +575,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 10,
+    "pk": 19,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 10
     }
   },
@@ -513,7 +585,7 @@
     "model": "stations.fuel",
     "pk": 37,
     "fields": {
-      "station": 10,
+      "station": 19,
       "fuel_type": "92",
       "price": 4305,
       "amount": 8381400
@@ -523,17 +595,25 @@
     "model": "stations.fuel",
     "pk": 38,
     "fields": {
-      "station": 10,
+      "station": 19,
       "fuel_type": "95",
       "price": 4687,
       "amount": 5437900
     }
   },
   {
+    "model": "stations.station",
+    "pk": 20,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 10
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 39,
     "fields": {
-      "station": 10,
+      "station": 20,
       "fuel_type": "98",
       "price": 5428,
       "amount": 8530400
@@ -543,7 +623,7 @@
     "model": "stations.fuel",
     "pk": 40,
     "fields": {
-      "station": 10,
+      "station": 20,
       "fuel_type": "DT",
       "price": 4839,
       "amount": 9071900
@@ -558,9 +638,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 11,
+    "pk": 21,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 11
     }
   },
@@ -568,7 +648,7 @@
     "model": "stations.fuel",
     "pk": 41,
     "fields": {
-      "station": 11,
+      "station": 21,
       "fuel_type": "92",
       "price": 4534,
       "amount": 7163500
@@ -578,17 +658,25 @@
     "model": "stations.fuel",
     "pk": 42,
     "fields": {
-      "station": 11,
+      "station": 21,
       "fuel_type": "95",
       "price": 4894,
       "amount": 396400
     }
   },
   {
+    "model": "stations.station",
+    "pk": 22,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 11
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 43,
     "fields": {
-      "station": 11,
+      "station": 22,
       "fuel_type": "98",
       "price": 5616,
       "amount": 1483000
@@ -598,7 +686,7 @@
     "model": "stations.fuel",
     "pk": 44,
     "fields": {
-      "station": 11,
+      "station": 22,
       "fuel_type": "DT",
       "price": 4775,
       "amount": 1245600
@@ -613,9 +701,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 12,
+    "pk": 23,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 12
     }
   },
@@ -623,7 +711,7 @@
     "model": "stations.fuel",
     "pk": 45,
     "fields": {
-      "station": 12,
+      "station": 23,
       "fuel_type": "92",
       "price": 4335,
       "amount": 3619300
@@ -633,17 +721,25 @@
     "model": "stations.fuel",
     "pk": 46,
     "fields": {
-      "station": 12,
+      "station": 23,
       "fuel_type": "95",
       "price": 4485,
       "amount": 3930700
     }
   },
   {
+    "model": "stations.station",
+    "pk": 24,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 12
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 47,
     "fields": {
-      "station": 12,
+      "station": 24,
       "fuel_type": "98",
       "price": 5498,
       "amount": 9584600
@@ -653,7 +749,7 @@
     "model": "stations.fuel",
     "pk": 48,
     "fields": {
-      "station": 12,
+      "station": 24,
       "fuel_type": "DT",
       "price": 4860,
       "amount": 6985900
@@ -668,9 +764,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 13,
+    "pk": 25,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 13
     }
   },
@@ -678,7 +774,7 @@
     "model": "stations.fuel",
     "pk": 49,
     "fields": {
-      "station": 13,
+      "station": 25,
       "fuel_type": "92",
       "price": 4507,
       "amount": 389800
@@ -688,17 +784,25 @@
     "model": "stations.fuel",
     "pk": 50,
     "fields": {
-      "station": 13,
+      "station": 25,
       "fuel_type": "95",
       "price": 4792,
       "amount": 363700
     }
   },
   {
+    "model": "stations.station",
+    "pk": 26,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 13
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 51,
     "fields": {
-      "station": 13,
+      "station": 26,
       "fuel_type": "98",
       "price": 5461,
       "amount": 7782800
@@ -708,7 +812,7 @@
     "model": "stations.fuel",
     "pk": 52,
     "fields": {
-      "station": 13,
+      "station": 26,
       "fuel_type": "DT",
       "price": 5141,
       "amount": 7049600
@@ -723,9 +827,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 14,
+    "pk": 27,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 14
     }
   },
@@ -733,7 +837,7 @@
     "model": "stations.fuel",
     "pk": 53,
     "fields": {
-      "station": 14,
+      "station": 27,
       "fuel_type": "92",
       "price": 4480,
       "amount": 378200
@@ -743,17 +847,25 @@
     "model": "stations.fuel",
     "pk": 54,
     "fields": {
-      "station": 14,
+      "station": 27,
       "fuel_type": "95",
       "price": 4845,
       "amount": 5439500
     }
   },
   {
+    "model": "stations.station",
+    "pk": 28,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 14
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 55,
     "fields": {
-      "station": 14,
+      "station": 28,
       "fuel_type": "98",
       "price": 5421,
       "amount": 2108200
@@ -763,7 +875,7 @@
     "model": "stations.fuel",
     "pk": 56,
     "fields": {
-      "station": 14,
+      "station": 28,
       "fuel_type": "DT",
       "price": 4800,
       "amount": 9659400
@@ -778,9 +890,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 15,
+    "pk": 29,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 15
     }
   },
@@ -788,7 +900,7 @@
     "model": "stations.fuel",
     "pk": 57,
     "fields": {
-      "station": 15,
+      "station": 29,
       "fuel_type": "92",
       "price": 4509,
       "amount": 2770000
@@ -798,17 +910,25 @@
     "model": "stations.fuel",
     "pk": 58,
     "fields": {
-      "station": 15,
+      "station": 29,
       "fuel_type": "95",
       "price": 4855,
       "amount": 9340400
     }
   },
   {
+    "model": "stations.station",
+    "pk": 30,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 15
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 59,
     "fields": {
-      "station": 15,
+      "station": 30,
       "fuel_type": "98",
       "price": 5422,
       "amount": 3679600
@@ -818,7 +938,7 @@
     "model": "stations.fuel",
     "pk": 60,
     "fields": {
-      "station": 15,
+      "station": 30,
       "fuel_type": "DT",
       "price": 4876,
       "amount": 7914400
@@ -833,9 +953,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 16,
+    "pk": 31,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 16
     }
   },
@@ -843,7 +963,7 @@
     "model": "stations.fuel",
     "pk": 61,
     "fields": {
-      "station": 16,
+      "station": 31,
       "fuel_type": "92",
       "price": 4398,
       "amount": 3395400
@@ -853,17 +973,25 @@
     "model": "stations.fuel",
     "pk": 62,
     "fields": {
-      "station": 16,
+      "station": 31,
       "fuel_type": "95",
       "price": 4830,
       "amount": 3011700
     }
   },
   {
+    "model": "stations.station",
+    "pk": 32,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 16
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 63,
     "fields": {
-      "station": 16,
+      "station": 32,
       "fuel_type": "98",
       "price": 5351,
       "amount": 8495200
@@ -873,7 +1001,7 @@
     "model": "stations.fuel",
     "pk": 64,
     "fields": {
-      "station": 16,
+      "station": 32,
       "fuel_type": "DT",
       "price": 4839,
       "amount": 3253800
@@ -888,9 +1016,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 17,
+    "pk": 33,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 17
     }
   },
@@ -898,7 +1026,7 @@
     "model": "stations.fuel",
     "pk": 65,
     "fields": {
-      "station": 17,
+      "station": 33,
       "fuel_type": "92",
       "price": 4409,
       "amount": 6032700
@@ -908,17 +1036,25 @@
     "model": "stations.fuel",
     "pk": 66,
     "fields": {
-      "station": 17,
+      "station": 33,
       "fuel_type": "95",
       "price": 4767,
       "amount": 1768500
     }
   },
   {
+    "model": "stations.station",
+    "pk": 34,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 17
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 67,
     "fields": {
-      "station": 17,
+      "station": 34,
       "fuel_type": "98",
       "price": 5620,
       "amount": 3956200
@@ -928,7 +1064,7 @@
     "model": "stations.fuel",
     "pk": 68,
     "fields": {
-      "station": 17,
+      "station": 34,
       "fuel_type": "DT",
       "price": 4850,
       "amount": 892500
@@ -943,9 +1079,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 18,
+    "pk": 35,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 18
     }
   },
@@ -953,7 +1089,7 @@
     "model": "stations.fuel",
     "pk": 69,
     "fields": {
-      "station": 18,
+      "station": 35,
       "fuel_type": "92",
       "price": 4449,
       "amount": 7276900
@@ -963,17 +1099,25 @@
     "model": "stations.fuel",
     "pk": 70,
     "fields": {
-      "station": 18,
+      "station": 35,
       "fuel_type": "95",
       "price": 4785,
       "amount": 6324100
     }
   },
   {
+    "model": "stations.station",
+    "pk": 36,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 18
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 71,
     "fields": {
-      "station": 18,
+      "station": 36,
       "fuel_type": "98",
       "price": 5609,
       "amount": 5946800
@@ -983,7 +1127,7 @@
     "model": "stations.fuel",
     "pk": 72,
     "fields": {
-      "station": 18,
+      "station": 36,
       "fuel_type": "DT",
       "price": 4969,
       "amount": 8286100
@@ -998,9 +1142,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 19,
+    "pk": 37,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 19
     }
   },
@@ -1008,7 +1152,7 @@
     "model": "stations.fuel",
     "pk": 73,
     "fields": {
-      "station": 19,
+      "station": 37,
       "fuel_type": "92",
       "price": 4240,
       "amount": 5317800
@@ -1018,17 +1162,25 @@
     "model": "stations.fuel",
     "pk": 74,
     "fields": {
-      "station": 19,
+      "station": 37,
       "fuel_type": "95",
       "price": 4485,
       "amount": 8775100
     }
   },
   {
+    "model": "stations.station",
+    "pk": 38,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 19
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 75,
     "fields": {
-      "station": 19,
+      "station": 38,
       "fuel_type": "98",
       "price": 5160,
       "amount": 8674500
@@ -1038,7 +1190,7 @@
     "model": "stations.fuel",
     "pk": 76,
     "fields": {
-      "station": 19,
+      "station": 38,
       "fuel_type": "DT",
       "price": 5180,
       "amount": 2655400
@@ -1053,9 +1205,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 20,
+    "pk": 39,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 20
     }
   },
@@ -1063,7 +1215,7 @@
     "model": "stations.fuel",
     "pk": 77,
     "fields": {
-      "station": 20,
+      "station": 39,
       "fuel_type": "92",
       "price": 4320,
       "amount": 8831400
@@ -1073,17 +1225,25 @@
     "model": "stations.fuel",
     "pk": 78,
     "fields": {
-      "station": 20,
+      "station": 39,
       "fuel_type": "95",
       "price": 4670,
       "amount": 4572300
     }
   },
   {
+    "model": "stations.station",
+    "pk": 40,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 20
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 79,
     "fields": {
-      "station": 20,
+      "station": 40,
       "fuel_type": "98",
       "price": 5461,
       "amount": 8176500
@@ -1093,7 +1253,7 @@
     "model": "stations.fuel",
     "pk": 80,
     "fields": {
-      "station": 20,
+      "station": 40,
       "fuel_type": "DT",
       "price": 4990,
       "amount": 9213000
@@ -1108,9 +1268,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 21,
+    "pk": 41,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 21
     }
   },
@@ -1118,7 +1278,7 @@
     "model": "stations.fuel",
     "pk": 81,
     "fields": {
-      "station": 21,
+      "station": 41,
       "fuel_type": "92",
       "price": 4383,
       "amount": 6191900
@@ -1128,17 +1288,25 @@
     "model": "stations.fuel",
     "pk": 82,
     "fields": {
-      "station": 21,
+      "station": 41,
       "fuel_type": "95",
       "price": 4770,
       "amount": 5084500
     }
   },
   {
+    "model": "stations.station",
+    "pk": 42,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 21
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 83,
     "fields": {
-      "station": 21,
+      "station": 42,
       "fuel_type": "98",
       "price": 5315,
       "amount": 3234400
@@ -1148,7 +1316,7 @@
     "model": "stations.fuel",
     "pk": 84,
     "fields": {
-      "station": 21,
+      "station": 42,
       "fuel_type": "DT",
       "price": 4740,
       "amount": 348000
@@ -1163,9 +1331,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 22,
+    "pk": 43,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 22
     }
   },
@@ -1173,7 +1341,7 @@
     "model": "stations.fuel",
     "pk": 85,
     "fields": {
-      "station": 22,
+      "station": 43,
       "fuel_type": "92",
       "price": 4350,
       "amount": 1638300
@@ -1183,17 +1351,25 @@
     "model": "stations.fuel",
     "pk": 86,
     "fields": {
-      "station": 22,
+      "station": 43,
       "fuel_type": "95",
       "price": 4794,
       "amount": 4128600
     }
   },
   {
+    "model": "stations.station",
+    "pk": 44,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 22
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 87,
     "fields": {
-      "station": 22,
+      "station": 44,
       "fuel_type": "98",
       "price": 5409,
       "amount": 7506800
@@ -1203,7 +1379,7 @@
     "model": "stations.fuel",
     "pk": 88,
     "fields": {
-      "station": 22,
+      "station": 44,
       "fuel_type": "DT",
       "price": 4760,
       "amount": 4186800
@@ -1218,9 +1394,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 23,
+    "pk": 45,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 23
     }
   },
@@ -1228,7 +1404,7 @@
     "model": "stations.fuel",
     "pk": 89,
     "fields": {
-      "station": 23,
+      "station": 45,
       "fuel_type": "92",
       "price": 4150,
       "amount": 9768900
@@ -1238,17 +1414,25 @@
     "model": "stations.fuel",
     "pk": 90,
     "fields": {
-      "station": 23,
+      "station": 45,
       "fuel_type": "95",
       "price": 4430,
       "amount": 6047300
     }
   },
   {
+    "model": "stations.station",
+    "pk": 46,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 23
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 91,
     "fields": {
-      "station": 23,
+      "station": 46,
       "fuel_type": "98",
       "price": 5486,
       "amount": 1155800
@@ -1258,7 +1442,7 @@
     "model": "stations.fuel",
     "pk": 92,
     "fields": {
-      "station": 23,
+      "station": 46,
       "fuel_type": "DT",
       "price": 4900,
       "amount": 464300
@@ -1273,9 +1457,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 24,
+    "pk": 47,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 24
     }
   },
@@ -1283,7 +1467,7 @@
     "model": "stations.fuel",
     "pk": 93,
     "fields": {
-      "station": 24,
+      "station": 47,
       "fuel_type": "92",
       "price": 4320,
       "amount": 1746800
@@ -1293,17 +1477,25 @@
     "model": "stations.fuel",
     "pk": 94,
     "fields": {
-      "station": 24,
+      "station": 47,
       "fuel_type": "95",
       "price": 4670,
       "amount": 7122700
     }
   },
   {
+    "model": "stations.station",
+    "pk": 48,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 24
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 95,
     "fields": {
-      "station": 24,
+      "station": 48,
       "fuel_type": "98",
       "price": 5461,
       "amount": 5094100
@@ -1313,7 +1505,7 @@
     "model": "stations.fuel",
     "pk": 96,
     "fields": {
-      "station": 24,
+      "station": 48,
       "fuel_type": "DT",
       "price": 4990,
       "amount": 2877500
@@ -1328,9 +1520,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 25,
+    "pk": 49,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 25
     }
   },
@@ -1338,7 +1530,7 @@
     "model": "stations.fuel",
     "pk": 97,
     "fields": {
-      "station": 25,
+      "station": 49,
       "fuel_type": "92",
       "price": 4255,
       "amount": 7972100
@@ -1348,17 +1540,25 @@
     "model": "stations.fuel",
     "pk": 98,
     "fields": {
-      "station": 25,
+      "station": 49,
       "fuel_type": "95",
       "price": 4510,
       "amount": 366600
     }
   },
   {
+    "model": "stations.station",
+    "pk": 50,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 25
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 99,
     "fields": {
-      "station": 25,
+      "station": 50,
       "fuel_type": "98",
       "price": 5317,
       "amount": 5222200
@@ -1368,7 +1568,7 @@
     "model": "stations.fuel",
     "pk": 100,
     "fields": {
-      "station": 25,
+      "station": 50,
       "fuel_type": "DT",
       "price": 5005,
       "amount": 6828000
@@ -1383,9 +1583,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 26,
+    "pk": 51,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 26
     }
   },
@@ -1393,7 +1593,7 @@
     "model": "stations.fuel",
     "pk": 101,
     "fields": {
-      "station": 26,
+      "station": 51,
       "fuel_type": "92",
       "price": 4305,
       "amount": 9095500
@@ -1403,17 +1603,25 @@
     "model": "stations.fuel",
     "pk": 102,
     "fields": {
-      "station": 26,
+      "station": 51,
       "fuel_type": "95",
       "price": 4687,
       "amount": 8378900
     }
   },
   {
+    "model": "stations.station",
+    "pk": 52,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 26
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 103,
     "fields": {
-      "station": 26,
+      "station": 52,
       "fuel_type": "98",
       "price": 5428,
       "amount": 5072300
@@ -1423,7 +1631,7 @@
     "model": "stations.fuel",
     "pk": 104,
     "fields": {
-      "station": 26,
+      "station": 52,
       "fuel_type": "DT",
       "price": 4839,
       "amount": 7478400
@@ -1438,9 +1646,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 27,
+    "pk": 53,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 27
     }
   },
@@ -1448,7 +1656,7 @@
     "model": "stations.fuel",
     "pk": 105,
     "fields": {
-      "station": 27,
+      "station": 53,
       "fuel_type": "92",
       "price": 4534,
       "amount": 2640400
@@ -1458,17 +1666,25 @@
     "model": "stations.fuel",
     "pk": 106,
     "fields": {
-      "station": 27,
+      "station": 53,
       "fuel_type": "95",
       "price": 4894,
       "amount": 5060400
     }
   },
   {
+    "model": "stations.station",
+    "pk": 54,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 27
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 107,
     "fields": {
-      "station": 27,
+      "station": 54,
       "fuel_type": "98",
       "price": 5616,
       "amount": 1597800
@@ -1478,7 +1694,7 @@
     "model": "stations.fuel",
     "pk": 108,
     "fields": {
-      "station": 27,
+      "station": 54,
       "fuel_type": "DT",
       "price": 4775,
       "amount": 662600
@@ -1493,9 +1709,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 28,
+    "pk": 55,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 28
     }
   },
@@ -1503,7 +1719,7 @@
     "model": "stations.fuel",
     "pk": 109,
     "fields": {
-      "station": 28,
+      "station": 55,
       "fuel_type": "92",
       "price": 4335,
       "amount": 5587500
@@ -1513,17 +1729,25 @@
     "model": "stations.fuel",
     "pk": 110,
     "fields": {
-      "station": 28,
+      "station": 55,
       "fuel_type": "95",
       "price": 4485,
       "amount": 1352600
     }
   },
   {
+    "model": "stations.station",
+    "pk": 56,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 28
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 111,
     "fields": {
-      "station": 28,
+      "station": 56,
       "fuel_type": "98",
       "price": 5498,
       "amount": 3967000
@@ -1533,7 +1757,7 @@
     "model": "stations.fuel",
     "pk": 112,
     "fields": {
-      "station": 28,
+      "station": 56,
       "fuel_type": "DT",
       "price": 4860,
       "amount": 2461500
@@ -1548,9 +1772,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 29,
+    "pk": 57,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 29
     }
   },
@@ -1558,7 +1782,7 @@
     "model": "stations.fuel",
     "pk": 113,
     "fields": {
-      "station": 29,
+      "station": 57,
       "fuel_type": "92",
       "price": 4507,
       "amount": 7363700
@@ -1568,17 +1792,25 @@
     "model": "stations.fuel",
     "pk": 114,
     "fields": {
-      "station": 29,
+      "station": 57,
       "fuel_type": "95",
       "price": 4792,
       "amount": 5244500
     }
   },
   {
+    "model": "stations.station",
+    "pk": 58,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 29
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 115,
     "fields": {
-      "station": 29,
+      "station": 58,
       "fuel_type": "98",
       "price": 5461,
       "amount": 1726800
@@ -1588,7 +1820,7 @@
     "model": "stations.fuel",
     "pk": 116,
     "fields": {
-      "station": 29,
+      "station": 58,
       "fuel_type": "DT",
       "price": 5141,
       "amount": 5797700
@@ -1603,9 +1835,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 30,
+    "pk": 59,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 30
     }
   },
@@ -1613,7 +1845,7 @@
     "model": "stations.fuel",
     "pk": 117,
     "fields": {
-      "station": 30,
+      "station": 59,
       "fuel_type": "92",
       "price": 4480,
       "amount": 779900
@@ -1623,17 +1855,25 @@
     "model": "stations.fuel",
     "pk": 118,
     "fields": {
-      "station": 30,
+      "station": 59,
       "fuel_type": "95",
       "price": 4845,
       "amount": 2070600
     }
   },
   {
+    "model": "stations.station",
+    "pk": 60,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 30
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 119,
     "fields": {
-      "station": 30,
+      "station": 60,
       "fuel_type": "98",
       "price": 5421,
       "amount": 9424100
@@ -1643,7 +1883,7 @@
     "model": "stations.fuel",
     "pk": 120,
     "fields": {
-      "station": 30,
+      "station": 60,
       "fuel_type": "DT",
       "price": 4800,
       "amount": 6894300
@@ -1658,9 +1898,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 31,
+    "pk": 61,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 31
     }
   },
@@ -1668,7 +1908,7 @@
     "model": "stations.fuel",
     "pk": 121,
     "fields": {
-      "station": 31,
+      "station": 61,
       "fuel_type": "92",
       "price": 4509,
       "amount": 7626000
@@ -1678,17 +1918,25 @@
     "model": "stations.fuel",
     "pk": 122,
     "fields": {
-      "station": 31,
+      "station": 61,
       "fuel_type": "95",
       "price": 4855,
       "amount": 538400
     }
   },
   {
+    "model": "stations.station",
+    "pk": 62,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 31
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 123,
     "fields": {
-      "station": 31,
+      "station": 62,
       "fuel_type": "98",
       "price": 5422,
       "amount": 4915900
@@ -1698,7 +1946,7 @@
     "model": "stations.fuel",
     "pk": 124,
     "fields": {
-      "station": 31,
+      "station": 62,
       "fuel_type": "DT",
       "price": 4876,
       "amount": 4185600
@@ -1713,9 +1961,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 32,
+    "pk": 63,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 32
     }
   },
@@ -1723,7 +1971,7 @@
     "model": "stations.fuel",
     "pk": 125,
     "fields": {
-      "station": 32,
+      "station": 63,
       "fuel_type": "92",
       "price": 4398,
       "amount": 1699700
@@ -1733,17 +1981,25 @@
     "model": "stations.fuel",
     "pk": 126,
     "fields": {
-      "station": 32,
+      "station": 63,
       "fuel_type": "95",
       "price": 4830,
       "amount": 9959400
     }
   },
   {
+    "model": "stations.station",
+    "pk": 64,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 32
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 127,
     "fields": {
-      "station": 32,
+      "station": 64,
       "fuel_type": "98",
       "price": 5351,
       "amount": 3221100
@@ -1753,7 +2009,7 @@
     "model": "stations.fuel",
     "pk": 128,
     "fields": {
-      "station": 32,
+      "station": 64,
       "fuel_type": "DT",
       "price": 4839,
       "amount": 8505200
@@ -1768,9 +2024,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 33,
+    "pk": 65,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 33
     }
   },
@@ -1778,7 +2034,7 @@
     "model": "stations.fuel",
     "pk": 129,
     "fields": {
-      "station": 33,
+      "station": 65,
       "fuel_type": "92",
       "price": 4409,
       "amount": 6133000
@@ -1788,17 +2044,25 @@
     "model": "stations.fuel",
     "pk": 130,
     "fields": {
-      "station": 33,
+      "station": 65,
       "fuel_type": "95",
       "price": 4767,
       "amount": 9891600
     }
   },
   {
+    "model": "stations.station",
+    "pk": 66,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 33
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 131,
     "fields": {
-      "station": 33,
+      "station": 66,
       "fuel_type": "98",
       "price": 5620,
       "amount": 4349000
@@ -1808,7 +2072,7 @@
     "model": "stations.fuel",
     "pk": 132,
     "fields": {
-      "station": 33,
+      "station": 66,
       "fuel_type": "DT",
       "price": 4850,
       "amount": 5173200
@@ -1823,9 +2087,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 34,
+    "pk": 67,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 34
     }
   },
@@ -1833,7 +2097,7 @@
     "model": "stations.fuel",
     "pk": 133,
     "fields": {
-      "station": 34,
+      "station": 67,
       "fuel_type": "92",
       "price": 4449,
       "amount": 5558400
@@ -1843,17 +2107,25 @@
     "model": "stations.fuel",
     "pk": 134,
     "fields": {
-      "station": 34,
+      "station": 67,
       "fuel_type": "95",
       "price": 4785,
       "amount": 8551500
     }
   },
   {
+    "model": "stations.station",
+    "pk": 68,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 34
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 135,
     "fields": {
-      "station": 34,
+      "station": 68,
       "fuel_type": "98",
       "price": 5609,
       "amount": 7694900
@@ -1863,7 +2135,7 @@
     "model": "stations.fuel",
     "pk": 136,
     "fields": {
-      "station": 34,
+      "station": 68,
       "fuel_type": "DT",
       "price": 4969,
       "amount": 3061700
@@ -1878,9 +2150,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 35,
+    "pk": 69,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 35
     }
   },
@@ -1888,7 +2160,7 @@
     "model": "stations.fuel",
     "pk": 137,
     "fields": {
-      "station": 35,
+      "station": 69,
       "fuel_type": "92",
       "price": 4240,
       "amount": 7069800
@@ -1898,17 +2170,25 @@
     "model": "stations.fuel",
     "pk": 138,
     "fields": {
-      "station": 35,
+      "station": 69,
       "fuel_type": "95",
       "price": 4485,
       "amount": 3223000
     }
   },
   {
+    "model": "stations.station",
+    "pk": 70,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 35
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 139,
     "fields": {
-      "station": 35,
+      "station": 70,
       "fuel_type": "98",
       "price": 5160,
       "amount": 3986400
@@ -1918,7 +2198,7 @@
     "model": "stations.fuel",
     "pk": 140,
     "fields": {
-      "station": 35,
+      "station": 70,
       "fuel_type": "DT",
       "price": 5180,
       "amount": 4604400
@@ -1933,9 +2213,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 36,
+    "pk": 71,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 36
     }
   },
@@ -1943,7 +2223,7 @@
     "model": "stations.fuel",
     "pk": 141,
     "fields": {
-      "station": 36,
+      "station": 71,
       "fuel_type": "92",
       "price": 4320,
       "amount": 8750200
@@ -1953,17 +2233,25 @@
     "model": "stations.fuel",
     "pk": 142,
     "fields": {
-      "station": 36,
+      "station": 71,
       "fuel_type": "95",
       "price": 4670,
       "amount": 4676500
     }
   },
   {
+    "model": "stations.station",
+    "pk": 72,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 36
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 143,
     "fields": {
-      "station": 36,
+      "station": 72,
       "fuel_type": "98",
       "price": 5461,
       "amount": 4937600
@@ -1973,7 +2261,7 @@
     "model": "stations.fuel",
     "pk": 144,
     "fields": {
-      "station": 36,
+      "station": 72,
       "fuel_type": "DT",
       "price": 4990,
       "amount": 7748800
@@ -1988,9 +2276,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 37,
+    "pk": 73,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 37
     }
   },
@@ -1998,7 +2286,7 @@
     "model": "stations.fuel",
     "pk": 145,
     "fields": {
-      "station": 37,
+      "station": 73,
       "fuel_type": "92",
       "price": 4383,
       "amount": 7003400
@@ -2008,17 +2296,25 @@
     "model": "stations.fuel",
     "pk": 146,
     "fields": {
-      "station": 37,
+      "station": 73,
       "fuel_type": "95",
       "price": 4770,
       "amount": 3371700
     }
   },
   {
+    "model": "stations.station",
+    "pk": 74,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 37
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 147,
     "fields": {
-      "station": 37,
+      "station": 74,
       "fuel_type": "98",
       "price": 5315,
       "amount": 9556000
@@ -2028,7 +2324,7 @@
     "model": "stations.fuel",
     "pk": 148,
     "fields": {
-      "station": 37,
+      "station": 74,
       "fuel_type": "DT",
       "price": 4740,
       "amount": 4537900
@@ -2043,9 +2339,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 38,
+    "pk": 75,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 38
     }
   },
@@ -2053,7 +2349,7 @@
     "model": "stations.fuel",
     "pk": 149,
     "fields": {
-      "station": 38,
+      "station": 75,
       "fuel_type": "92",
       "price": 4350,
       "amount": 7759800
@@ -2063,17 +2359,25 @@
     "model": "stations.fuel",
     "pk": 150,
     "fields": {
-      "station": 38,
+      "station": 75,
       "fuel_type": "95",
       "price": 4794,
       "amount": 2332300
     }
   },
   {
+    "model": "stations.station",
+    "pk": 76,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 38
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 151,
     "fields": {
-      "station": 38,
+      "station": 76,
       "fuel_type": "98",
       "price": 5409,
       "amount": 3803000
@@ -2083,7 +2387,7 @@
     "model": "stations.fuel",
     "pk": 152,
     "fields": {
-      "station": 38,
+      "station": 76,
       "fuel_type": "DT",
       "price": 4760,
       "amount": 5423200
@@ -2098,9 +2402,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 39,
+    "pk": 77,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 39
     }
   },
@@ -2108,7 +2412,7 @@
     "model": "stations.fuel",
     "pk": 153,
     "fields": {
-      "station": 39,
+      "station": 77,
       "fuel_type": "92",
       "price": 4150,
       "amount": 6432400
@@ -2118,17 +2422,25 @@
     "model": "stations.fuel",
     "pk": 154,
     "fields": {
-      "station": 39,
+      "station": 77,
       "fuel_type": "95",
       "price": 4430,
       "amount": 4338300
     }
   },
   {
+    "model": "stations.station",
+    "pk": 78,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 39
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 155,
     "fields": {
-      "station": 39,
+      "station": 78,
       "fuel_type": "98",
       "price": 5486,
       "amount": 1111100
@@ -2138,7 +2450,7 @@
     "model": "stations.fuel",
     "pk": 156,
     "fields": {
-      "station": 39,
+      "station": 78,
       "fuel_type": "DT",
       "price": 4900,
       "amount": 8870100
@@ -2153,9 +2465,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 40,
+    "pk": 79,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 40
     }
   },
@@ -2163,7 +2475,7 @@
     "model": "stations.fuel",
     "pk": 157,
     "fields": {
-      "station": 40,
+      "station": 79,
       "fuel_type": "92",
       "price": 4320,
       "amount": 3579200
@@ -2173,17 +2485,25 @@
     "model": "stations.fuel",
     "pk": 158,
     "fields": {
-      "station": 40,
+      "station": 79,
       "fuel_type": "95",
       "price": 4670,
       "amount": 4559400
     }
   },
   {
+    "model": "stations.station",
+    "pk": 80,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 40
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 159,
     "fields": {
-      "station": 40,
+      "station": 80,
       "fuel_type": "98",
       "price": 5461,
       "amount": 8615900
@@ -2193,7 +2513,7 @@
     "model": "stations.fuel",
     "pk": 160,
     "fields": {
-      "station": 40,
+      "station": 80,
       "fuel_type": "DT",
       "price": 4990,
       "amount": 6982700
@@ -2208,9 +2528,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 41,
+    "pk": 81,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 41
     }
   },
@@ -2218,7 +2538,7 @@
     "model": "stations.fuel",
     "pk": 161,
     "fields": {
-      "station": 41,
+      "station": 81,
       "fuel_type": "92",
       "price": 4255,
       "amount": 6141100
@@ -2228,17 +2548,25 @@
     "model": "stations.fuel",
     "pk": 162,
     "fields": {
-      "station": 41,
+      "station": 81,
       "fuel_type": "95",
       "price": 4510,
       "amount": 7470300
     }
   },
   {
+    "model": "stations.station",
+    "pk": 82,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 41
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 163,
     "fields": {
-      "station": 41,
+      "station": 82,
       "fuel_type": "98",
       "price": 5317,
       "amount": 2333300
@@ -2248,7 +2576,7 @@
     "model": "stations.fuel",
     "pk": 164,
     "fields": {
-      "station": 41,
+      "station": 82,
       "fuel_type": "DT",
       "price": 5005,
       "amount": 4495100
@@ -2263,9 +2591,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 42,
+    "pk": 83,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 42
     }
   },
@@ -2273,7 +2601,7 @@
     "model": "stations.fuel",
     "pk": 165,
     "fields": {
-      "station": 42,
+      "station": 83,
       "fuel_type": "92",
       "price": 4305,
       "amount": 3595900
@@ -2283,17 +2611,25 @@
     "model": "stations.fuel",
     "pk": 166,
     "fields": {
-      "station": 42,
+      "station": 83,
       "fuel_type": "95",
       "price": 4687,
       "amount": 4434700
     }
   },
   {
+    "model": "stations.station",
+    "pk": 84,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 42
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 167,
     "fields": {
-      "station": 42,
+      "station": 84,
       "fuel_type": "98",
       "price": 5428,
       "amount": 2294100
@@ -2303,7 +2639,7 @@
     "model": "stations.fuel",
     "pk": 168,
     "fields": {
-      "station": 42,
+      "station": 84,
       "fuel_type": "DT",
       "price": 4839,
       "amount": 9815700
@@ -2318,9 +2654,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 43,
+    "pk": 85,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 43
     }
   },
@@ -2328,7 +2664,7 @@
     "model": "stations.fuel",
     "pk": 169,
     "fields": {
-      "station": 43,
+      "station": 85,
       "fuel_type": "92",
       "price": 4534,
       "amount": 6898500
@@ -2338,17 +2674,25 @@
     "model": "stations.fuel",
     "pk": 170,
     "fields": {
-      "station": 43,
+      "station": 85,
       "fuel_type": "95",
       "price": 4894,
       "amount": 8190100
     }
   },
   {
+    "model": "stations.station",
+    "pk": 86,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 43
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 171,
     "fields": {
-      "station": 43,
+      "station": 86,
       "fuel_type": "98",
       "price": 5616,
       "amount": 8200400
@@ -2358,7 +2702,7 @@
     "model": "stations.fuel",
     "pk": 172,
     "fields": {
-      "station": 43,
+      "station": 86,
       "fuel_type": "DT",
       "price": 4775,
       "amount": 3968500
@@ -2373,9 +2717,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 44,
+    "pk": 87,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 44
     }
   },
@@ -2383,7 +2727,7 @@
     "model": "stations.fuel",
     "pk": 173,
     "fields": {
-      "station": 44,
+      "station": 87,
       "fuel_type": "92",
       "price": 4335,
       "amount": 6231000
@@ -2393,17 +2737,25 @@
     "model": "stations.fuel",
     "pk": 174,
     "fields": {
-      "station": 44,
+      "station": 87,
       "fuel_type": "95",
       "price": 4485,
       "amount": 7534000
     }
   },
   {
+    "model": "stations.station",
+    "pk": 88,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 44
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 175,
     "fields": {
-      "station": 44,
+      "station": 88,
       "fuel_type": "98",
       "price": 5498,
       "amount": 9816200
@@ -2413,7 +2765,7 @@
     "model": "stations.fuel",
     "pk": 176,
     "fields": {
-      "station": 44,
+      "station": 88,
       "fuel_type": "DT",
       "price": 4860,
       "amount": 1544700
@@ -2428,9 +2780,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 45,
+    "pk": 89,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 45
     }
   },
@@ -2438,7 +2790,7 @@
     "model": "stations.fuel",
     "pk": 177,
     "fields": {
-      "station": 45,
+      "station": 89,
       "fuel_type": "92",
       "price": 4507,
       "amount": 3674100
@@ -2448,17 +2800,25 @@
     "model": "stations.fuel",
     "pk": 178,
     "fields": {
-      "station": 45,
+      "station": 89,
       "fuel_type": "95",
       "price": 4792,
       "amount": 9574200
     }
   },
   {
+    "model": "stations.station",
+    "pk": 90,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 45
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 179,
     "fields": {
-      "station": 45,
+      "station": 90,
       "fuel_type": "98",
       "price": 5461,
       "amount": 4102400
@@ -2468,7 +2828,7 @@
     "model": "stations.fuel",
     "pk": 180,
     "fields": {
-      "station": 45,
+      "station": 90,
       "fuel_type": "DT",
       "price": 5141,
       "amount": 9475100
@@ -2483,9 +2843,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 46,
+    "pk": 91,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 46
     }
   },
@@ -2493,7 +2853,7 @@
     "model": "stations.fuel",
     "pk": 181,
     "fields": {
-      "station": 46,
+      "station": 91,
       "fuel_type": "92",
       "price": 4480,
       "amount": 9368600
@@ -2503,17 +2863,25 @@
     "model": "stations.fuel",
     "pk": 182,
     "fields": {
-      "station": 46,
+      "station": 91,
       "fuel_type": "95",
       "price": 4845,
       "amount": 7530500
     }
   },
   {
+    "model": "stations.station",
+    "pk": 92,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 46
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 183,
     "fields": {
-      "station": 46,
+      "station": 92,
       "fuel_type": "98",
       "price": 5421,
       "amount": 1879900
@@ -2523,7 +2891,7 @@
     "model": "stations.fuel",
     "pk": 184,
     "fields": {
-      "station": 46,
+      "station": 92,
       "fuel_type": "DT",
       "price": 4800,
       "amount": 1882900
@@ -2538,9 +2906,9 @@
   },
   {
     "model": "stations.station",
-    "pk": 47,
+    "pk": 93,
     "fields": {
-      "status": "free",
+      "status": "not_working",
       "gas_station": 47
     }
   },
@@ -2548,7 +2916,7 @@
     "model": "stations.fuel",
     "pk": 185,
     "fields": {
-      "station": 47,
+      "station": 93,
       "fuel_type": "92",
       "price": 4509,
       "amount": 9326500
@@ -2558,17 +2926,25 @@
     "model": "stations.fuel",
     "pk": 186,
     "fields": {
-      "station": 47,
+      "station": 93,
       "fuel_type": "95",
       "price": 4855,
       "amount": 545700
     }
   },
   {
+    "model": "stations.station",
+    "pk": 94,
+    "fields": {
+      "status": "not_working",
+      "gas_station": 47
+    }
+  },
+  {
     "model": "stations.fuel",
     "pk": 187,
     "fields": {
-      "station": 47,
+      "station": 94,
       "fuel_type": "98",
       "price": 5422,
       "amount": 8311400
@@ -2578,7 +2954,7 @@
     "model": "stations.fuel",
     "pk": 188,
     "fields": {
-      "station": 47,
+      "station": 94,
       "fuel_type": "DT",
       "price": 4876,
       "amount": 4498500

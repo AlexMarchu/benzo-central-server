@@ -52,7 +52,7 @@ def generate_car_number():
 def generate_phone_number():
     # +79662700422
     codes = ['904', '994', '914', '984', '923', '924']
-    return f'+7{random.choice(codes)}{''.join(str(random.randint(0, 9)) for _ in range(7))}'
+    return f'{random.choice(codes)}{''.join(str(random.randint(0, 9)) for _ in range(7))}'
 
 def generate_email(first_name, last_name):
     domains = ['gmail.com', 'yandex.ru', 'mail.ru', 'outlook.com', 'hotmail.com']

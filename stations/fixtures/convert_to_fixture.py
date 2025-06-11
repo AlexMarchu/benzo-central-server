@@ -31,21 +31,50 @@ def convert_to_fixture(input_file, output_file):
         }
         fixture_data.append(gas_station_entry)
         
-        # Station
-        station_entry = {
+        station_entry_1 = {
             "model": f"{APP_LABEL}.station",
             "pk": station_pk,
             "fields": {
-                "status": "free",
+                "status": "not_working",
                 "gas_station": gas_station_pk
             }
         }
-        fixture_data.append(station_entry)
+        fixture_data.append(station_entry_1)
         
-        # Fuel
         for fuel in station["data"]:
             fuel_type = FUEL_TYPE_MAPPING.get(fuel["Name"])
-            if fuel_type:
+            if fuel_type in ['92', '95']:
+                price_kopecks = int(float(fuel["Price"]) * 100)
+                amount_centiliters = int(float(fuel["AmountOfFuel"]) * 100)
+                
+                fuel_entry = {
+                    "model": f"{APP_LABEL}.fuel",
+                    "pk": fuel_pk,
+                    "fields": {
+                        "station": station_pk,
+                        "fuel_type": fuel_type,
+                        "price": price_kopecks,
+                        "amount": amount_centiliters
+                    }
+                }
+                fixture_data.append(fuel_entry)
+                fuel_pk += 1
+        
+        station_pk += 1
+        
+        station_entry_2 = {
+            "model": f"{APP_LABEL}.station",
+            "pk": station_pk,
+            "fields": {
+                "status": "not_working",
+                "gas_station": gas_station_pk
+            }
+        }
+        fixture_data.append(station_entry_2)
+        
+        for fuel in station["data"]:
+            fuel_type = FUEL_TYPE_MAPPING.get(fuel["Name"])
+            if fuel_type in ['98', 'DT']:
                 price_kopecks = int(float(fuel["Price"]) * 100)
                 amount_centiliters = int(float(fuel["AmountOfFuel"]) * 100)
                 

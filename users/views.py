@@ -79,7 +79,5 @@ class UserPaymentHistoryView(APIView):
     
     def get(self, request):
         logs = GasStationLog.objects.filter(user=request.user)
-        if not logs.exists():
-            return Response(status=status.HTTP_404_NOT_FOUND)
         serializer = PaymentHistorySerializer(logs, many=True)
         return Response({'history': serializer.data})
