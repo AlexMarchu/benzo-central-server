@@ -19,6 +19,7 @@ class StationAdmin(admin.ModelAdmin):
     inlines = [FuelInline]
     list_display = ('id', 'gas_station', 'status', 'fuels_list')
     list_filter = ('status', 'gas_station')
+    search_fields = ('gas_station__address',)
     
     def fuels_list(self, obj):
         return ", ".join([f.fuel_type for f in obj.fuels.all()])
@@ -38,6 +39,7 @@ class GasStationAdmin(admin.ModelAdmin):
 class FuelAdmin(admin.ModelAdmin):
     list_display = ('id', 'station', 'fuel_type', 'price_display', 'amount_display')
     list_filter = ('fuel_type',)
+    search_fields = ('station__gas_station__address', 'fuel_type')
     
     def price_display(self, obj):
         return f"{obj.price / 100:.2f} ₽"
@@ -52,3 +54,4 @@ class GasStationLogAdmin(admin.ModelAdmin):
     list_display = ('id', 'date_time', 'station', 'fuel_type', 'fuel_amount', 'payment_amount')
     list_filter = ('fuel_type', 'payment_method')
     readonly_fields = ('date_time',)
+    search_fields = ('station__gas_station__address', 'fuel_type', 'payment_method', 'car_number', 'payment_key')
