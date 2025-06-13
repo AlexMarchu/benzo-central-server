@@ -229,3 +229,10 @@ a.button:hover {
 #header button.theme-toggle:hover {
     background: color-mix(in srgb, var(--md-sys-color-primary-container) 90%, var(--md-sys-color-primary) 10%) !important;
 }
+
+.theme-toggle svg.theme-icon-when-auto,
+.theme-toggle svg.theme-icon-when-dark,
+.theme-toggle svg.theme-icon-when-light {
+    fill: transparent;
+    color: transparent;
+}

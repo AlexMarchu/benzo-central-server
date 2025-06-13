@@ -104,13 +104,8 @@ class ServerConsumer(AsyncWebsocketConsumer):
             case MessageType.SAVE_PAYMENT:
                 await self.channel_layer.group_send(room_name, {'type': 'on_save_payment', 'json_str': json_str})
 
-            # case MessageType.GAS_NOZZLE_USED_T2:
-            #     await self.channel_layer.group_send(room_name, {'type': 'on_station_gas_nozzle_used_t2'})
-
-            # case MessageType.MOBILE_APP_USED_T1:
-            #     await self.channel_layer.group_send(room_name, {'type': 'on_station_mobile_app_used_t1'})
-
             # mobile app
+
             case MessageType.MOBILE_APP_CONNECT:
                 if (self.mobile_app.inv.get(station_id) is None):
                     self.mobile_app[self.channel_name] = station_id
@@ -120,9 +115,14 @@ class ServerConsumer(AsyncWebsocketConsumer):
                 else:
                     print(f'STATION SERVER | warning: one more {station_id} wants connect as mobile app')
 
-            case MessageType.MOBILE_APP_CANCEL_REFUELING:
-                await self.channel_layer.group_send(mobile_app_room_name, {'type': 'on_mobile_app_cancel_refueling'})
+            case MessageType.MOBILE_APP_SAVE_PAYMENT:
+                await self.channel_layer.group_send(mobile_app_room_name, {'type': 'on_mobile_app_save_payment', 'json_str': json_str})
 
+            case MessageType.GAS_NOZZLE_USED_T2:
+                await self.channel_layer.group_send(room_name, {'type': 'on_station_gas_nozzle_used_t2'})
+
+            case MessageType.MOBILE_APP_USED_T2:
+                await self.channel_layer.group_send(mobile_app_room_name, {'type': 'on_mobile_app_used_t2'})
 
     async def on_station_connect(self, event):
         station_id = self.station.get(self.channel_name)
@@ -302,14 +302,52 @@ class ServerConsumer(AsyncWebsocketConsumer):
         message = MobileAppServiceEndedMessage()
         await self.send(text_data=message.to_json())
 
+    async def on_mobile_app_save_payment(self, event):
+        message = MobileAppSavePaymentMessage.from_json(event['json_str'])
+        station_id = self.mobile_app.get(self.channel_name)
+        try:
+            station = await Station.objects.aget(pk=station_id)
+            fuel = await station.fuels.aget(fuel_type=message.fuel_type.value)
+            fuel.amount -= message.fuel_amount
+            await fuel.asave()
 
+            user = None
+            try:
+                user = await User.objects.select_related('loyalty_card').aget(car_number=message.car_number.text)
+            except User.DoesNotExist:
+                pass
 
+            await GasStationLog.objects.acreate(
+                station=station,
+                user=user,
+                fuel_type=message.fuel_type.value,
+                fuel_amount=message.fuel_amount,
+                car_number=message.car_number.text,
+                payment_amount=message.payment_amount,
+                payment_method=PaymentMethod.CARD,  # TODO: determine how the payment method will be transmitted
+                payment_key=message.payment_key,
+                date_time=timezone.now()
+            )
 
+            if user:
+                if message.used_bonuses > 0:
+                    user.loyalty_card.balance -= message.used_bonuses
+                    await user.loyalty_card.asave()
+                else:
+                    bonus_amount = round(message.payment_amount * 0.05)
+                    user.loyalty_card.balance += bonus_amount
+                    await user.loyalty_card.asave()
+
+        except Exception as e:
+            print(f'CENTRAL SERVER | Error processing payment: {e}')
 
     async def on_station_gas_nozzle_used_t2(self, event):
-        # nothing here
-        # for the future
-        pass
+        message = GasNozzleUsedT2Message()
+        await self.send(text_data=message.to_json())
+
+    async def on_mobile_app_used_t2(self, event):
+        message = MobileAppUsedT2Message()
+        await self.send(text_data=message.to_json())
 
 
     async def get_mobile_app_room_name(self, station_id):
