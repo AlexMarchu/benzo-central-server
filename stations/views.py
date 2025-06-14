@@ -1,4 +1,6 @@
 from django.shortcuts import render, get_object_or_404
+from django.db.models import CharField
+from django.db.models.functions import Cast
 from rest_framework import generics, status, views
 from rest_framework.exceptions import ValidationError
 from rest_framework.response import Response
@@ -43,14 +45,13 @@ class GasStationListView(generics.ListAPIView):
         if address_prefix:
             queryset = queryset.filter(address__istartswith=address_prefix)
         if id_prefix:
-            queryset = queryset.filter(id__startswith=id_prefix)
+            queryset = queryset.annotate(id_str=Cast('id', output_field=CharField())) \
+                              .filter(id_str__startswith=id_prefix)
 
         return queryset
     
     def list(self, request, *args, **kwargs):
         queryset = self.get_queryset()
-        if not queryset.exists():
-            return Response({'detail': 'Not found'}, status=status.HTTP_404_NOT_FOUND)
         
         serializer = self.get_serializer(queryset, many=True)
         return Response({'gas_stations': serializer.data})
