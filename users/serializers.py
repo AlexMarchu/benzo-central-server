@@ -42,7 +42,7 @@ class UserDetailSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ('login', 'name', 'birth_date', 'car_number', 'phone_number', 'email', 'gender', 'penalty')
+        fields = ('login', 'name', 'birth_date', 'car_number', 'phone_number', 'email', 'gender')
 
 class UserUpdateSerializer(serializers.ModelSerializer):
     login = serializers.CharField(source='username', required=False)
@@ -75,4 +75,4 @@ class PaymentHistorySerializer(serializers.ModelSerializer):
                   'fuel_amount', 'car_number', 'payment_amount', 'bonuses_used', 'payment_key')
         
     def get_bonuses_used(self, obj):
-        return obj.payment_amount if obj.payment_method == 'loyalty' else 0
+        return obj.bonuses_used
