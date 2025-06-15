@@ -50,8 +50,8 @@ class GasStationLog(models.Model):
     fuel_amount = models.PositiveIntegerField()
     car_number = models.CharField(max_length=20, blank=True, null=True)
     payment_amount = models.PositiveIntegerField()
-    payment_method = models.CharField(max_length=10, choices=PaymentMethod.choices)
     payment_key = models.TextField(blank=True, null=True)
+    bonuses_used = models.IntegerField(blank=True, null=True)
 
     def __str__(self):
         return f'Log #{self.id} at {self.date_time}'

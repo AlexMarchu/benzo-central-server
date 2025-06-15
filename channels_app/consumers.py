@@ -237,7 +237,7 @@ class ServerConsumer(AsyncWebsocketConsumer):
                 fuel_amount=message.fuel_amount,
                 car_number=message.car_number.text,
                 payment_amount=message.payment_amount,
-                payment_method=PaymentMethod.CARD,  # TODO: determine how the payment method will be transmitted
+                bonuses_used=message.used_bonuses,
                 payment_key=message.payment_key,
                 date_time=timezone.now()
             )
@@ -324,7 +324,7 @@ class ServerConsumer(AsyncWebsocketConsumer):
                 fuel_amount=message.fuel_amount,
                 car_number=message.car_number.text,
                 payment_amount=message.payment_amount,
-                payment_method=PaymentMethod.CARD,  # TODO: determine how the payment method will be transmitted
+                bonuses_used=message.used_bonuses,
                 payment_key=message.payment_key,
                 date_time=timezone.now()
             )

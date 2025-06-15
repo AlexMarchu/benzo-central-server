@@ -52,6 +52,6 @@ class FuelAdmin(admin.ModelAdmin):
 @admin.register(GasStationLog)
 class GasStationLogAdmin(admin.ModelAdmin):
     list_display = ('id', 'date_time', 'station', 'fuel_type', 'fuel_amount', 'payment_amount')
-    list_filter = ('fuel_type', 'payment_method')
+    list_filter = ('fuel_type',)
     readonly_fields = ('date_time',)
-    search_fields = ('station__gas_station__address', 'fuel_type', 'payment_method', 'car_number', 'payment_key')
+    search_fields = ('station__gas_station__address', 'fuel_type', 'car_number', 'payment_key')
