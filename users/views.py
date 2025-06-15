@@ -78,6 +78,6 @@ class UserPaymentHistoryView(APIView):
     permission_classes = [permissions.IsAuthenticated]
     
     def get(self, request):
-        logs = GasStationLog.objects.filter(user=request.user)
+        logs = GasStationLog.objects.filter(user=request.user).order_by('-date_time')
         serializer = PaymentHistorySerializer(logs, many=True)
         return Response({'history': serializer.data})
